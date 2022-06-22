@@ -3,5 +3,6 @@
 [ext_resource path="res://resources/Courier Prime Bold.ttf" type="DynamicFontData" id=1]
 
 [resource]
-size = 30
+size = 53
+outline_color = Color( 0.878431, 0.698039, 0, 0 )
 font_data = ExtResource( 1 )

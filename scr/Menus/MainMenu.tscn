@@ -1,0 +1,208 @@
+[gd_scene load_steps=22 format=2]
+
+[ext_resource path="res://resources/MainMenu/PASTA.png" type="Texture" id=1]
+[ext_resource path="res://resources/MainMenu/PASTA_HOVER.png" type="Texture" id=2]
+[ext_resource path="res://scr/Menus/MainMenu.gd" type="Script" id=3]
+[ext_resource path="res://resources/MainMenu/REF.png" type="Texture" id=4]
+[ext_resource path="res://resources/MainMenu/MESA_sem_objeto.png" type="Texture" id=5]
+[ext_resource path="res://resources/MainMenu/TABLET_hover.png" type="Texture" id=6]
+[ext_resource path="res://resources/MainMenu/TABLET.png" type="Texture" id=7]
+[ext_resource path="res://resources/MainMenu/CELULAR.png" type="Texture" id=8]
+[ext_resource path="res://resources/MainMenu/CELULAR_hover.png" type="Texture" id=9]
+[ext_resource path="res://resources/MainMenu/CALENDARIO_hover.png" type="Texture" id=10]
+[ext_resource path="res://resources/MainMenu/CALENDARIO.png" type="Texture" id=11]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "Hover",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 262.285, 289.511 )
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 7 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "hover",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 259.647, 174.973 )
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ ExtResource( 8 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ) ],
+"loop": true,
+"name": "hover",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 78.9077, 136.061 )
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ ExtResource( 11 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "hover",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 291.947, 80.5018 )
+
+[sub_resource type="Animation" id=9]
+resource_name = "Nova Animação"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Fadein/Fade:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Fadein/Fade:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Fadein/Fade:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.188235, 0.0588235, 0.0588235, 0 ) ]
+}
+
+[node name="MainMenu" type="Node"]
+script = ExtResource( 3 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 960, 540 )
+texture = ExtResource( 5 )
+
+[node name="Ref" type="Sprite" parent="."]
+position = Vector2( 960, 540 )
+texture = ExtResource( 4 )
+
+[node name="Itens" type="Node" parent="."]
+
+[node name="Pasta" type="Area2D" parent="Itens"]
+position = Vector2( 929, 565 )
+
+[node name="Sprite" type="AnimatedSprite" parent="Itens/Pasta"]
+frames = SubResource( 1 )
+animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Itens/Pasta"]
+position = Vector2( 6.06824, 0.455505 )
+rotation = 0.109956
+shape = SubResource( 2 )
+
+[node name="Tablet" type="Area2D" parent="Itens"]
+
+[node name="Sprite" type="AnimatedSprite" parent="Itens/Tablet"]
+position = Vector2( 1576, 701 )
+frames = SubResource( 3 )
+animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Itens/Tablet"]
+position = Vector2( 1570, 698 )
+rotation = -0.366519
+scale = Vector2( 1, 1 )
+shape = SubResource( 4 )
+
+[node name="Celular" type="Area2D" parent="Itens"]
+
+[node name="Sprite" type="AnimatedSprite" parent="Itens/Celular"]
+position = Vector2( 361, 585 )
+frames = SubResource( 5 )
+animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Itens/Celular"]
+position = Vector2( 366.694, 588.286 )
+rotation = -0.523599
+shape = SubResource( 6 )
+
+[node name="Calendar" type="Area2D" parent="Itens"]
+
+[node name="Sprite" type="AnimatedSprite" parent="Itens/Calendar"]
+position = Vector2( 1563, 201 )
+frames = SubResource( 7 )
+animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Itens/Calendar"]
+position = Vector2( 1469.3, 195.569 )
+rotation = 0.331613
+scale = Vector2( 1.006, 1 )
+shape = SubResource( 8 )
+
+[node name="Fadein" type="AnimationPlayer" parent="."]
+autoplay = "Nova Animação"
+"anims/Nova Animação" = SubResource( 9 )
+anims/RESET = SubResource( 10 )
+
+[node name="Fade" type="ColorRect" parent="Fadein"]
+margin_left = 27.0
+margin_top = -16.0
+margin_right = 1941.0
+margin_bottom = 1087.0
+color = Color( 0.188235, 0.0588235, 0.0588235, 0 )
+
+[connection signal="input_event" from="Itens/Pasta" to="." method="_on_Pasta_input_event"]
+[connection signal="mouse_entered" from="Itens/Pasta" to="." method="_on_Pasta_mouse_entered"]
+[connection signal="mouse_exited" from="Itens/Pasta" to="." method="_on_Pasta_mouse_exited"]
+[connection signal="input_event" from="Itens/Tablet" to="." method="_on_Tablet_input_event"]
+[connection signal="mouse_entered" from="Itens/Tablet" to="." method="_on_Tablet_mouse_entered"]
+[connection signal="mouse_exited" from="Itens/Tablet" to="." method="_on_Tablet_mouse_exited"]
+[connection signal="input_event" from="Itens/Celular" to="." method="_on_Celular_input_event"]
+[connection signal="mouse_entered" from="Itens/Celular" to="." method="_on_Celular_mouse_entered"]
+[connection signal="mouse_exited" from="Itens/Celular" to="." method="_on_Celular_mouse_exited"]
+[connection signal="input_event" from="Itens/Calendar" to="." method="_on_Calendar_input_event"]
+[connection signal="mouse_entered" from="Itens/Calendar" to="." method="_on_Calendar_mouse_entered"]
+[connection signal="mouse_exited" from="Itens/Calendar" to="." method="_on_Calendar_mouse_exited"]
+[connection signal="animation_finished" from="Fadein" to="." method="_on_Fade_in_animation_finished"]

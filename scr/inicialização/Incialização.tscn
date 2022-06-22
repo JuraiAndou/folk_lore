@@ -1,0 +1,93 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://resources/Inicialização/UfC - logo.png" type="Texture" id=1]
+[ext_resource path="res://resources/Inicialização/SMD - logo.png" type="Texture" id=2]
+[ext_resource path="res://scr/inicialização/Background.gd" type="Script" id=3]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Inicializar"
+length = 7.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("logo_ufc:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 1, 4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Fade:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 1, 2, 3, 4, 5, 6, 7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("logo_smd:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 1, 4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[node name="Incialização" type="TextureRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 42.0
+margin_bottom = -3.0
+script = ExtResource( 3 )
+
+[node name="Fundo" type="ColorRect" parent="."]
+margin_right = 1922.0
+margin_bottom = 1080.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="logo_ufc" type="TextureRect" parent="."]
+margin_left = 540.0
+margin_top = 334.0
+margin_right = 1427.0
+margin_bottom = 730.0
+texture = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="logo_smd" type="TextureRect" parent="."]
+visible = false
+margin_left = 693.0
+margin_top = 302.0
+margin_right = 1258.0
+margin_bottom = 736.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Fade" type="ColorRect" parent="."]
+margin_left = 8.0
+margin_top = -5.0
+margin_right = 1922.0
+margin_bottom = 1098.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Inicializar"
+anims/Inicializar = SubResource( 1 )
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
