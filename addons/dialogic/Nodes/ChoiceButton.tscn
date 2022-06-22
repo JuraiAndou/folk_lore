@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/dialogic/Nodes/ChoiceButton.gd" type="Script" id=1]
+
+[node name="ChoiceButton" type="Button"]
+margin_left = 76.0
+margin_right = 184.0
+margin_bottom = 20.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+custom_colors/font_color_focus = Color( 0.545098, 0.545098, 0.545098, 1 )
+text = "Testing button "
+script = ExtResource( 1 )

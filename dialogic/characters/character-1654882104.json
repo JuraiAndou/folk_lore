@@ -1,0 +1,21 @@
+{
+	"color": "#ff000000",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1654882104.json",
+	"mirror_portraits": false,
+	"name": "Cuca",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://resources/cuca+cenário.png"
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1654882462.cfg"
+}
