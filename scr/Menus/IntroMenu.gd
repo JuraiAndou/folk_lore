@@ -5,26 +5,14 @@ func _ready():
 	var file = File.new()
 	if file.file_exists("user://userSave.dat"):
 		DataManagement.loadData()
-		Mundo.objCuca = DataManagement.dataDictionary["Cuca"]
-		Mundo.objSaci = DataManagement.dataDictionary["Saci"]
-		Mundo.objIara = DataManagement.dataDictionary["Iara"]
-		Mundo.objBoto = DataManagement.dataDictionary["Boto"]
-		var penis = instance_from_id(DataManagement.dataDictionary["Iara"].get_instance_id())
-		print(penis)
+		instance_chars()
 		
 	else:
-		var Cuca = Personagem
-		var Saci = Personagem
-		var Iara = Personagem
-		var Boto = Personagem
-		
-		DataManagement.dataDictionary["Cuca"] = Cuca
-		DataManagement.dataDictionary["Saci"] = Saci
-		DataManagement.dataDictionary["Iara"] = Iara
-		DataManagement.dataDictionary["Boto"] = Boto
 		DataManagement.saveData()
+		instance_chars()
 		
-		
+func instance_chars():
+	Mundo.objCuca = Personagem.new("Cuca")
 	
 func _physics_process(delta):
 	if Input.is_action_just_pressed("ui_accept"):

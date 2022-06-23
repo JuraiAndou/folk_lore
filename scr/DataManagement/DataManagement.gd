@@ -3,10 +3,17 @@ extends Node
 var savePath = "user://userSave.dat"
 
 var dataDictionary = {
-	"Cuca": "",
-	"Saci": "",
-	"Iara": "",
-	"Boto": ""
+	"Cuca": {
+			"nome": "Desconhecido(a)",
+			"bio": "xxx",
+			"idade": "xxx",
+			"altura": "xxx",
+			"genero": "xxx",
+			"peso": "xxx",
+			"nascionalidade": "xxx",
+			"infosTrue": "xxx",
+			"infosFase": "xxx"
+		}
 }
 
 func saveData():

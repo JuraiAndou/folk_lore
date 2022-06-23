@@ -10,7 +10,10 @@ var nacionalidade =""
 var infosTrue = []
 var infosFalse = []
 	
-		
+
+func _init(character):
+	setName(DataManagement.dataDictionary[character]["nome"])
+
 #setters
 func setName(n):
 	self.nome = n

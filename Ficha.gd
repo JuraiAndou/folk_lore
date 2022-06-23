@@ -9,18 +9,9 @@ var listaInfoFalse = []
 
 func getSusp():
 	match nomeSus:
-		"Cuca":
-			suspAtual = Mundo.objCuca
-			
-		"Saci":
-			suspAtual = Mundo.objSaci
-		
-		"Boto":
-			suspAtual = Mundo.objBoto
-		
 		"Iara":
 			#var idSuspAtual = Mundo.objIara.get_object_id()
-			suspAtual = instance_from_id(Mundo.objIara)
+			suspAtual = Mundo.objCuca.nome
 			print(suspAtual)
 			
 
