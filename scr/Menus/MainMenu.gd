@@ -9,7 +9,7 @@ func _on_Pasta_mouse_exited():
 
 func _on_Pasta_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):
-		print("ir para pasta de suspeitos")
+		get_tree().change_scene("res://scr/Menus/Ficha.tscn")
 
 
 #sinais do tablet
