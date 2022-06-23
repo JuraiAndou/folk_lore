@@ -13,10 +13,10 @@ func _ready():
 		print(penis)
 		
 	else:
-		var Cuca = Personagem.instance()
-		var Saci = Personagem.instance()
-		var Iara = Personagem.instance()
-		var Boto = Personagem.instance()
+		var Cuca = Personagem
+		var Saci = Personagem
+		var Iara = Personagem
+		var Boto = Personagem
 		
 		DataManagement.dataDictionary["Cuca"] = Cuca
 		DataManagement.dataDictionary["Saci"] = Saci

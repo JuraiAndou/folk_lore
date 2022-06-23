@@ -19,8 +19,8 @@ func getSusp():
 			suspAtual = Mundo.objBoto
 		
 		"Iara":
-			var idSuspAtual = Mundo.objIara.get_object_id()
-			suspAtual = instance_from_id(idSuspAtual)
+			#var idSuspAtual = Mundo.objIara.get_object_id()
+			suspAtual = instance_from_id(Mundo.objIara)
 			print(suspAtual)
 			
 
