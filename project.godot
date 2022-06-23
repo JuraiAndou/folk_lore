@@ -84,6 +84,12 @@ config/name="Folk Lore"
 run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+DataManagement="*res://scr/DataManagement/DataManagement.gd"
+Personagem="*res://Personagem.gd"
+Mundo="*res://scr/DataManagement/Mundo.gd"
+
 [display]
 
 window/size/width=1920

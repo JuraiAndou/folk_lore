@@ -153,7 +153,6 @@ animation = "idle"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Itens/Tablet"]
 position = Vector2( 1570, 698 )
 rotation = -0.366519
-scale = Vector2( 1, 1 )
 shape = SubResource( 4 )
 
 [node name="Celular" type="Area2D" parent="Itens"]

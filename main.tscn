@@ -29,7 +29,7 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[node name="World" type="Node"]
+[node name="Interrogatori" type="Node"]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 1 )

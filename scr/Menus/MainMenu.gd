@@ -28,7 +28,6 @@ func _on_Tablet_input_event(viewport, event, shape_idx):
 func _on_Celular_mouse_entered():
 	$Itens/Celular/Sprite.play("hover")
 
-
 func _on_Celular_mouse_exited():
 	$Itens/Celular/Sprite.play("idle")
 
@@ -48,8 +47,6 @@ func _on_Calendar_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):
 		print("Ver calendario")
 
-
-
-
+#Animação de fade
 func _on_Fade_in_animation_finished(anim_name):
 	$Fadein.queue_free()

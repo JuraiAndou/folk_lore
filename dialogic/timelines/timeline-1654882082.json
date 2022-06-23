@@ -16,6 +16,10 @@
 			"question": "Olá Detetive"
 		},
 		{
+			"emit_signal": "",
+			"event_id": "dialogic_040"
+		},
+		{
 			"choice": "Onde",
 			"condition": "",
 			"definition": "",
