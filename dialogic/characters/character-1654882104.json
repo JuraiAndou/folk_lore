@@ -13,7 +13,19 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://resources/Personagens/cuca/cuca+cenário.png"
+			"path": "res://resources/Personagens/cuca/cuca4.png"
+		},
+		{
+			"name": "colgate",
+			"path": "res://resources/Personagens/cuca/cuca1.png"
+		},
+		{
+			"name": "raiva",
+			"path": "res://resources/Personagens/cuca/cuca2.png"
+		},
+		{
+			"name": "sensualizando",
+			"path": "res://resources/Personagens/cuca/cuca3.png"
 		}
 	],
 	"scale": 100,
