@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Botao_Hover.png-4e9ea966086f16f145c08c3eecdde880.stex"
+path="res://.import/Cenario_Interrogatorio_Foreground.png-f5c9ea77050cd775f5504070c323ab9f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Botao_Hover.png"
-dest_files=[ "res://.import/Botao_Hover.png-4e9ea966086f16f145c08c3eecdde880.stex" ]
+source_file="res://resources/cenarios/Cenario_Interrogatorio_Foreground.png"
+dest_files=[ "res://.import/Cenario_Interrogatorio_Foreground.png-f5c9ea77050cd775f5504070c323ab9f.stex" ]
 
 [params]
 

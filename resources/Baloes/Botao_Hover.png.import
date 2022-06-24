@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Balao_Detetive.png-bef374de1fe4f64ab2bba41282b27a53.stex"
+path="res://.import/Botao_Hover.png-c4490f3c29991d8ea84b81d998a42644.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Balao_Detetive.png"
-dest_files=[ "res://.import/Balao_Detetive.png-bef374de1fe4f64ab2bba41282b27a53.stex" ]
+source_file="res://resources/Baloes/Botao_Hover.png"
+dest_files=[ "res://.import/Botao_Hover.png-c4490f3c29991d8ea84b81d998a42644.stex" ]
 
 [params]
 

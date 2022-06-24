@@ -2,7 +2,7 @@
 
 [ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=1]
 
-[node name="Interrogatori" type="Node"]
+[node name="Interrogatorio" type="Node"]
 
 [node name="Dialog" parent="." instance=ExtResource( 1 )]
 timeline = "timeline-1654882082.json"

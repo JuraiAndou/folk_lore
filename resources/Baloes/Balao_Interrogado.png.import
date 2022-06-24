@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Iara-color.png-f9c14febfb68b105dbad986a2e4bed04.stex"
+path="res://.import/Balao_Interrogado.png-a0f0b3834d9be95be7bd71b0de98919d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Iara-color.png"
-dest_files=[ "res://.import/Iara-color.png-f9c14febfb68b105dbad986a2e4bed04.stex" ]
+source_file="res://resources/Baloes/Balao_Interrogado.png"
+dest_files=[ "res://.import/Balao_Interrogado.png-a0f0b3834d9be95be7bd71b0de98919d.stex" ]
 
 [params]
 

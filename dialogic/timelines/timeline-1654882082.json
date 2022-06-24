@@ -92,6 +92,83 @@
 			"value": ""
 		},
 		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "É verdade que sou a maior feiticeira… mas não utilizo minha magia para qualquer coisa."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Feiticeira. “Não utiliza sua magia para qualquer coisa”, o que ela quis dizer com isso?)"
+		},
+		{
+			"choice": "Não a utiliza para qualquer coisa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Digamos que prefiro as mentes fracas"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Prefere usar magia em mentes fracas)"
+		},
+		{
+			"choice": "Conhecida por ser uma grande feiticeira, mas com uma fama maior ainda de ter forma de jacaré.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mentiras!. São essas malditas crianças que espalham essas invenções. Isso não passa de delírios dessas pestes…"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Boatos de que possui forma de Jacaré. Raiva de crianças.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
 			"choice": "Mas não é você, a pobre velhinha, quem tem a fama de ser um Jacaré?",
 			"condition": "",
 			"definition": "",
@@ -99,7 +176,25 @@
 			"value": ""
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mentiras! (Tom raivoso). São essas malditas crianças que espalham essas invenções. Isso não passa de delírios dessas pestes…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Boatos de que possui forma de Jacaré. Raiva de crianças.)"
+		},
+		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Já vi muita coisa nessa vida, lobisomem, mula sem cabeça, cobra de fogo, nada mais me surpreende.\nNão sou novo nesse mundo… sei um pouco sobre cada um de vocês e se você está aqui, é porque tem a capacidade de ter feito alguma coisa… ou que, pelo menos, sabe de algo."
 		}
 	],
 	"metadata": {

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cenario_Interrogatorio_Background.png-628a0c2076ea30a714742544549ac9a8.stex"
+path="res://.import/Botao.png-c5de5d891b3b90e64627eb1ec938561d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Cenario_Interrogatorio_Background.png"
-dest_files=[ "res://.import/Cenario_Interrogatorio_Background.png-628a0c2076ea30a714742544549ac9a8.stex" ]
+source_file="res://resources/Baloes/Botao.png"
+dest_files=[ "res://.import/Botao.png-c5de5d891b3b90e64627eb1ec938561d.stex" ]
 
 [params]
 

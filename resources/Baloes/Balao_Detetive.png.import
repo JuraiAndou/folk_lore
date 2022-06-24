@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Balao_Interrogado.png-9fa4039c1230cdaab9dc4529b33a95fb.stex"
+path="res://.import/Balao_Detetive.png-9d24a8269618687a2aa9f54c4cde17d1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Balao_Interrogado.png"
-dest_files=[ "res://.import/Balao_Interrogado.png-9fa4039c1230cdaab9dc4529b33a95fb.stex" ]
+source_file="res://resources/Baloes/Balao_Detetive.png"
+dest_files=[ "res://.import/Balao_Detetive.png-9d24a8269618687a2aa9f54c4cde17d1.stex" ]
 
 [params]
 

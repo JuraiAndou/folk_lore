@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/saci-cenário.png-f44627f883a2b75a7a2043f6080a1b96.stex"
+path="res://.import/Cenario_Interrogatorio_Background.png-aba5aab02ef84845a0f8add6c7f85e09.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/saci-cenário.png"
-dest_files=[ "res://.import/saci-cenário.png-f44627f883a2b75a7a2043f6080a1b96.stex" ]
+source_file="res://resources/cenarios/Cenario_Interrogatorio_Background.png"
+dest_files=[ "res://.import/Cenario_Interrogatorio_Background.png-aba5aab02ef84845a0f8add6c7f85e09.stex" ]
 
 [params]
 

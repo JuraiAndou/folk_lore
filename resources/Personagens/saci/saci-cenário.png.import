@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cenario_Interrogatorio_Foreground.png-a14071e46d7882a26648917b188549a3.stex"
+path="res://.import/saci-cenário.png-1a561f38b9a5760825c33bfe4073604f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Cenario_Interrogatorio_Foreground.png"
-dest_files=[ "res://.import/Cenario_Interrogatorio_Foreground.png-a14071e46d7882a26648917b188549a3.stex" ]
+source_file="res://resources/Personagens/saci/saci-cenário.png"
+dest_files=[ "res://.import/saci-cenário.png-1a561f38b9a5760825c33bfe4073604f.stex" ]
 
 [params]
 

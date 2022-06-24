@@ -13,7 +13,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://resources/Cenario_Interrogatorio_Foreground.png"
+			"path": "res://resources/cenarios/Cenario_Interrogatorio_Foreground.png"
 		}
 	],
 	"scale": 100,

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cuca+cenário.png-4214bb9774556b4247aa7baea5694524.stex"
+path="res://.import/cuca+cenário.png-80bead9270e72e50d1c42d1a5ac90f30.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/cuca+cenário.png"
-dest_files=[ "res://.import/cuca+cenário.png-4214bb9774556b4247aa7baea5694524.stex" ]
+source_file="res://resources/Personagens/cuca/cuca+cenário.png"
+dest_files=[ "res://.import/cuca+cenário.png-80bead9270e72e50d1c42d1a5ac90f30.stex" ]
 
 [params]
 
