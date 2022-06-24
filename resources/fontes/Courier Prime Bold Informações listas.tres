@@ -3,7 +3,7 @@
 [ext_resource path="res://resources/fontes/Courier Prime Bold.ttf" type="DynamicFontData" id=1]
 
 [resource]
-size = 20
+size = 15
 outline_color = Color( 0.878431, 0.698039, 0, 0 )
 extra_spacing_bottom = 4
 font_data = ExtResource( 1 )

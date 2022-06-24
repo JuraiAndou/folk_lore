@@ -92,7 +92,7 @@
 			"value": ""
 		},
 		{
-			"emit_signal": "Feiticeira. “Não utiliza sua magia para qualquer coisa”, o que ela quis dizer com isso?",
+			"emit_signal": "Não utiliza sua magia para qualquer coisa",
 			"event_id": "dialogic_040"
 		},
 		{
@@ -118,10 +118,8 @@
 			"text": "Digamos que prefiro as mentes fracas"
 		},
 		{
-			"character": "character-1654883893.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "(Prefere usar magia em mentes fracas)"
+			"emit_signal": "Prefere usar magia em mentes fracas",
+			"event_id": "dialogic_040"
 		},
 		{
 			"choice": "Conhecida por ser uma grande feiticeira, mas com uma fama maior ainda de ter forma de jacaré.",
@@ -159,10 +157,8 @@
 			"text": "Mentiras!. São essas malditas crianças que espalham essas invenções. Isso não passa de delírios dessas pestes…"
 		},
 		{
-			"character": "character-1654883893.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "(Boatos de que possui forma de Jacaré. Raiva de crianças.)"
+			"emit_signal": "(Boatos de que possui forma de Jacaré. Raiva de crianças.)",
+			"event_id": "dialogic_040"
 		},
 		{
 			"event_id": "dialogic_013"
@@ -203,10 +199,8 @@
 			"text": "Mentiras!. São essas malditas crianças que espalham essas invenções. Isso não passa de delírios dessas pestes…"
 		},
 		{
-			"character": "character-1654883893.json",
-			"event_id": "dialogic_001",
-			"portrait": "Default",
-			"text": "(Boatos de que possui forma de Jacaré. Raiva de crianças.)"
+			"emit_signal": "(Boatos de que possui forma de Jacaré. Raiva de crianças.)",
+			"event_id": "dialogic_040"
 		},
 		{
 			"event_id": "dialogic_013"
@@ -255,6 +249,12 @@
 			"value": ""
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Corpo encontrado no rio Pajeú, entre pedras)*Debug"
+		},
+		{
 			"character": "character-1654882104.json",
 			"event_id": "dialogic_010",
 			"options": [
@@ -262,12 +262,6 @@
 			],
 			"portrait": "",
 			"question": "Na beira do rio Pajeú, entre algumas pedras. Querido, que sorte ele teve, por pouco não foi parar no mar."
-		},
-		{
-			"character": "character-1654883893.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "(Corpo encontrado no rio Pajeú, entre pedras (Anotado no caderno do Curupira))"
 		},
 		{
 			"choice": "Havia mais alguém no local do corpo?",
@@ -306,10 +300,8 @@
 			"text": "Naquele dia, eu estava apenas repondo o meu estoque de poções."
 		},
 		{
-			"character": "character-1654883893.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "(Cuca possui um estoque de poções.)"
+			"emit_signal": "Cuca possui um estoque de poções.",
+			"event_id": "dialogic_040"
 		},
 		{
 			"event_id": "dialogic_013"

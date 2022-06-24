@@ -114,8 +114,8 @@ func leitorMentira():
 					$Riscos/doz.visible = true
 func _physics_process(delta):
 	setInfos()
-	#setText()	
-#	leitorMentira()	
+	setText()	
+	leitorMentira()	
 
 
 #evento dos botões
