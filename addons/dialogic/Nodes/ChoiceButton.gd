@@ -8,3 +8,8 @@ func _process(delta):
 		if has_focus():
 			emit_signal("button_up")
 			emit_signal("pressed")
+			
+
+func setText(text):
+	$Label.set_text(text)
+	

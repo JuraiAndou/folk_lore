@@ -1137,14 +1137,14 @@ func get_custom_choice_button(label: String):
 	var custom_path = current_theme.get_value('buttons', 'custom_path', "")
 	var CustomChoiceButton = load(custom_path)
 	var button = CustomChoiceButton.instance()
-	button.text = label
+	button.setText(label) 
 	return button
 
 # instances a normal dialogic button
 func get_classic_choice_button(label: String):
 	var theme = current_theme
 	var button : Button = ChoiceButton.instance()
-	button.text = label
+	button.setText(label) 
 	button.set_meta('input_next', Dialogic.get_action_button())
 	
 	# Removing the blue selected border

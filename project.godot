@@ -81,7 +81,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Folk Lore"
-run/main_scene="res://scr/Menus/IntroMenu.tscn"
+run/main_scene="res://scr/inicialização/Incialização.tscn"
 config/icon="res://icon.png"
 
 [autoload]
