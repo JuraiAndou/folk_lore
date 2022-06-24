@@ -12,8 +12,11 @@ func getSusp():
 		"Cuca":
 			suspAtual = Mundo.objCuca
 			$Foto3x4.play("Cuca")
+			$FotoLandScape.play("Cuca")
 			Mundo.objCuca.setName("Cuca")
-
+			Mundo.objCuca.setBio("Uma bruxa que captura crianças e que pode ter forma de uma velha ou de uma feiticeira com cabeça de jacaré, pelo menos é o que falam por aí. É tão velha quanto o próprio tempo e tem uma audição extremamente apurada (Eu sei, essas informações parecem contraditórias). A Cuca vive em uma caverna em algum lugar da floresta, ninguém nunca conseguiu descobrir onde fica, e só dorme uma noite a cada sete anos. Alguns boatos dizem que ela nasce de um ovo a cada mil anos e que a antiga se transforma em um pássaro de canto triste.")
+			Mundo.objCuca.setNacionalidade("Brasileira")
+			Mundo.objCuca.setGenero("Fem")
 func _ready():
 	getSusp()
 	listaInfoFalse = suspAtual.getListFalse()

@@ -249,10 +249,14 @@
 			"value": ""
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "(Corpo encontrado no rio Pajeú, entre pedras)*Debug"
+			"call_node": {
+				"arguments": [
+					"Corpo encontrado no rio Pajeú, entre pedras"
+				],
+				"method_name": "setInfosTablet",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
 		},
 		{
 			"character": "character-1654882104.json",

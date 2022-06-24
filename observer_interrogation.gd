@@ -33,5 +33,15 @@ func _on_Dialog_dialogic_signal(value):
 	DataManagement.saveData()
 
 func setInfosTablet(info):
-	Mundo.tabletInfos.append(info)
+	if Mundo.tabletInfos.empty() == true:
+		Mundo.tabletInfos.append(info)
+	else:
+		for i in Mundo.tabletInfos:
+			if i == info:
+				return
+		Mundo.tabletInfos.append(info)
+		
+	DataManagement.dataDictionary["Tablet"] = Mundo.tabletInfos
+	DataManagement.saveData()
+	
 
