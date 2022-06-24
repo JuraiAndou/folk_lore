@@ -13,6 +13,25 @@ var infosFalse = []
 
 func _init(character):
 	setName(DataManagement.dataDictionary[character]["nome"])
+	setAltura(DataManagement.dataDictionary[character]["altura"])
+	setIdade(DataManagement.dataDictionary[character]["idade"])
+	setBio(DataManagement.dataDictionary[character]["bio"])
+	setGenero(DataManagement.dataDictionary[character]["genero"])
+	setPeso(DataManagement.dataDictionary[character]["peso"])
+	setNacionalidade(DataManagement.dataDictionary[character]["nascionalidade"])
+	setListTrue(DataManagement.dataDictionary[character]["infosTrue"])
+	setListFalse(DataManagement.dataDictionary[character]["infosFalse"])
+	
+func getDictionary():
+	return {"nome": self.nome,
+			"bio": self.bio,
+			"idade": self.idade,
+			"altura": self.altura,
+			"genero": self.genero,
+			"peso": self.peso,
+			"nascionalidade": self.nacionalidade,
+			"infosTrue": self.infosTrue,
+			"infosFalse": self.infosFalse}
 
 #setters
 func setName(n):
@@ -35,6 +54,12 @@ func setBio(b):
 
 func setGenero(g):
 	self.genero = g
+
+func setListTrue(list):
+	self.infosTrue = list
+
+func setListFalse(list):
+	self.infosFalse = list
 
 func addInfoTrue(info):
 	self.infosTrue.append(info)

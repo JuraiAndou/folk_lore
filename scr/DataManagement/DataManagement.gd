@@ -11,8 +11,8 @@ var dataDictionary = {
 			"genero": "xxx",
 			"peso": "xxx",
 			"nascionalidade": "xxx",
-			"infosTrue": "xxx",
-			"infosFase": "xxx"
+			"infosTrue": [],
+			"infosFalse": []
 		}
 }
 
