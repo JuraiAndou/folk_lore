@@ -1,5 +1,5 @@
 {
-	"color": "#ff000000",
+	"color": "#ffffffff",
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
@@ -8,8 +8,8 @@
 	"name": "Cuca",
 	"nickname": "",
 	"nickname_bool": false,
-	"offset_x": 0,
-	"offset_y": 0,
+	"offset_x": 189,
+	"offset_y": -155,
 	"portraits": [
 		{
 			"name": "Default",

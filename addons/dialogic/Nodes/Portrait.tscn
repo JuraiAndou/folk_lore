@@ -6,15 +6,9 @@
 [node name="Portrait" type="Control"]
 rect_scale = Vector2( 0.7, 0.7 )
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="TextureRect" type="TextureRect" parent="."]
 stretch_mode = 6
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="AnimationTween" type="Tween" parent="."]
 script = ExtResource( 1 )

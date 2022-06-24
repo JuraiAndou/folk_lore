@@ -3,27 +3,7 @@
 		{
 			"background": "res://resources/Cenario_Interrogatorio_Background.png",
 			"event_id": "dialogic_021",
-			"fade_duration": 0.1
-		},
-		{
-			"animation": "instant_in.gd",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1656030925.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": true,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 2
+			"fade_duration": 0
 		},
 		{
 			"animation": "[Default]",
@@ -44,32 +24,6 @@
 			},
 			"type": 0,
 			"z_index": -2
-		},
-		{
-			"character": "character-1654882104.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": "Não acredito que suspeita algo de mim, de uma pobre velhinha que não tem forças nem para ficar em pé sozinha"
-		},
-		{
-			"choice": "Uma pobre velhinha que tem habilidades bem incomuns, não é verdade?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"choice": "Mas não é você, a pobre velhinha, quem tem a fama de ser um Jacaré?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"event_id": "dialogic_013"
 		},
 		{
 			"character": "character-1654883893.json",
@@ -100,6 +54,32 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Mas não ignorou. Você levou o corpo até o bar Mico Dourado e mostrou a todos como ele estava."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Não acredito que suspeita algo de mim, de uma pobre velhinha que não tem forças nem para ficar em pé sozinha"
+		},
+		{
+			"choice": "Uma pobre velhinha que tem habilidades bem incomuns, não é verdade?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Mas não é você, a pobre velhinha, quem tem a fama de ser um Jacaré?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

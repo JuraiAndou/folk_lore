@@ -17,7 +17,7 @@ bg_color = Color( 1, 1, 1, 0 )
 expand_margin_left = 10.0
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 1280, 720 )
+extents = Vector2( 1734, 332 )
 
 [node name="DialogNode" type="Control"]
 anchor_right = 1.0
@@ -34,13 +34,16 @@ __meta__ = {
 }
 
 [node name="TextBubble" parent="." instance=ExtResource( 1 )]
-margin_top = -207.0
-margin_bottom = -40.0
+margin_left = -890.0
+margin_top = -227.0
+margin_right = 222.0
+margin_bottom = -25.0
 
 [node name="Options" type="VBoxContainer" parent="."]
 visible = false
-margin_right = 1280.0
-margin_bottom = 720.0
+margin_left = -860.0
+margin_right = 1060.0
+margin_bottom = 1080.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
@@ -106,7 +109,7 @@ __meta__ = {
 
 [node name="VBoxContainer" type="VBoxContainer" parent="DefinitionInfo"]
 margin_right = 208.0
-margin_bottom = 143.0
+margin_bottom = 89.0
 size_flags_horizontal = 3
 size_flags_vertical = 2
 __meta__ = {
@@ -118,7 +121,7 @@ margin_right = 208.0
 margin_bottom = 27.0
 size_flags_horizontal = 3
 size_flags_vertical = 4
-custom_colors/default_color = Color( 1, 1, 1, 1 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = ExtResource( 4 )
 custom_styles/normal = SubResource( 1 )
 bbcode_enabled = true
@@ -130,9 +133,9 @@ scroll_active = false
 [node name="Content" type="RichTextLabel" parent="DefinitionInfo/VBoxContainer"]
 margin_top = 31.0
 margin_right = 208.0
-margin_bottom = 112.0
+margin_bottom = 58.0
 size_flags_horizontal = 3
-custom_colors/default_color = Color( 0.756863, 0.756863, 0.756863, 1 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = ExtResource( 4 )
 custom_styles/normal = SubResource( 1 )
 bbcode_enabled = true
@@ -143,11 +146,11 @@ __meta__ = {
 }
 
 [node name="Extra" type="RichTextLabel" parent="DefinitionInfo/VBoxContainer"]
-margin_top = 116.0
+margin_top = 62.0
 margin_right = 208.0
-margin_bottom = 143.0
+margin_bottom = 89.0
 size_flags_horizontal = 3
-custom_colors/default_color = Color( 0.756863, 0.756863, 0.756863, 1 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = ExtResource( 4 )
 custom_styles/normal = SubResource( 1 )
 bbcode_enabled = true
