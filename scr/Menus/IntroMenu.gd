@@ -13,6 +13,7 @@ func _ready():
 		
 func instance_chars():
 	Mundo.objCuca = Personagem.new("Cuca")
+	Mundo.tabletInfos = DataManagement.dataDictionary["Tablet"]
 	
 func _physics_process(delta):
 	if Input.is_action_just_pressed("ui_accept"):

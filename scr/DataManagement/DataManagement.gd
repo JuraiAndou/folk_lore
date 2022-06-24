@@ -13,7 +13,8 @@ var dataDictionary = {
 			"nascionalidade": "xxx",
 			"infosTrue": [],
 			"infosFalse": []
-		}
+		},
+	"Tablet": []
 }
 
 func saveData():

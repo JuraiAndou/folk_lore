@@ -4,10 +4,11 @@ extends Node
 #Além disso, essa lista será preechida por meio dos sinais
 var listaSuspeitos = []
 var objCuca
+var tabletInfos
 
 func _ready():
 	listaSuspeitos.append("Cuca")
-
+	
 
 #Esses objetos sao inicados assim que o jogo entra na cena do "intro menu"
 #Eles são do tipo personagem

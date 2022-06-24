@@ -20,8 +20,18 @@ func _process(delta):
 #	pass
 
 func _on_Dialog_dialogic_signal(value):
-	Mundo.objCuca.addInfoTrue(value)
+	if Mundo.objCuca.getListTrue().empty() == true:
+		Mundo.objCuca.addInfoTrue(value)
+	else:
+		for i in Mundo.objCuca.getListTrue():
+			if i == value:
+				return
+		Mundo.objCuca.addInfoTrue(value)
+			
 	print(Mundo.objCuca.getListTrue())
 	DataManagement.dataDictionary["Cuca"] = Mundo.objCuca.getDictionary()
 	DataManagement.saveData()
+
+func setInfosTablet(info):
+	Mundo.tabletInfos.append(info)
 
