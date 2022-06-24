@@ -1,8 +1,14 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
+[ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=1]
 [ext_resource path="res://observer_interrogation.gd" type="Script" id=3]
 
 [node name="Interrogatorio" type="Node"]
 
+[node name="Dialog" parent="." instance=ExtResource( 1 )]
+timeline = "timeline-1654882082.json"
+
 [node name="observer" type="Node" parent="."]
 script = ExtResource( 3 )
+
+[connection signal="dialogic_signal" from="Dialog" to="observer" method="_on_Dialog_dialogic_signal"]
