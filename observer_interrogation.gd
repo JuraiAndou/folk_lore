@@ -19,7 +19,8 @@ func _process(delta):
 #func _process(delta):
 #	pass
 
-
 func _on_Dialog_dialogic_signal(value):
 	Mundo.objCuca.addInfoTrue(value)
 	print(Mundo.objCuca.getListTrue())
+	DataManagement.dataDictionary["Cuca"] = Mundo.objCuca.getDictionary()
+	DataManagement.saveData()
