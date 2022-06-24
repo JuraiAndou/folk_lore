@@ -131,3 +131,7 @@ func _on_botaoInterrogar_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):
 		$botaoInterrogar/AnimatedSprite.play("click")
 		get_tree().change_scene("res://main.tscn")
+
+
+func _on_Dialog_dialogic_signal(value):
+	pass # Replace with function body.

@@ -11,4 +11,3 @@ func _ready():
 
 #Esses objetos sao inicados assim que o jogo entra na cena do "intro menu"
 #Eles são do tipo personagem
-

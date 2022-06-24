@@ -92,19 +92,17 @@
 			"value": ""
 		},
 		{
-			"character": "character-1654883893.json",
+			"emit_signal": "Feiticeira. “Não utiliza sua magia para qualquer coisa”, o que ela quis dizer com isso?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
 			"portrait": "",
 			"question": "É verdade que sou a maior feiticeira… mas não utilizo minha magia para qualquer coisa."
-		},
-		{
-			"character": "character-1654882104.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "(Feiticeira. “Não utiliza sua magia para qualquer coisa”, o que ela quis dizer com isso?)"
 		},
 		{
 			"choice": "Não a utiliza para qualquer coisa?",
@@ -116,7 +114,7 @@
 		{
 			"character": "character-1654882104.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "sensualizando",
 			"text": "Digamos que prefiro as mentes fracas"
 		},
 		{
@@ -239,6 +237,82 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Já vi muita coisa nessa vida, lobisomem, mula sem cabeça, cobra de fogo, nada mais me surpreende.\nNão sou novo nesse mundo… sei um pouco sobre cada um de vocês e se você está aqui, é porque tem a capacidade de ter feito alguma coisa… ou que, pelo menos, sabe de algo."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "E o que você quer de mim?"
+		},
+		{
+			"choice": "Quero saber onde achou o corpo do Curupira",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Na beira do rio Pajeú, entre algumas pedras. Querido, que sorte ele teve, por pouco não foi parar no mar."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Corpo encontrado no rio Pajeú, entre pedras (Anotado no caderno do Curupira))"
+		},
+		{
+			"choice": "Havia mais alguém no local do corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "E o que você estava fazendo lá?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quero saber o que fazia antes de achar o corpo do Curupira",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "Querido, normalmente não conto o que faço ou deixo de fazer, mas vou abrir uma exceção para você…"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Naquele dia, eu estava apenas repondo o meu estoque de poções."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Cuca possui um estoque de poções.)"
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
