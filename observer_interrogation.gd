@@ -24,3 +24,4 @@ func _on_Dialog_dialogic_signal(value):
 	print(Mundo.objCuca.getListTrue())
 	DataManagement.dataDictionary["Cuca"] = Mundo.objCuca.getDictionary()
 	DataManagement.saveData()
+

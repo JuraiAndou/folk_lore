@@ -21,7 +21,7 @@ func _on_Tablet_mouse_exited():
 		
 func _on_Tablet_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):
-		print("Ver tablet")
+		get_tree().change_scene("res://scr/Menus/Tablet.tscn")
 
 
 #sinais do celular

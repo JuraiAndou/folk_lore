@@ -116,6 +116,9 @@ func _physics_process(delta):
 	setInfos()
 	setText()	
 	leitorMentira()	
+	
+	if Input.is_action_just_pressed("ui_cancel"):
+		get_tree().change_scene("res://scr/Menus/MainMenu.tscn")
 
 
 #evento dos botões
@@ -133,5 +136,3 @@ func _on_botaoInterrogar_input_event(viewport, event, shape_idx):
 		get_tree().change_scene("res://main.tscn")
 
 
-func _on_Dialog_dialogic_signal(value):
-	pass # Replace with function body.
