@@ -13,6 +13,9 @@ func _ready():
 		
 func instance_chars():
 	Mundo.objCuca = Personagem.new("Cuca")
+	Mundo.objIara = Personagem.new("Iara")
+	Mundo.objSaci = Personagem.new("Saci") 
+	
 	Mundo.tabletInfos = DataManagement.dataDictionary["Tablet"]
 	
 func _physics_process(delta):

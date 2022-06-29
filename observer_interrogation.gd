@@ -1,24 +1,12 @@
 extends Node
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-func _process(delta):
+func _physics_process(delta):
 	if Input.is_action_just_pressed("ui_up"):
 		get_tree().change_scene("res://scr/Menus/Ficha.tscn")
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
 
+#função provisória para definição de informações verdadeiras
 func _on_Dialog_dialogic_signal(value):
 	if Mundo.objCuca.getListTrue().empty() == true:
 		Mundo.objCuca.addInfoTrue(value)
@@ -32,6 +20,7 @@ func _on_Dialog_dialogic_signal(value):
 	DataManagement.dataDictionary["Cuca"] = Mundo.objCuca.getDictionary()
 	DataManagement.saveData()
 
+#Define indormações do tablet
 func setInfosTablet(info):
 	if Mundo.tabletInfos.empty() == true:
 		Mundo.tabletInfos.append(info)
@@ -44,4 +33,6 @@ func setInfosTablet(info):
 	DataManagement.dataDictionary["Tablet"] = Mundo.tabletInfos
 	DataManagement.saveData()
 	
-
+#func getInfosInterroga(info, objeto, tipo):
+#	pass
+	

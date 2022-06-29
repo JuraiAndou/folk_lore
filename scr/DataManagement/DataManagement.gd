@@ -14,7 +14,30 @@ var dataDictionary = {
 			"infosTrue": [],
 			"infosFalse": []
 		},
-	"Tablet": []
+	"Iara": {
+			"nome": "Desconhecido(a)",
+			"bio": "xxx",
+			"idade": "xxx",
+			"altura": "xxx",
+			"genero": "xxx",
+			"peso": "xxx",
+			"nascionalidade": "xxx",
+			"infosTrue": [],
+			"infosFalse": []
+		},
+		"Saci": {
+			"nome": "Desconhecido(a)",
+			"bio": "xxx",
+			"idade": "xxx",
+			"altura": "xxx",
+			"genero": "xxx",
+			"peso": "xxx",
+			"nascionalidade": "xxx",
+			"infosTrue": [],
+			"infosFalse": []
+		},
+		
+		"Tablet": []
 }
 
 func saveData():
