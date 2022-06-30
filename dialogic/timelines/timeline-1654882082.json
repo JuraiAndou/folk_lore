@@ -313,7 +313,7 @@
 			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
 		},
 		{
-			"emit_signal": "",
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
 			"event_id": "dialogic_040"
 		},
 		{
@@ -1741,6 +1741,6 @@
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
 		"file": "timeline-1654882082.json",
-		"name": "DialogoTeste"
+		"name": "dia1-cuca"
 	}
 }
