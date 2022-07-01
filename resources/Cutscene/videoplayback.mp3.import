@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/videoplayback.mp3-12a30b2c20226a7eac46a8a5c83c165a.mp3str"
+
+[deps]
+
+source_file="res://resources/Cutscene/videoplayback.mp3"
+dest_files=[ "res://.import/videoplayback.mp3-12a30b2c20226a7eac46a8a5c83c165a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

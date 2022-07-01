@@ -92,6 +92,1845 @@
 			"value": ""
 		},
 		{
+			"call_node": {
+				"arguments": [
+					"Não utiliza sua magia para qualquer coisa (NODE)",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "É verdade que sou a maior feiticeira… mas não utilizo minha magia para qualquer coisa."
+		},
+		{
+			"choice": "Não a utiliza para qualquer coisa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "Digamos que prefiro as mentes fracas"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Prefere usar magia em mentes fracas (NODE)",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Conhecida por ser uma grande feiticeira, mas com uma fama maior ainda de ter forma de jacaré.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "raiva",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Mentiras!. São essas malditas crianças que espalham essas invenções. Isso não passa de delírios dessas pestes…"
+		},
+		{
+			"emit_signal": "(Boatos de que possui forma de Jacaré. Raiva de crianças.)",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Mas não é você, a pobre velhinha, quem tem a fama de ser um Jacaré?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "tada.gd",
+			"animation_length": 0.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "raiva",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mentiras!. São essas malditas crianças que espalham essas invenções. Isso não passa de delírios dessas pestes…"
+		},
+		{
+			"emit_signal": "(Boatos de que possui forma de Jacaré. Raiva de crianças.)",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Já vi muita coisa nessa vida, lobisomem, mula sem cabeça, cobra de fogo, nada mais me surpreende.\nNão sou novo nesse mundo… sei um pouco sobre cada um de vocês e se você está aqui, é porque tem a capacidade de ter feito alguma coisa… ou que, pelo menos, sabe de algo."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "E o que você quer de mim?"
+		},
+		{
+			"choice": "Quero saber onde achou o corpo do Curupira",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Corpo encontrado no rio Pajeú, entre pedras",
+					"Cuca",
+					"infoTablet"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Na beira do rio Pajeú, entre algumas pedras. Querido, que sorte ele teve, por pouco não foi parar no mar."
+		},
+		{
+			"choice": "Havia mais alguém no local do corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo."
+		},
+		{
+			"choice": "E o que você estava fazendo lá?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eu? Apenas procurando um ingrediente que faltava para uma das minhas poções"
+		},
+		{
+			"emit_signal": "Procurava um ingrediente para poção e achou o corpo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Havia mais alguém no local?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": " Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais. Você sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Saci",
+					"Cuca",
+					"novoSus"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Algo de diferente?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "..."
+		},
+		{
+			"emit_signal": "Cuca pareceu pensar muito ao responder que não havia nada de diferente quando encontrou o corpo.",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Nada. Nada de diferente"
+		},
+		{
+			"choice": "Havia mais alguém no local?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente"
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas.\n O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um. Nossos melhores amigos precisam ser leais. Você sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um. Nossos melhores amigos precisam ser leais. Você sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que outra pessoa passa por alí diariamente, quem é ela?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas. O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Que tipos de poções você tem?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Digamos que eu tenho de tudo um pouco."
+		},
+		{
+			"emit_signal": "Produz vários tipos de poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Posso fazer um casal se separar em um piscar de olhos, colocar uma pessoa para dormir por dias ou fazer o seu amor se apaixonar por você, mas tudo tem um preço..."
+		},
+		{
+			"choice": "Suas poções podem até matar alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "É tão fácil tirar a vida de um humano. Eles são burros e não conseguem nem sentir o cheiro da magia que minhas poções exalam."
+		},
+		{
+			"emit_signal": "Humanos não sentem o cheiro de magia nas poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "No entanto, querido, eu não preciso afogar alguém para tirar uma vida. Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Uma lenda consegue sentir a magia nas suas poções?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "As lendas sentem a magia das poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Ora, mas é claro que consegue. Somente os humanos não tem a capacidade de sentir a magia, por isso que minhas poções só funcionam com eles."
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas.\n O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo. \nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um. Nossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira? O Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Um preço como... o corpo de alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Certamente não preciso de um cadáver. A utilidade de um corpo para mim é nenhuma.\nE, querido, eu não preciso afogar alguém para tirar uma vida."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo."
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.Nossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira? O Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um. Nossos melhores amigos precisam ser leais.\n Você sabe quem é era o melhor amigo do Curupira? O Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que outra pessoa passa por alí diariamente, quem é ela?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas. O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Como estava o corpo do Curupira? Havia algo de diferente nele ou por perto?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Algo de diferente?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "..."
+		},
+		{
+			"emit_signal": "Cuca pareceu pensar muito ao responder que não havia nada de diferente quando encontrou o corpo.",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Nada. Nada de diferente"
+		},
+		{
+			"choice": "Havia mais alguém no local?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Que tipos de poções você tem?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Digamos que eu tenho de tudo um pouco."
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Produz vários tipos de poções (NODE)",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Posso fazer um casal se separar em um piscar de olhos, colocar uma pessoa para dormir por dias ou fazer o seu amor se apaixonar por você, mas tudo tem um preço..."
+		},
+		{
+			"choice": "Suas poções podem até matar alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "É tão fácil tirar a vida de um humano.\nEles são burros e não conseguem nem sentir o cheiro da magia que minhas poções exalam.\nNo entanto, querido, eu não preciso afogar alguém para tirar uma vida."
+		},
+		{
+			"emit_signal": "Humanos não sentem o cheiro de magia nas poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Uma lenda consegue sentir a magia nas suas poções?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Ora, mas é claro que consegue. Somente os humanos não tem a capacidade de sentir a magia, por isso que minhas poções só funcionam com eles."
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo."
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Saci",
+					"Cuca",
+					"novoSus"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Saci",
+					"Cuca",
+					"novoSus"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que outra pessoa passa por alí diariamente, quem é ela?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Um preço como... o corpo de alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Certamente não preciso de um cadáver.\nA utilidade de um corpo para mim é nenhuma.\nE, querido, eu não preciso afogar alguém para tirar uma vida."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? \nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo."
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "E o que você estava fazendo lá?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "Procurava um ingrediente para poção e achou o corpo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Eu? Apenas procurando um ingrediente que faltava para uma das minhas poções."
+		},
+		{
+			"choice": "Havia mais alguém no local?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"choice": "Como estava o corpo do Curupira? Havia algo de diferente nele ou por perto?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quero saber o que fazia antes de achar o corpo do Curupira",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "Querido, normalmente não conto o que faço ou deixo de fazer, mas vou abrir uma exceção para você…"
+		},
+		{
+			"emit_signal": "Cuca possui um estoque de poções.",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Naquele dia, eu estava apenas repondo o meu estoque de poções."
+		},
+		{
+			"choice": "Que tipos de poções você tem?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Digamos que eu tenho de tudo um pouco. Posso fazer um casal se separar em um piscar de olhos, colocar uma pessoa para dormir por dias ou fazer o seu amor se apaixonar por você, mas tudo tem um preço..."
+		},
+		{
+			"emit_signal": "Produz vários tipos de poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "E, em seguida, resolveu procurar um corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "Procurava cogumelos para poção e achou o corpo.",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "colgate",
+			"question": "Cadáver não é um dos ingredientes para minhas poções, mas cogumelos são... todo mundo sabe que há diversos cogumelos próximos ao rio Pajeú."
+		},
+		{
+			"choice": "Havia mais alguém no local?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nossos melhores amigos precisam ser leais. Você sabe quem é era o melhor amigo do Curupira? O Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que outra pessoa passa por alí diariamente, quem é ela?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas. O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Como estava o corpo do Curupira? Havia algo de diferente nele ou por perto?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Algo de diferente?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "..."
+		},
+		{
+			"emit_signal": "Cuca pareceu pensar muito ao responder que não havia nada de diferente quando encontrou o corpo.",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Nada. Nada de diferente"
+		},
+		{
+			"choice": "Havia mais alguém no local?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Que tipos de poções você tem?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Digamos que eu tenho de tudo um pouco."
+		},
+		{
+			"emit_signal": "Produz vários tipos de poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Posso fazer um casal se separar em um piscar de olhos, colocar uma pessoa para dormir por dias ou fazer o seu amor se apaixonar por você, mas tudo tem um preço..."
+		},
+		{
+			"choice": "Suas poções podem até matar alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "É tão fácil tirar a vida de um humano.\nEles são burros e não conseguem nem sentir o cheiro da magia que minhas poções exalam.\nNo entanto, querido, eu não preciso afogar alguém para tirar uma vida."
+		},
+		{
+			"emit_signal": "Humanos não sentem o cheiro de magia nas poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Uma lenda consegue sentir a magia nas suas poções?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, mas é claro que consegue."
+		},
+		{
+			"emit_signal": "As lendas sentem a magia das poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Somente os humanos não tem a capacidade de sentir a magia, por isso que minhas poções só funcionam com eles."
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Um preço como... o corpo de alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Certamente não preciso de um cadáver.\nA utilidade de um corpo para mim é nenhuma.\nE, querido, eu não preciso afogar alguém para tirar uma vida."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas. O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa.(O Boto pode saber de algo, já que vive nos rios)",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Meu bem, já não sou tão nova para passar toda minha noite aqui. Além do mais, tenho meus afazeres pessoais e preciso ir agora. Já te falei tudo que sei"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Não tudo que sabe, mas sim tudo que queria falar"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Céus! Não sou de contar mentiras. Se quiser saber de algo mais, pergunte ao Saci, o melhor amigo do morto, ou ao Boto, que vive por aquelas águas. Eu mesma não tenho nada a ver com isso."
+		},
+		{
+			"change_scene": "res://scr/Menus/Ficha.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"background": "res://resources/cenarios/Cenario_Interrogatorio_Background.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.1
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1656030925.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": -2
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuca... acredito que a senhora sabe exatamente por qual motivo lhe chamei aqui, não sabe?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Como sempre, muito receptivo, detetive. Mas vou lhe confessar que estou muito curiosa para saber o que você [i]acha que[/i] eu fiz, meu bem."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Curupira foi morto, vocês sabem que não foi um acidente, e não há nada mais normal do que interrogar quem achou o corpo."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Querido, foi apenas uma mera coincidência eu encontrar o corpo do pobre coitado. Ainda bem que eu estava disposta a levar ele até o bar. \nUm garoto de sorte... talvez nem tanto. Argh... Se eu soubesse que isso iria me gerar tanta dor de cabeça, oh! Deveria ter ignorado aquilo."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mas não ignorou. Você levou o corpo até o bar Mico Dourado e mostrou a todos como ele estava."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Não acredito que suspeita algo de mim, de uma pobre velhinha que não tem forças nem para ficar em pé sozinha"
+		},
+		{
+			"choice": "Uma pobre velhinha que tem habilidades bem incomuns, não é verdade?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"",
+					"",
+					""
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
 			"emit_signal": "Não utiliza sua magia para qualquer coisa",
 			"event_id": "dialogic_040"
 		},
@@ -251,9 +2090,1766 @@
 		{
 			"call_node": {
 				"arguments": [
-					"Corpo encontrado no rio Pajeú, entre pedras"
+					"Corpo encontrado no rio Pajeú, entre pedras",
+					"Cuca",
+					"infoTablet"
 				],
-				"method_name": "setInfosTablet",
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Na beira do rio Pajeú, entre algumas pedras. Querido, que sorte ele teve, por pouco não foi parar no mar."
+		},
+		{
+			"choice": "Havia mais alguém no local do corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo."
+		},
+		{
+			"choice": "E o que você estava fazendo lá?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eu? Apenas procurando um ingrediente que faltava para uma das minhas poções"
+		},
+		{
+			"emit_signal": "Procurava um ingrediente para poção e achou o corpo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Havia mais alguém no local?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": " Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais. Você sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Algo de diferente?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "..."
+		},
+		{
+			"emit_signal": "Cuca pareceu pensar muito ao responder que não havia nada de diferente quando encontrou o corpo.",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Nada. Nada de diferente"
+		},
+		{
+			"choice": "Havia mais alguém no local?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente"
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas.\n O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um. Nossos melhores amigos precisam ser leais. Você sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um. Nossos melhores amigos precisam ser leais. Você sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que outra pessoa passa por alí diariamente, quem é ela?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas. O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Que tipos de poções você tem?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Digamos que eu tenho de tudo um pouco."
+		},
+		{
+			"emit_signal": "Produz vários tipos de poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Posso fazer um casal se separar em um piscar de olhos, colocar uma pessoa para dormir por dias ou fazer o seu amor se apaixonar por você, mas tudo tem um preço..."
+		},
+		{
+			"choice": "Suas poções podem até matar alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "É tão fácil tirar a vida de um humano. Eles são burros e não conseguem nem sentir o cheiro da magia que minhas poções exalam."
+		},
+		{
+			"emit_signal": "Humanos não sentem o cheiro de magia nas poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "No entanto, querido, eu não preciso afogar alguém para tirar uma vida. Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Uma lenda consegue sentir a magia nas suas poções?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "As lendas sentem a magia das poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Ora, mas é claro que consegue. Somente os humanos não tem a capacidade de sentir a magia, por isso que minhas poções só funcionam com eles."
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas.\n O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo. \nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um. Nossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira? O Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Um preço como... o corpo de alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Certamente não preciso de um cadáver. A utilidade de um corpo para mim é nenhuma.\nE, querido, eu não preciso afogar alguém para tirar uma vida."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo."
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.Nossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira? O Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um. Nossos melhores amigos precisam ser leais.\n Você sabe quem é era o melhor amigo do Curupira? O Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que outra pessoa passa por alí diariamente, quem é ela?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas. O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Como estava o corpo do Curupira? Havia algo de diferente nele ou por perto?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Algo de diferente?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "..."
+		},
+		{
+			"emit_signal": "Cuca pareceu pensar muito ao responder que não havia nada de diferente quando encontrou o corpo.",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Nada. Nada de diferente"
+		},
+		{
+			"choice": "Havia mais alguém no local?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Que tipos de poções você tem?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Digamos que eu tenho de tudo um pouco."
+		},
+		{
+			"emit_signal": "Produz vários tipos de poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Posso fazer um casal se separar em um piscar de olhos, colocar uma pessoa para dormir por dias ou fazer o seu amor se apaixonar por você, mas tudo tem um preço..."
+		},
+		{
+			"choice": "Suas poções podem até matar alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "É tão fácil tirar a vida de um humano.\nEles são burros e não conseguem nem sentir o cheiro da magia que minhas poções exalam.\nNo entanto, querido, eu não preciso afogar alguém para tirar uma vida."
+		},
+		{
+			"emit_signal": "Humanos não sentem o cheiro de magia nas poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Uma lenda consegue sentir a magia nas suas poções?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Ora, mas é claro que consegue. Somente os humanos não tem a capacidade de sentir a magia, por isso que minhas poções só funcionam com eles."
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo."
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que outra pessoa passa por alí diariamente, quem é ela?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Um preço como... o corpo de alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Certamente não preciso de um cadáver.\nA utilidade de um corpo para mim é nenhuma.\nE, querido, eu não preciso afogar alguém para tirar uma vida."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? \nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo."
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "E o que você estava fazendo lá?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "Procurava um ingrediente para poção e achou o corpo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Eu? Apenas procurando um ingrediente que faltava para uma das minhas poções."
+		},
+		{
+			"choice": "Havia mais alguém no local?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"choice": "Como estava o corpo do Curupira? Havia algo de diferente nele ou por perto?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quero saber o que fazia antes de achar o corpo do Curupira",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "Querido, normalmente não conto o que faço ou deixo de fazer, mas vou abrir uma exceção para você…"
+		},
+		{
+			"emit_signal": "Cuca possui um estoque de poções.",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Naquele dia, eu estava apenas repondo o meu estoque de poções."
+		},
+		{
+			"choice": "Que tipos de poções você tem?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Digamos que eu tenho de tudo um pouco. Posso fazer um casal se separar em um piscar de olhos, colocar uma pessoa para dormir por dias ou fazer o seu amor se apaixonar por você, mas tudo tem um preço..."
+		},
+		{
+			"emit_signal": "Produz vários tipos de poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "E, em seguida, resolveu procurar um corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "Procurava cogumelos para poção e achou o corpo.",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "colgate",
+			"question": "Cadáver não é um dos ingredientes para minhas poções, mas cogumelos são... todo mundo sabe que há diversos cogumelos próximos ao rio Pajeú."
+		},
+		{
+			"choice": "Havia mais alguém no local?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "São os meus bichinhos de estimação. Tenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nossos melhores amigos precisam ser leais. Você sabe quem é era o melhor amigo do Curupira? O Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que outra pessoa passa por alí diariamente, quem é ela?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas. O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Como estava o corpo do Curupira? Havia algo de diferente nele ou por perto?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Algo de diferente?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "..."
+		},
+		{
+			"emit_signal": "Cuca pareceu pensar muito ao responder que não havia nada de diferente quando encontrou o corpo.",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Nada. Nada de diferente"
+		},
+		{
+			"choice": "Havia mais alguém no local?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Que tipos de poções você tem?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Digamos que eu tenho de tudo um pouco."
+		},
+		{
+			"emit_signal": "Produz vários tipos de poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Posso fazer um casal se separar em um piscar de olhos, colocar uma pessoa para dormir por dias ou fazer o seu amor se apaixonar por você, mas tudo tem um preço..."
+		},
+		{
+			"choice": "Suas poções podem até matar alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "É tão fácil tirar a vida de um humano.\nEles são burros e não conseguem nem sentir o cheiro da magia que minhas poções exalam.\nNo entanto, querido, eu não preciso afogar alguém para tirar uma vida."
+		},
+		{
+			"emit_signal": "Humanos não sentem o cheiro de magia nas poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Uma lenda consegue sentir a magia nas suas poções?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, mas é claro que consegue."
+		},
+		{
+			"emit_signal": "As lendas sentem a magia das poções",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Somente os humanos não tem a capacidade de sentir a magia, por isso que minhas poções só funcionam com eles."
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Um preço como... o corpo de alguém?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Certamente não preciso de um cadáver.\nA utilidade de um corpo para mim é nenhuma.\nE, querido, eu não preciso afogar alguém para tirar uma vida."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Além do que, não sou eu quem vive pelos rios da região nadando como um golfinho."
+		},
+		{
+			"choice": "Quem vive pelos rios da região?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "O Boto pode saber de algo, já que vive nos rios",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Havia mais alguém no lugar onde você encontrou o corpo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mais alguém? Somente eu e os meus bebês, mas eles sempre estão comigo"
+		},
+		{
+			"emit_signal": "Sempre anda com seus “Bebês”... O que são eles?",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas, querido, não sou eu quem vive por aquele rio. Outra pessoa passa por alí diariamente."
+		},
+		{
+			"choice": "Que outra pessoa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ora, não é óbvio que é o Boto?\nAquele golfinho vive nadando por aquelas águas.\nO rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa."
+		},
+		{
+			"emit_signal": "Ora, não é óbvio que é o Boto? Aquele golfinho vive nadando por aquelas águas. O rio é praticamente a casa dele, embora aquele cafajeste passe mais tempo em festas do que em casa.(O Boto pode saber de algo, já que vive nos rios)",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que sempre anda com seus bebês, quem são eles?"
+		},
+		{
+			"choice": "Quem são seus \"bebês\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "São os meus bichinhos de estimação.\nTenho que adimitir que sou uma amante de insetos e aracnídeos, são tão lindos.\nSabe... os humanos falam que o cachorro é o melhor amigo do homem, eu discordo.\nVocês não sabem o quanto uma lacraia é leal, já um cachorro abana o rabo para qualquer um.\nNossos melhores amigos precisam ser leais.\nVocê sabe quem é era o melhor amigo do Curupira?\nO Saci... talvez ele saiba alguns segredos do Curupira"
+		},
+		{
+			"emit_signal": "Saci era o melhor amigo do Curupira, talvez ele saiba de algo",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Meu bem, já não sou tão nova para passar toda minha noite aqui. Além do mais, tenho meus afazeres pessoais e preciso ir agora. Já te falei tudo que sei"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Não tudo que sabe, mas sim tudo que queria falar"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Céus! Não sou de contar mentiras. Se quiser saber de algo mais, pergunte ao Saci, o melhor amigo do morto, ou ao Boto, que vive por aquelas águas. Eu mesma não tenho nada a ver com isso."
+		},
+		{
+			"change_scene": "res://scr/Menus/Ficha.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"background": "res://resources/cenarios/Cenario_Interrogatorio_Background.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.1
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1656030925.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": -2
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuca... acredito que a senhora sabe exatamente por qual motivo lhe chamei aqui, não sabe?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Como sempre, muito receptivo, detetive. Mas vou lhe confessar que estou muito curiosa para saber o que você [i]acha que[/i] eu fiz, meu bem."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Curupira foi morto, vocês sabem que não foi um acidente, e não há nada mais normal do que interrogar quem achou o corpo."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Querido, foi apenas uma mera coincidência eu encontrar o corpo do pobre coitado. Ainda bem que eu estava disposta a levar ele até o bar. \nUm garoto de sorte... talvez nem tanto. Argh... Se eu soubesse que isso iria me gerar tanta dor de cabeça, oh! Deveria ter ignorado aquilo."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mas não ignorou. Você levou o corpo até o bar Mico Dourado e mostrou a todos como ele estava."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Não acredito que suspeita algo de mim, de uma pobre velhinha que não tem forças nem para ficar em pé sozinha"
+		},
+		{
+			"choice": "Uma pobre velhinha que tem habilidades bem incomuns, não é verdade?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"",
+					"",
+					""
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"emit_signal": "Não utiliza sua magia para qualquer coisa",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "É verdade que sou a maior feiticeira… mas não utilizo minha magia para qualquer coisa."
+		},
+		{
+			"choice": "Não a utiliza para qualquer coisa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "Digamos que prefiro as mentes fracas"
+		},
+		{
+			"emit_signal": "Prefere usar magia em mentes fracas",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Conhecida por ser uma grande feiticeira, mas com uma fama maior ainda de ter forma de jacaré.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "raiva",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Mentiras!. São essas malditas crianças que espalham essas invenções. Isso não passa de delírios dessas pestes…"
+		},
+		{
+			"emit_signal": "(Boatos de que possui forma de Jacaré. Raiva de crianças.)",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Mas não é você, a pobre velhinha, quem tem a fama de ser um Jacaré?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "tada.gd",
+			"animation_length": 0.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "raiva",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mentiras!. São essas malditas crianças que espalham essas invenções. Isso não passa de delírios dessas pestes…"
+		},
+		{
+			"emit_signal": "(Boatos de que possui forma de Jacaré. Raiva de crianças.)",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Já vi muita coisa nessa vida, lobisomem, mula sem cabeça, cobra de fogo, nada mais me surpreende.\nNão sou novo nesse mundo… sei um pouco sobre cada um de vocês e se você está aqui, é porque tem a capacidade de ter feito alguma coisa… ou que, pelo menos, sabe de algo."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "E o que você quer de mim?"
+		},
+		{
+			"choice": "Quero saber onde achou o corpo do Curupira",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Corpo encontrado no rio Pajeú, entre pedras",
+					"Cuca",
+					"infoTablet"
+				],
+				"method_name": "setInfosInterrogatorio",
 				"target_node_path": "Interrogatorio/observer"
 			},
 			"event_id": "dialogic_042"

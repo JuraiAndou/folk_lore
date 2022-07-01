@@ -1,8 +1,17 @@
 extends Node
 
+
+func _ready():
+	if Mundo.dia == 1:
+		Mundo.interrogatorios = 3
+		print("foi")
+	
+	$Itens/Celular/Sprite.play("c"+ str(Mundo.interrogatorios))
+		
+		
 #sinais da pasta
 func _on_Pasta_mouse_entered():
-	$Itens/Pasta/Sprite.play("Hover")
+	$Itens/Pasta/Sprite.play("hover")
 
 func _on_Pasta_mouse_exited():
 	$Itens/Pasta/Sprite.play("idle")
@@ -26,10 +35,10 @@ func _on_Tablet_input_event(viewport, event, shape_idx):
 
 #sinais do celular
 func _on_Celular_mouse_entered():
-	$Itens/Celular/Sprite.play("hover")
+	$Itens/Celular/Sprite.play("c"+ str(Mundo.interrogatorios)+"h")
 
 func _on_Celular_mouse_exited():
-	$Itens/Celular/Sprite.play("idle")
+	$Itens/Celular/Sprite.play("c"+ str(Mundo.interrogatorios))
 
 func _on_Celular_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):

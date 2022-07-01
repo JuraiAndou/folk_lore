@@ -1,16 +1,21 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=27 format=2]
 
 [ext_resource path="res://resources/MainMenu/PASTA.png" type="Texture" id=1]
 [ext_resource path="res://resources/MainMenu/PASTA_HOVER.png" type="Texture" id=2]
 [ext_resource path="res://scr/Menus/MainMenu.gd" type="Script" id=3]
-[ext_resource path="res://resources/MainMenu/REF.png" type="Texture" id=4]
+[ext_resource path="res://resources/MainMenu/CELULAR_1_hover.png" type="Texture" id=4]
 [ext_resource path="res://resources/MainMenu/MESA_sem_objeto.png" type="Texture" id=5]
 [ext_resource path="res://resources/MainMenu/TABLET_hover.png" type="Texture" id=6]
 [ext_resource path="res://resources/MainMenu/TABLET.png" type="Texture" id=7]
-[ext_resource path="res://resources/MainMenu/CELULAR.png" type="Texture" id=8]
-[ext_resource path="res://resources/MainMenu/CELULAR_hover.png" type="Texture" id=9]
-[ext_resource path="res://resources/MainMenu/CALENDARIO_hover.png" type="Texture" id=10]
-[ext_resource path="res://resources/MainMenu/CALENDARIO.png" type="Texture" id=11]
+[ext_resource path="res://resources/MainMenu/CELULAR_2_hover.png" type="Texture" id=8]
+[ext_resource path="res://resources/MainMenu/CELULAR_3_hover.png" type="Texture" id=9]
+[ext_resource path="res://resources/MainMenu/CALENDARIO_1_hover.png" type="Texture" id=10]
+[ext_resource path="res://resources/MainMenu/CALENDARIO_1.png" type="Texture" id=11]
+[ext_resource path="res://resources/MainMenu/CELULAR_4_hover.png" type="Texture" id=12]
+[ext_resource path="res://resources/MainMenu/CELULAR_4.png" type="Texture" id=13]
+[ext_resource path="res://resources/MainMenu/CELULAR_1.png" type="Texture" id=14]
+[ext_resource path="res://resources/MainMenu/CELULAR_2.png" type="Texture" id=15]
+[ext_resource path="res://resources/MainMenu/CELULAR_3.png" type="Texture" id=16]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -21,7 +26,7 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 2 ) ],
 "loop": true,
-"name": "Hover",
+"name": "hover",
 "speed": 5.0
 } ]
 
@@ -46,14 +51,44 @@ extents = Vector2( 259.647, 174.973 )
 
 [sub_resource type="SpriteFrames" id=5]
 animations = [ {
-"frames": [ ExtResource( 8 ) ],
+"frames": [ ExtResource( 15 ) ],
 "loop": true,
-"name": "idle",
+"name": "c2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 16 ) ],
+"loop": true,
+"name": "c3",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "c1h",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 9 ) ],
 "loop": true,
-"name": "hover",
+"name": "c3h",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 14 ) ],
+"loop": true,
+"name": "c1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ) ],
+"loop": true,
+"name": "c4",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ) ],
+"loop": true,
+"name": "c2h",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ) ],
+"loop": true,
+"name": "c4h",
 "speed": 5.0
 } ]
 
@@ -125,10 +160,6 @@ script = ExtResource( 3 )
 position = Vector2( 960, 540 )
 texture = ExtResource( 5 )
 
-[node name="Ref" type="Sprite" parent="."]
-position = Vector2( 960, 540 )
-texture = ExtResource( 4 )
-
 [node name="Itens" type="Node" parent="."]
 
 [node name="Pasta" type="Area2D" parent="Itens"]
@@ -160,7 +191,7 @@ shape = SubResource( 4 )
 [node name="Sprite" type="AnimatedSprite" parent="Itens/Celular"]
 position = Vector2( 361, 585 )
 frames = SubResource( 5 )
-animation = "idle"
+animation = "c1"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Itens/Celular"]
 position = Vector2( 366.694, 588.286 )

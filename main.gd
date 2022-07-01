@@ -11,9 +11,5 @@ func _ready():
 	var dialog = Dialogic.start('dia1-cuca')
 	add_child(dialog)
 
-
-
-
-
 #func setInfosTablet(info):
 	#print(info)

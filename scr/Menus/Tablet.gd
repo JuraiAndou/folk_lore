@@ -1,7 +1,5 @@
 extends Node
 
-
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	print(Mundo.tabletInfos)
@@ -10,7 +8,6 @@ func showPostIts():
 	match len(Mundo.tabletInfos):
 		0:
 			return
-		
 		1:
 			$Sprite/Postits/post1/sprite.visible = true
 		

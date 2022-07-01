@@ -92,8 +92,8 @@ tracks/1/keys = {
 script = ExtResource( 2 )
 
 [node name="Logo(intro)" type="Sprite" parent="."]
-position = Vector2( 183.405, 87.9615 )
-scale = Vector2( 1.00463, 1.00463 )
+position = Vector2( 184.487, 88.4313 )
+scale = Vector2( 1.01019, 1.01019 )
 texture = ExtResource( 1 )
 offset = Vector2( 765.19, 455.43 )
 
@@ -120,8 +120,8 @@ autoplay = "Nova Animação"
 anims/RESET = SubResource( 2 )
 
 [node name="Fade" type="ColorRect" parent="Fade in"]
-margin_left = 27.0
-margin_top = -16.0
-margin_right = 1941.0
-margin_bottom = 1087.0
+margin_left = -20.0
+margin_top = -28.0
+margin_right = 1936.0
+margin_bottom = 1099.0
 color = Color( 0.188235, 0.0588235, 0.0588235, 0 )

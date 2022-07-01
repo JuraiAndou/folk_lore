@@ -212,3 +212,7 @@ func _on_ter_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):
 		suspeitosIndice = 2
 		nomeSus = Mundo.listaSuspeitos[suspeitosIndice] 
+
+
+func _on_Fadein_animation_finished(anim_name):
+	$Fadein.queue_free()

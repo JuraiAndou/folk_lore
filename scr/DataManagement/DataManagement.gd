@@ -25,7 +25,7 @@ var dataDictionary = {
 			"infosTrue": [],
 			"infosFalse": []
 		},
-		"Saci": {
+	"Saci": {
 			"nome": "Desconhecido(a)",
 			"bio": "xxx",
 			"idade": "xxx",
@@ -36,8 +36,13 @@ var dataDictionary = {
 			"infosTrue": [],
 			"infosFalse": []
 		},
-		
-		"Tablet": []
+	"Tablet": [],
+	"Mundo":{
+			"cutscene": "true",
+			"dia": 1,
+			"suspeitos": ["Cuca"],
+			"interrogatorio": ""
+		}
 }
 
 func saveData():

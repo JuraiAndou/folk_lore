@@ -7,12 +7,10 @@ var objCuca
 var objSaci
 var objIara
 var tabletInfos
+var dia
+var interrogatorios
 
 func _ready():
-	listaSuspeitos.append("Cuca")
-	listaSuspeitos.append("Saci")
+	dia = DataManagement.dataDictionary["Mundo"]["dia"]
+	listaSuspeitos = DataManagement.dataDictionary["Mundo"]["suspeitos"] 
 	
-	
-
-#Esses objetos sao inicados assim que o jogo entra na cena do "intro menu"
-#Eles são do tipo personagem
