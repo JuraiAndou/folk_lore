@@ -1,0 +1,100 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://resources/Calendário/CALENDARIO_close_5.png" type="Texture" id=1]
+[ext_resource path="res://resources/Calendário/CALENDARIO_close_4.png" type="Texture" id=2]
+[ext_resource path="res://scr/Menus/Calendário_Menu.gd" type="Script" id=3]
+[ext_resource path="res://resources/Calendário/CALENDARIO_close_3.png" type="Texture" id=4]
+[ext_resource path="res://resources/Calendário/CALENDARIO_close_2.png" type="Texture" id=5]
+[ext_resource path="res://resources/Calendário/CALENDARIO_close_1.png" type="Texture" id=6]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "Dia 2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "Dia 1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "Dia 3",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "Dia 5",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "Dia 4",
+"speed": 5.0
+} ]
+
+[sub_resource type="Animation" id=2]
+resource_name = "Nova Animação"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Fadein/Fade:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Fadein/Fade:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Fadein/Fade:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.188235, 0.0588235, 0.0588235, 0 ) ]
+}
+
+[node name="Calendário" type="Node"]
+script = ExtResource( 3 )
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+position = Vector2( 960, 540 )
+frames = SubResource( 1 )
+animation = "Dia 3"
+
+[node name="Fadein" type="AnimationPlayer" parent="."]
+autoplay = "Nova Animação"
+"anims/Nova Animação" = SubResource( 2 )
+anims/RESET = SubResource( 3 )
+
+[node name="Fade" type="ColorRect" parent="Fadein"]
+margin_left = 27.0
+margin_top = -16.0
+margin_right = 1941.0
+margin_bottom = 1087.0
+color = Color( 0.188235, 0.0588235, 0.0588235, 0 )
+
+[connection signal="animation_finished" from="Fadein" to="." method="_on_Fadein_animation_finished"]

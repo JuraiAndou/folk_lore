@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/CELULAR_CLOSE_4.png-b81877f6c9ec23a80e6c2f4c9fa10cfa.stex"
+path="res://.import/cutscene3.png-08cb3311a9ddaf84b2b6ac7ae960947d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/MainMenu/CELULAR_CLOSE_4.png"
-dest_files=[ "res://.import/CELULAR_CLOSE_4.png-b81877f6c9ec23a80e6c2f4c9fa10cfa.stex" ]
+source_file="res://resources/Cutscene/cutscene3.png"
+dest_files=[ "res://.import/cutscene3.png-08cb3311a9ddaf84b2b6ac7ae960947d.stex" ]
 
 [params]
 

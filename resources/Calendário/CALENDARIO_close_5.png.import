@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/foto4Prancheta-1.png-ba8ae309f8118bf4fa80a90c9bceeb28.stex"
+path="res://.import/CALENDARIO_close_5.png-d701bf204ba4c48d4b5f82ff550ef8e1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Cutscene/foto4Prancheta-1.png"
-dest_files=[ "res://.import/foto4Prancheta-1.png-ba8ae309f8118bf4fa80a90c9bceeb28.stex" ]
+source_file="res://resources/Calendário/CALENDARIO_close_5.png"
+dest_files=[ "res://.import/CALENDARIO_close_5.png-d701bf204ba4c48d4b5f82ff550ef8e1.stex" ]
 
 [params]
 

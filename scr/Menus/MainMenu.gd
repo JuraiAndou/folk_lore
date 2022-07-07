@@ -2,11 +2,11 @@ extends Node
 
 
 func _ready():
-	if Mundo.dia == 1:
+	if Mundo.dia == 3:
 		Mundo.interrogatorios = 3
-		print("foi")
-	
+		
 	$Itens/Celular/Sprite.play("c"+ str(Mundo.interrogatorios))
+	$Itens/Calendar/Sprite.play("c"+ str(Mundo.dia))
 		
 		
 #sinais da pasta
@@ -42,20 +42,22 @@ func _on_Celular_mouse_exited():
 
 func _on_Celular_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):
-		print("Abrir celular")
+		get_tree().change_scene("res://scr/Menus/Celular_menu.tscn")
 
 
 #sinais do calendario
 func _on_Calendar_mouse_entered():
-	$Itens/Calendar/Sprite.play("hover")
+	$Itens/Calendar/Sprite.play("c" + str(Mundo.dia) + "h")
 
 func _on_Calendar_mouse_exited():
-	$Itens/Calendar/Sprite.play("idle")
+	$Itens/Calendar/Sprite.play("c" + str(Mundo.dia))
 	
 func _on_Calendar_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):
-		print("Ver calendario")
+		get_tree().change_scene("res://scr/Menus/Calendário_Menu.tscn")
 
 #Animação de fade
 func _on_Fade_in_animation_finished(anim_name):
 	$Fadein.queue_free()
+
+

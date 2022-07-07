@@ -16,7 +16,8 @@ func instance_chars():
 	#inicia personagem
 	Mundo.objCuca = Personagem.new("Cuca")
 	Mundo.objIara = Personagem.new("Iara")
-	Mundo.objSaci = Personagem.new("Saci") 
+	Mundo.objSaci = Personagem.new("Saci")
+	Mundo.objBoto = Personagem.new("Boto") 
 	
 	#resgasta infos do tablet
 	Mundo.tabletInfos = DataManagement.dataDictionary["Tablet"]

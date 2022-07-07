@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/CALENDARIO_close_4.png-17333e48b90c48178fbcc72a63a9e460.stex"
+path="res://.import/boto-foto.png-cf6eb4479708fdaf6f4dfe9489d0a7b6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/MainMenu/CALENDARIO_close_4.png"
-dest_files=[ "res://.import/CALENDARIO_close_4.png-17333e48b90c48178fbcc72a63a9e460.stex" ]
+source_file="res://resources/Ficha/boto-foto.png"
+dest_files=[ "res://.import/boto-foto.png-cf6eb4479708fdaf6f4dfe9489d0a7b6.stex" ]
 
 [params]
 

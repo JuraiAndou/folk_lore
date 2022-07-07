@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/foto3Prancheta-1.png-fa87166682b5eb70d1154b3e32451534.stex"
+path="res://.import/cutscene4.png-dbd7d351faaa10b93fe53499c4efc779.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Cutscene/foto3Prancheta-1.png"
-dest_files=[ "res://.import/foto3Prancheta-1.png-fa87166682b5eb70d1154b3e32451534.stex" ]
+source_file="res://resources/Cutscene/cutscene4.png"
+dest_files=[ "res://.import/cutscene4.png-dbd7d351faaa10b93fe53499c4efc779.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/CELULAR_CLOSE_2.png-19d4b6f4e1daae5722b2e35d525d22d9.stex"
+path="res://.import/CALENDARIO_close_3.png-a1733671e4048b211ffce855d1e2ddc0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/MainMenu/CELULAR_CLOSE_2.png"
-dest_files=[ "res://.import/CELULAR_CLOSE_2.png-19d4b6f4e1daae5722b2e35d525d22d9.stex" ]
+source_file="res://resources/Calendário/CALENDARIO_close_3.png"
+dest_files=[ "res://.import/CALENDARIO_close_3.png-a1733671e4048b211ffce855d1e2ddc0.stex" ]
 
 [params]
 

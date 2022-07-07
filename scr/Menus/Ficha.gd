@@ -39,7 +39,15 @@ func getSusp():
 			Mundo.objIara.setNacionalidade("Brasileira")
 			Mundo.objIara.setGenero("Fem")
 		
-
+		"Boto":
+			suspAtual = Mundo.objBoto
+			$Foto3x4.play("Boto")
+			$FotoLandScape.play("Boto")
+			Mundo.objBoto.setName("Boto")
+			Mundo.objBoto.setNacionalidade("Brasileiro")
+			Mundo.objBoto.setGenero("???")
+			Mundo.objBoto.setBio("Consegue se transformar em humano e em boto, como seu nome sugere. Dizem que sempre aparece em épocas festivas na forma de uma homem elegante, vestido de branco e com um chapéu, isso porque precisa esconder sua narina que se mantém na forma humana e que fica no topo de sua cabeça. Ele seduz moças, levando-as para o fundo do rio (Não descreverei o que ocorre em seguida.....).")
+		
 #defini os texto
 func setInfos():
 	$infos/Nome.set_text(suspAtual.getName())
@@ -175,8 +183,6 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("ui_cancel"):
 		get_tree().change_scene("res://scr/Menus/MainMenu.tscn")
 	
-	if Input.is_action_just_pressed("ui_up"):
-		Mundo.listaSuspeitos.append("Iara")
 		
 	
 

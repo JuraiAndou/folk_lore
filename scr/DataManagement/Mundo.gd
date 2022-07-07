@@ -6,6 +6,7 @@ var listaSuspeitos = []
 var objCuca
 var objSaci
 var objIara
+var objBoto
 var tabletInfos
 var dia
 var interrogatorios
