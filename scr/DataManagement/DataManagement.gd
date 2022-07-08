@@ -54,7 +54,7 @@ var dataDictionary = {
 			"cutscene": "true",
 			"dia": 1,
 			"suspeitos": ["Cuca", "Boto"],
-			"interrogatorio": 3
+			"interrogatorio": 1
 		}
 }
 

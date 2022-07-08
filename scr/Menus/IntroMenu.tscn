@@ -114,6 +114,9 @@ custom_colors/font_color = Color( 0.878431, 0.698039, 0, 1 )
 custom_fonts/font = ExtResource( 3 )
 text = "Pressione enter para continuar"
 align = 1
+__meta__ = {
+"_edit_use_anchors_": true
+}
 
 [node name="Fade in" type="AnimationPlayer" parent="."]
 autoplay = "Nova Animação"

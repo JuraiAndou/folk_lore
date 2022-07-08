@@ -5,6 +5,14 @@ func _ready():
 	$Itens/Celular/Sprite.play("c"+ str(Mundo.interrogatorios))
 	$Itens/Calendar/Sprite.play("c"+ str(Mundo.dia))
 		
+	
+func _physics_process(delta):
+	if Mundo.interrogatorios == 0:
+		Mundo.interrogatorios = 2
+		DataManagement.dataDictionary["Mundo"]["interrogatorio"] = Mundo.interrogatorios
+		DataManagement.saveData()
+		
+		get_tree().change_scene("res://scr/Anoitecer/Anoitecer.tscn")
 		
 #sinais da pasta
 func _on_Pasta_mouse_entered():

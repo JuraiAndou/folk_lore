@@ -1,0 +1,375 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://resources/fontes/Courier Prime Bold Cutscene.tres" type="DynamicFont" id=1]
+[ext_resource path="res://resources/fontes/Courier Prime Bold.tres" type="DynamicFont" id=2]
+[ext_resource path="res://scr/Anoitecer/Anoitecer.gd" type="Script" id=3]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Nova Animação"
+length = 20.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimationPlayer/Label:custom_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0.0235294, 0.0196078, 0, 1 ), Color( 0.952941, 0.803922, 0.129412, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimationPlayer/Label:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 500, 170 ), Vector2( 391, 170 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("AnimationPlayer/Label2:custom_colors/font_color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 3, 4 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0.0235294, 0.0196078, 0, 1 ), Color( 0.0235294, 0.0196078, 0, 1 ), Color( 0.952941, 0.803922, 0.129412, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("AnimationPlayer/Label2:rect_position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 3, 4.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 450, 272 ), Vector2( 391, 272 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("AnimationPlayer/Label3:custom_colors/font_color")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 7, 8 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0.0235294, 0.0196078, 0, 1 ), Color( 0.0235294, 0.0196078, 0, 1 ), Color( 0.952941, 0.803922, 0.129412, 1 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("AnimationPlayer/Label3:rect_position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 7, 8 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 450, 412 ), Vector2( 391, 412 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("AnimationPlayer/Label4:custom_colors/font_color")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 12, 13 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0.0235294, 0.0196078, 0, 1 ), Color( 0.0235294, 0.0196078, 0, 1 ), Color( 0.952941, 0.803922, 0.129412, 1 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("AnimationPlayer/Label4:rect_position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 12, 13 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 450, 607 ), Vector2( 391, 607 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("AnimationPlayer/Label5:custom_colors/font_color")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 15, 16 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0.0235294, 0.0196078, 0, 1 ), Color( 0.0235294, 0.0196078, 0, 1 ), Color( 0.952941, 0.803922, 0.129412, 1 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("AnimationPlayer/Label5:rect_position")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 15, 16 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 450, 707 ), Vector2( 391, 707 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimationPlayer/Label:custom_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.952941, 0.803922, 0.129412, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimationPlayer/Label:margin_left")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 391.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("AnimationPlayer/Label:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 391, 170 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("AnimationPlayer/Label2:custom_colors/font_color")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.952941, 0.803922, 0.129412, 1 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("AnimationPlayer/Label2:rect_position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 391, 272 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("AnimationPlayer/Label3:custom_colors/font_color")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.952941, 0.803922, 0.129412, 1 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("AnimationPlayer/Label3:rect_position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 391, 412 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("AnimationPlayer/Label4:custom_colors/font_color")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.952941, 0.803922, 0.129412, 1 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("AnimationPlayer/Label4:rect_position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 391, 607 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("AnimationPlayer/Label5:custom_colors/font_color")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.952941, 0.803922, 0.129412, 1 ) ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("AnimationPlayer/Label5:rect_position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 391, 707 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "Nova Animação"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("ComandAnimation/comand:custom_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.45, 0.92 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0.239216, 0.211765, 0.109804, 1 ), Color( 0.239216, 0.211765, 0.109804, 0 ), Color( 0.239216, 0.211765, 0.109804, 1 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("ComandAnimation/comand:custom_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.878431, 0.698039, 0, 1 ) ]
+}
+
+[node name="Anoitecer" type="Node"]
+script = ExtResource( 3 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1946.0
+margin_bottom = 1108.0
+rect_pivot_offset = Vector2( 957, 911 )
+color = Color( 0.0235294, 0.0196078, 0, 1 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Nova Animação"
+"anims/Nova Animação" = SubResource( 1 )
+anims/RESET = SubResource( 2 )
+
+[node name="Label" type="Label" parent="AnimationPlayer"]
+margin_left = 391.0
+margin_top = 170.0
+margin_right = 4096.0
+margin_bottom = 261.0
+custom_colors/font_color = Color( 0.952941, 0.803922, 0.129412, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Mais uma vez a noite cai na cidade......
+"
+
+[node name="Label2" type="Label" parent="AnimationPlayer"]
+margin_left = 391.0
+margin_top = 272.0
+margin_right = 1483.0
+margin_bottom = 410.0
+custom_colors/font_color = Color( 0.952941, 0.803922, 0.129412, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = ".... um dia dificil para todos, uma perda,
+uma morte, um inocente?
+"
+
+[node name="Label3" type="Label" parent="AnimationPlayer"]
+margin_left = 391.0
+margin_top = 412.0
+margin_right = 1509.0
+margin_bottom = 550.0
+custom_colors/font_color = Color( 0.952941, 0.803922, 0.129412, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Não se sabe muito do que ocorreu, e aparen-
+temente as pessoas que sabem se recusam a 
+ajudar....."
+
+[node name="Label4" type="Label" parent="AnimationPlayer"]
+margin_left = 391.0
+margin_top = 607.0
+margin_right = 1509.0
+margin_bottom = 745.0
+custom_colors/font_color = Color( 0.952941, 0.803922, 0.129412, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = ".....argg..... o que fazer?"
+
+[node name="Label5" type="Label" parent="AnimationPlayer"]
+margin_left = 391.0
+margin_top = 707.0
+margin_right = 1561.0
+margin_bottom = 845.0
+custom_colors/font_color = Color( 0.952941, 0.803922, 0.129412, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Na verdade não há muito o que pensar, tenho 
+apenas que continuar...."
+
+[node name="ComandAnimation" type="AnimationPlayer" parent="."]
+autoplay = "Nova Animação"
+"anims/Nova Animação" = SubResource( 3 )
+anims/RESET = SubResource( 4 )
+
+[node name="comand" type="Label" parent="ComandAnimation"]
+margin_left = -14.0
+margin_top = 927.0
+margin_right = 1914.0
+margin_bottom = 1196.0
+custom_colors/font_color = Color( 0.878431, 0.698039, 0, 1 )
+custom_fonts/font = ExtResource( 2 )
+text = "Pressione enter para continuar"
+align = 1

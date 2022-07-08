@@ -249,3 +249,4 @@ color = Color( 0.188235, 0.0588235, 0.0588235, 0 )
 [connection signal="input_event" from="botao_voltar" to="." method="_on_botao_voltar_input_event"]
 [connection signal="mouse_entered" from="botao_voltar" to="." method="_on_botao_voltar_mouse_entered"]
 [connection signal="mouse_exited" from="botao_voltar" to="." method="_on_botao_voltar_mouse_exited"]
+[connection signal="animation_finished" from="Fadein" to="." method="_on_Fadein_animation_finished"]

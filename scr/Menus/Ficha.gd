@@ -218,7 +218,6 @@ func _on_boto_de_interrogar_mouse_entered():
 func _on_botoInterrogar_mouse_exited():
 	$botaoInterrogar/AnimatedSprite.play("idle")
 
-
 func _on_botaoInterrogar_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):
 		$botaoInterrogar/AnimatedSprite.play("click")
@@ -249,22 +248,18 @@ func _on_ter_input_event(viewport, event, shape_idx):
 		suspeitosIndice = 2
 		nomeSus = Mundo.listaSuspeitos[suspeitosIndice] 
 
-
 func _on_Fadein_animation_finished(anim_name):
 	$Fadein.queue_free()
 	
-
 
 #botão voltar------------------------------------------------------------------------------
 func _on_botao_voltar_mouse_exited():
 	$botao_voltar/AnimatedSprite.play("idle")
 
-
 func _on_botao_voltar_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):
 		$botao_voltar/AnimatedSprite.play("click")
 		get_tree().change_scene("res://scr/Menus/MainMenu.tscn")
-
 
 func _on_botao_voltar_mouse_entered():
 	$botao_voltar/AnimatedSprite.play("hover")

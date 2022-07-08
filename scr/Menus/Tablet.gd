@@ -71,3 +71,7 @@ func _on_botao_voltar_input_event(viewport, event, shape_idx):
 
 func _on_botao_voltar_mouse_entered():
 	$botao_voltar/AnimatedSprite.play("hover")
+
+
+func _on_Fadein_animation_finished(anim_name):
+	$Fadein.queue_free()
