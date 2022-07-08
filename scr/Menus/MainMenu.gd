@@ -1,10 +1,7 @@
 extends Node
 
 
-func _ready():
-	if Mundo.dia == 3:
-		Mundo.interrogatorios = 3
-		
+func _ready():	
 	$Itens/Celular/Sprite.play("c"+ str(Mundo.interrogatorios))
 	$Itens/Calendar/Sprite.play("c"+ str(Mundo.dia))
 		

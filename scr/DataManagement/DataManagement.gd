@@ -52,9 +52,9 @@ var dataDictionary = {
 	"Tablet": [],
 	"Mundo":{
 			"cutscene": "true",
-			"dia": 3,
-			"suspeitos": ["Cuca"],
-			"interrogatorio": ""
+			"dia": 1,
+			"suspeitos": ["Cuca", "Boto"],
+			"interrogatorio": 3
 		}
 }
 
@@ -64,6 +64,7 @@ func saveData():
 	if fileOpen == OK:
 		file.store_var (dataDictionary)
 		file.close()
+		print("jogo salvo")
 
 func loadData():
 	var file = File.new()

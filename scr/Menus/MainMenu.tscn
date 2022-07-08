@@ -75,9 +75,9 @@ animations = [ {
 "name": "c1h",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 8 ) ],
+"frames": [ ExtResource( 14 ) ],
 "loop": true,
-"name": "c2h",
+"name": "c1",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 13 ) ],
@@ -90,14 +90,14 @@ animations = [ {
 "name": "c3h",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 14 ) ],
-"loop": true,
-"name": "c1",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 15 ) ],
 "loop": true,
 "name": "c2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ) ],
+"loop": true,
+"name": "c2h",
 "speed": 5.0
 } ]
 
@@ -106,11 +106,6 @@ extents = Vector2( 78.9077, 136.061 )
 
 [sub_resource type="SpriteFrames" id=11]
 animations = [ {
-"frames": [ ExtResource( 18 ) ],
-"loop": true,
-"name": "c5",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 17 ) ],
 "loop": true,
 "name": "c5h",
@@ -131,9 +126,14 @@ animations = [ {
 "name": "c1h",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 21 ) ],
+"frames": [ ExtResource( 18 ) ],
 "loop": true,
-"name": "c2h",
+"name": "c5",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ) ],
+"loop": true,
+"name": "c1",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 24 ) ],
@@ -146,14 +146,14 @@ animations = [ {
 "name": "c3h",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 11 ) ],
-"loop": true,
-"name": "c1",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 20 ) ],
 "loop": true,
 "name": "c2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 21 ) ],
+"loop": true,
+"name": "c2h",
 "speed": 5.0
 } ]
 
@@ -262,7 +262,6 @@ animation = "c1"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Itens/Calendar"]
 position = Vector2( 1458.77, 200.369 )
 rotation = 0.331613
-scale = Vector2( 1, 1 )
 shape = SubResource( 12 )
 
 [node name="Fadein" type="AnimationPlayer" parent="."]

@@ -2,7 +2,7 @@ extends Node
 
 var suspeitosIndice = 0 # a ideia é q por mais dos sinais de botões esse indice aumente e troque a pagina
 var nomeSus = Mundo.listaSuspeitos[suspeitosIndice] #acessa a lista de suspeito no mundo
-var suspAtual #suspeito mostrado na lista atualmente
+
 
 var listInfoTrue = []
 var listaInfoFalse = []
@@ -13,7 +13,7 @@ func _ready():
 func getSusp():
 	match nomeSus:
 		"Cuca":
-			suspAtual = Mundo.objCuca
+			Mundo.suspAtual = Mundo.objCuca
 			$Foto3x4.play("Cuca")
 			$FotoLandScape.play("Cuca")
 			Mundo.objCuca.setName("Cuca")
@@ -22,7 +22,7 @@ func getSusp():
 			Mundo.objCuca.setGenero("Fem")
 			
 		"Saci":
-			suspAtual = Mundo.objSaci
+			Mundo.suspAtual = Mundo.objSaci
 			$Foto3x4.play("Saci")
 			$FotoLandScape.play("Saci")
 			Mundo.objSaci.setName("Saci")
@@ -31,7 +31,7 @@ func getSusp():
 			Mundo.objSaci.setGenero("Masc")
 			
 		"Iara":
-			suspAtual = Mundo.objIara
+			Mundo.suspAtual = Mundo.objIara
 			$Foto3x4.play("Iara")
 			$FotoLandScape.play("Iara")
 			Mundo.objIara.setName("Iara")
@@ -40,7 +40,7 @@ func getSusp():
 			Mundo.objIara.setGenero("Fem")
 		
 		"Boto":
-			suspAtual = Mundo.objBoto
+			Mundo.suspAtual = Mundo.objBoto
 			$Foto3x4.play("Boto")
 			$FotoLandScape.play("Boto")
 			Mundo.objBoto.setName("Boto")
@@ -50,15 +50,15 @@ func getSusp():
 		
 #defini os texto
 func setInfos():
-	$infos/Nome.set_text(suspAtual.getName())
-	$infos/Altura.set_text(suspAtual.getAltura())
-	$infos/Idade.set_text(suspAtual.getIdade())
-	$infos/Peso.set_text(suspAtual.getPeso())
-	$infos/Nascionalidade.set_text(suspAtual.getNacionalidade())
-	$infos/Genero.set_text(suspAtual.getGenero())
-	$infos/Bio.set_text(suspAtual.getBio())
-	listaInfoFalse = suspAtual.getListFalse()
-	listInfoTrue = suspAtual.getListTrue()
+	$infos/Nome.set_text(Mundo.suspAtual.getName())
+	$infos/Altura.set_text(Mundo.suspAtual.getAltura())
+	$infos/Idade.set_text(Mundo.suspAtual.getIdade())
+	$infos/Peso.set_text(Mundo.suspAtual.getPeso())
+	$infos/Nascionalidade.set_text(Mundo.suspAtual.getNacionalidade())
+	$infos/Genero.set_text(Mundo.suspAtual.getGenero())
+	$infos/Bio.set_text(Mundo.suspAtual.getBio())
+	listaInfoFalse = Mundo.suspAtual.getListFalse()
+	listInfoTrue = Mundo.suspAtual.getListTrue()
 
 #desenha os textos
 func setText():
@@ -163,30 +163,54 @@ func drawLabels():
 		match i:
 			0:
 				$Abas/pr/CollisionShape2D.disabled = false
-				$Abas/pr/CollisionShape2D/sprite.play("icon")
+				$Abas/pr/CollisionShape2D/sprite.play(str(Mundo.listaSuspeitos[0]))
 			1:
 				$Abas/seg/CollisionShape2D.disabled = false
-				$Abas/seg/CollisionShape2D/sprite.play("icon")
+				$Abas/seg/CollisionShape2D/sprite.play(str(Mundo.listaSuspeitos[1]))
 			
 			2:
 				$Abas/ter/CollisionShape2D.disabled = false
-				$Abas/ter/CollisionShape2D/sprite.play("icon")
+				$Abas/ter/CollisionShape2D/sprite.play(str(Mundo.listaSuspeitos[2]))
+			
+			3:
+				$Abas/ter/CollisionShape2D.disabled = false
+				$Abas/ter/CollisionShape2D/sprite.play(str(Mundo.listaSuspeitos[3]))
 
 func _process(delta):
 	getSusp()
 	setText()
 	leitorMentira()
 	drawLabels()
+	setInfos()
+	questIsPossible()
 	
 func _physics_process(delta):
-	setInfos()
 	if Input.is_action_just_pressed("ui_cancel"):
 		get_tree().change_scene("res://scr/Menus/MainMenu.tscn")
 	
-		
-	
+#Essa função existe para o botão de interrogar so aparecer quando for possivel entrevistar o suspeito
+func questIsPossible():
+	if Mundo.dia == 1:
+		if str(Mundo.suspAtual.getName()) == "Cuca":
+			$botaoInterrogar.visible = true
+			$botaoInterrogar/CollisionShape2D.disabled = false
+		else:
+			$botaoInterrogar.visible = false
+			$botaoInterrogar/CollisionShape2D.disabled = true
+			
+	elif Mundo.dia == 2:
+		if str(Mundo.suspAtual.getName()) == "Boto":
+			$botaoInterrogar.visible = true
+			$botaoInterrogar/CollisionShape2D.disabled = false
+			
+		elif str(Mundo.suspAtual.getName()) == "Saci":
+			$botaoInterrogar.visible = true
+			$botaoInterrogar/CollisionShape2D.disabled = false
+		else:
+			$botaoInterrogar.visible == false
+			$botaoInterrogar/CollisionShape2D.disabled = true
 
-#evento dos botões--------------------------------------------------------------
+#botão interrogar--------------------------------------------------------------
 func _on_boto_de_interrogar_mouse_entered():
 	$botaoInterrogar/AnimatedSprite.play("hover")
 
@@ -198,9 +222,15 @@ func _on_botoInterrogar_mouse_exited():
 func _on_botaoInterrogar_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):
 		$botaoInterrogar/AnimatedSprite.play("click")
+		
+		#foi gasto 1 interrogatorio então se diminui 
+		Mundo.interrogatorios -= 1
+		DataManagement.dataDictionary["Mundo"]["interrogatorio"] = Mundo.interrogatorios
+		DataManagement.saveData()
+		
 		get_tree().change_scene("res://main.tscn")
 
-##Inputs dentro das abas---------
+##Inputs dentro das abas------------------------------------------------------------------------------
 #aba 1
 func _on_pr_input_event(viewport, event, shape_idx):
 	if Input.is_mouse_button_pressed(1):
@@ -222,3 +252,19 @@ func _on_ter_input_event(viewport, event, shape_idx):
 
 func _on_Fadein_animation_finished(anim_name):
 	$Fadein.queue_free()
+	
+
+
+#botão voltar------------------------------------------------------------------------------
+func _on_botao_voltar_mouse_exited():
+	$botao_voltar/AnimatedSprite.play("idle")
+
+
+func _on_botao_voltar_input_event(viewport, event, shape_idx):
+	if Input.is_mouse_button_pressed(1):
+		$botao_voltar/AnimatedSprite.play("click")
+		get_tree().change_scene("res://scr/Menus/MainMenu.tscn")
+
+
+func _on_botao_voltar_mouse_entered():
+	$botao_voltar/AnimatedSprite.play("hover")
