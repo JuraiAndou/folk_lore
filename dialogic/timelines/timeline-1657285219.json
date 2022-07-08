@@ -1,0 +1,621 @@
+{
+	"events": [
+		{
+			"audio_bus": "bg",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0.5,
+			"file": "res://resources/music/456797__nikosardas__jazz-music-loop.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://resources/cenarios/Cenario_Interrogatorio_Background.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.1
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1656030925.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": -2
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuca... acredito que a senhora sabe exatamente por qual motivo lhe chamei aqui, não sabe?"
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "sensualizando",
+			"text": "Como sempre, muito receptivo, detetive. Mas vou lhe confessar que estou muito curiosa para saber o que você [i]acha[/i] que eu fiz, meu bem."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "raiva",
+			"text": "Eu não acho nada, Cuca, trabalho com fatos. O Curupira foi morto, vocês sabem que não foi um acidente, e não há nada mais normal do que interrogar quem achou o corpo. "
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Querido, foi apenas uma mera coincidência eu encontrar o corpo do pobre coitado. \nAinda bem que eu estava disposta a levar ele até o bar. \nUm garoto de sorte... talvez nem tanto. "
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "raiva",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "MosterGrow",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/monster_grunt.ogg",
+			"volume": 0
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "raiva",
+			"text": "[shake rate=70 level=15]Argh..[/shake]. Se eu soubesse que isso iria me gerar tanta dor de cabeça, oh! Deveria ter ignorado aquilo."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mas não ignorou. Você levou o corpo até o bar Mico Dourado e mostrou a todos como ele estava."
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Não acredito que suspeita algo de mim, de uma pobre velhinha que não tem forças nem para ficar em pé sozinha"
+		},
+		{
+			"choice": "Uma pobre velhinha que tem habilidades bem incomuns, não é verdade?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "É verdade que sou a maior feiticeira…"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Feiticeira.",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"“Não utiliza sua magia para qualquer coisa”, o que ela quis dizer com isso?",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/pencil-writing.ogg",
+			"volume": 10
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "mas não utilizo minha magia para qualquer coisa."
+		},
+		{
+			"choice": "Não a utiliza para qualquer coisa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Digamos que prefiro as mentes fracas"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Prefere usar magia em mentes fracas.",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/pencil-writing.ogg",
+			"volume": 10
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"choice": "Conhecida por ser uma grande feiticeira, mas com uma fama maior ainda de ter forma de jacaré.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "raiva",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "MosterGrow",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/monster_grunt.ogg",
+			"volume": 0
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "raiva",
+			"text": "[shake rate=70 level=15]Mentiras![/shake] São essas malditas crianças que espalham essas invenções. Isso não passa de delírios dessas pestes…"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Boatos de que possui forma de Jacaré.",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Raiva de crianças.",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/pencil-writing.ogg",
+			"volume": 10
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0.3,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Mas não é você, a pobre velhinha, quem tem a fama de ser um Jacaré?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.3,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "raiva",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "MosterGrow",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/monster_grunt.ogg",
+			"volume": 0
+		},
+		{
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_001",
+			"portrait": "raiva",
+			"text": "[shake rate=70 level=15]Mentiras![/shake] São essas malditas crianças que espalham essas invenções. Isso não passa de delírios dessas pestes…"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Boatos de que possui forma de Jacaré.",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Raiva de crianças.",
+					"Cuca",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/pencil-writing.ogg",
+			"volume": 10
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0.3,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1654882104.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[tornado radius=2 freq=5]*suspiro...[/tornado]"
+		},
+		{
+			"change_scene": "res://scr/Menus/Ficha.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657285219.json",
+		"name": "cuca-novo"
+	}
+}

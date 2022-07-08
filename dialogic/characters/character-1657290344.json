@@ -1,0 +1,25 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1657290344.json",
+	"mirror_portraits": false,
+	"name": "pop-up",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 450,
+	"offset_y": -750,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://resources/pop_ups/PopUp_Pasta.png"
+		},
+		{
+			"name": "Tablet",
+			"path": "res://resources/pop_ups/PopUp_Tablet.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

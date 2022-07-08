@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pencil-writing.ogg-e2f6d59758d260ccb87bb35d112b0a0e.oggstr"
+
+[deps]
+
+source_file="res://resources/sfx/pencil-writing.ogg"
+dest_files=[ "res://.import/pencil-writing.ogg-e2f6d59758d260ccb87bb35d112b0a0e.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

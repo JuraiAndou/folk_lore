@@ -8,7 +8,7 @@ extends Node
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var dialog = Dialogic.start('dia1-cuca')
+	var dialog = Dialogic.start('cuca-novo')
 	add_child(dialog)
 
 #func setInfosTablet(info):
