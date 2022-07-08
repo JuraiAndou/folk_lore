@@ -1,15 +1,13 @@
 extends Node
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var dialog = Dialogic.start('cuca-novo')
+	var dialog = Dialogic.start("dia" + str(Mundo.dia) +"-"+ str(Mundo.suspAtual.getName()))
+	print("dia" + str(Mundo.dia) + str(Mundo.suspAtual.getName()))
 	add_child(dialog)
 
-#func setInfosTablet(info):
-	#print(info)
+func _physics_process(delta):
+	if Input.is_action_just_pressed("ui_cancel"):
+			get_tree().change_scene("res://scr/Menus/MainMenu.tscn")
+	
+	

@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=32 format=2]
 
 [ext_resource path="res://resources/Ficha/FICHA placeholder.png" type="Texture" id=1]
 [ext_resource path="res://scr/Menus/Ficha.gd" type="Script" id=2]
@@ -10,7 +10,14 @@
 [ext_resource path="res://resources/Ficha/Botao_Interrogar.png" type="Texture" id=8]
 [ext_resource path="res://resources/Ficha/Botao_Interrogar_click.png" type="Texture" id=9]
 [ext_resource path="res://resources/Ficha/cuca-jacareVer.png" type="Texture" id=10]
-[ext_resource path="res://icon.png" type="Texture" id=11]
+[ext_resource path="res://resources/MainMenu/iara.png" type="Texture" id=11]
+[ext_resource path="res://resources/Ficha/boto-foto.png" type="Texture" id=12]
+[ext_resource path="res://resources/MainMenu/hover-return.png" type="Texture" id=13]
+[ext_resource path="res://resources/MainMenu/neutral-return.png" type="Texture" id=14]
+[ext_resource path="res://resources/MainMenu/click-return.png" type="Texture" id=15]
+[ext_resource path="res://resources/MainMenu/boto.png" type="Texture" id=16]
+[ext_resource path="res://resources/MainMenu/saci.png" type="Texture" id=17]
+[ext_resource path="res://resources/MainMenu/cuca.png" type="Texture" id=18]
 
 [sub_resource type="StreamTexture" id=5]
 flags = 4
@@ -23,19 +30,24 @@ animations = [ {
 "name": "idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 5 ) ],
-"loop": true,
-"name": "Cuca",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "Iara",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 12 ) ],
+"loop": true,
+"name": "Boto",
+"speed": 5.0
+}, {
 "frames": [ SubResource( 5 ) ],
 "loop": true,
 "name": "Saci",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "Cuca",
 "speed": 5.0
 } ]
 
@@ -46,11 +58,6 @@ animations = [ {
 "name": "Idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 10 ) ],
-"loop": true,
-"name": "Cuca",
-"speed": 5.0
-}, {
 "frames": [  ],
 "loop": true,
 "name": "Iara",
@@ -58,7 +65,17 @@ animations = [ {
 }, {
 "frames": [  ],
 "loop": true,
+"name": "Boto",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
 "name": "Saci",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "Cuca",
 "speed": 5.0
 } ]
 
@@ -69,12 +86,27 @@ extents = Vector2( 36.5, 21 )
 animations = [ {
 "frames": [  ],
 "loop": true,
-"name": "idle",
+"name": "Idle",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 11 ) ],
 "loop": true,
-"name": "icon",
+"name": "Iara",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 16 ) ],
+"loop": true,
+"name": "Boto",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 17 ) ],
+"loop": true,
+"name": "Saci",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 18 ) ],
+"loop": true,
+"name": "Cuca",
 "speed": 5.0
 } ]
 
@@ -83,6 +115,27 @@ extents = Vector2( 38.25, 20.5 )
 
 [sub_resource type="RectangleShape2D" id=8]
 extents = Vector2( 28.25, 15 )
+
+[sub_resource type="SpriteFrames" id=12]
+animations = [ {
+"frames": [ ExtResource( 14 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ) ],
+"loop": true,
+"name": "hover",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 15 ) ],
+"loop": true,
+"name": "click",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=13]
+extents = Vector2( 34, 34 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
@@ -162,12 +215,12 @@ position = Vector2( 740.128, 299.675 )
 rotation = -0.0349066
 scale = Vector2( 0.963165, 0.963165 )
 frames = SubResource( 1 )
-animation = "Saci"
+animation = "idle"
 
 [node name="FotoLandScape" type="AnimatedSprite" parent="."]
 position = Vector2( 1341, 270 )
 frames = SubResource( 4 )
-animation = "Idle"
+animation = "Boto"
 
 [node name="infos" type="Node" parent="."]
 
@@ -495,9 +548,8 @@ disabled = true
 
 [node name="sprite" type="AnimatedSprite" parent="Abas/pr/CollisionShape2D"]
 position = Vector2( 2.375, -0.999998 )
-scale = Vector2( 0.847656, 0.46875 )
 frames = SubResource( 9 )
-animation = "idle"
+animation = "Idle"
 
 [node name="seg" type="Area2D" parent="Abas"]
 position = Vector2( 160, 138 )
@@ -508,10 +560,9 @@ shape = SubResource( 7 )
 disabled = true
 
 [node name="sprite" type="AnimatedSprite" parent="Abas/seg/CollisionShape2D"]
-position = Vector2( 1.25, -1.5 )
-scale = Vector2( 0.847656, 0.46875 )
+position = Vector2( 2.25, 1.5 )
 frames = SubResource( 9 )
-animation = "idle"
+animation = "Idle"
 
 [node name="ter" type="Area2D" parent="Abas"]
 
@@ -521,12 +572,36 @@ shape = SubResource( 8 )
 disabled = true
 
 [node name="sprite" type="AnimatedSprite" parent="Abas/ter/CollisionShape2D"]
-position = Vector2( -0.75, 0 )
-scale = Vector2( 0.847656, 0.46875 )
+position = Vector2( 0.25, 0 )
 frames = SubResource( 9 )
+animation = "Idle"
+
+[node name="qua" type="Area2D" parent="Abas"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Abas/qua"]
+position = Vector2( 188, 262 )
+shape = SubResource( 8 )
+disabled = true
+
+[node name="sprite" type="AnimatedSprite" parent="Abas/qua/CollisionShape2D"]
+position = Vector2( -0.75, 0 )
+frames = SubResource( 9 )
+animation = "Idle"
+
+[node name="botao_voltar" type="Area2D" parent="."]
+position = Vector2( 19, -12 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="botao_voltar"]
+position = Vector2( 96, 991 )
+frames = SubResource( 12 )
 animation = "idle"
 
+[node name="CollisionShape2D" type="CollisionShape2D" parent="botao_voltar"]
+position = Vector2( 96, 991 )
+shape = SubResource( 13 )
+
 [node name="botaoInterrogar" type="Area2D" parent="."]
+visible = false
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="botaoInterrogar"]
 position = Vector2( 1312, 949 )
@@ -544,15 +619,19 @@ autoplay = "Nova Animação"
 anims/RESET = SubResource( 11 )
 
 [node name="Fade" type="ColorRect" parent="Fadein"]
-margin_left = 27.0
+margin_left = 7.0
 margin_top = -16.0
-margin_right = 1941.0
+margin_right = 1921.0
 margin_bottom = 1087.0
 color = Color( 0.188235, 0.0588235, 0.0588235, 0 )
 
 [connection signal="input_event" from="Abas/pr" to="." method="_on_pr_input_event"]
 [connection signal="input_event" from="Abas/seg" to="." method="_on_seg_input_event"]
 [connection signal="input_event" from="Abas/ter" to="." method="_on_ter_input_event"]
+[connection signal="input_event" from="Abas/qua" to="." method="_on_ter_input_event"]
+[connection signal="input_event" from="botao_voltar" to="." method="_on_botao_voltar_input_event"]
+[connection signal="mouse_entered" from="botao_voltar" to="." method="_on_botao_voltar_mouse_entered"]
+[connection signal="mouse_exited" from="botao_voltar" to="." method="_on_botao_voltar_mouse_exited"]
 [connection signal="input_event" from="botaoInterrogar" to="." method="_on_botaoInterrogar_input_event"]
 [connection signal="mouse_entered" from="botaoInterrogar" to="." method="_on_boto_de_interrogar_mouse_entered"]
 [connection signal="mouse_exited" from="botaoInterrogar" to="." method="_on_botoInterrogar_mouse_exited"]

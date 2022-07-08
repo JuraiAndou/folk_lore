@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=36 format=2]
 
 [ext_resource path="res://resources/MainMenu/PASTA.png" type="Texture" id=1]
 [ext_resource path="res://resources/MainMenu/PASTA_HOVER.png" type="Texture" id=2]
@@ -16,6 +16,15 @@
 [ext_resource path="res://resources/MainMenu/CELULAR_1.png" type="Texture" id=14]
 [ext_resource path="res://resources/MainMenu/CELULAR_2.png" type="Texture" id=15]
 [ext_resource path="res://resources/MainMenu/CELULAR_3.png" type="Texture" id=16]
+[ext_resource path="res://resources/MainMenu/CALENDARIO_5_hover.png" type="Texture" id=17]
+[ext_resource path="res://resources/MainMenu/CALENDARIO_5.png" type="Texture" id=18]
+[ext_resource path="res://resources/MainMenu/CALENDARIO_3_hover.png" type="Texture" id=19]
+[ext_resource path="res://resources/MainMenu/CALENDARIO_2.png" type="Texture" id=20]
+[ext_resource path="res://resources/MainMenu/CALENDARIO_2_hover.png" type="Texture" id=21]
+[ext_resource path="res://resources/MainMenu/CALENDARIO_4_hover.png" type="Texture" id=22]
+[ext_resource path="res://resources/MainMenu/CALENDARIO_3.png" type="Texture" id=23]
+[ext_resource path="res://resources/MainMenu/CALENDARIO_4.png" type="Texture" id=24]
+[ext_resource path="res://resources/MainMenu/REF.png" type="Texture" id=25]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -51,9 +60,9 @@ extents = Vector2( 259.647, 174.973 )
 
 [sub_resource type="SpriteFrames" id=5]
 animations = [ {
-"frames": [ ExtResource( 15 ) ],
+"frames": [ ExtResource( 12 ) ],
 "loop": true,
-"name": "c2",
+"name": "c4h",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 16 ) ],
@@ -66,11 +75,6 @@ animations = [ {
 "name": "c1h",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 9 ) ],
-"loop": true,
-"name": "c3h",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 14 ) ],
 "loop": true,
 "name": "c1",
@@ -81,35 +85,80 @@ animations = [ {
 "name": "c4",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 9 ) ],
+"loop": true,
+"name": "c3h",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 15 ) ],
+"loop": true,
+"name": "c2",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 8 ) ],
 "loop": true,
 "name": "c2h",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 12 ) ],
-"loop": true,
-"name": "c4h",
 "speed": 5.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=6]
 extents = Vector2( 78.9077, 136.061 )
 
-[sub_resource type="SpriteFrames" id=7]
+[sub_resource type="SpriteFrames" id=11]
 animations = [ {
-"frames": [ ExtResource( 11 ) ],
+"frames": [ ExtResource( 17 ) ],
 "loop": true,
-"name": "idle",
+"name": "c5h",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 22 ) ],
+"loop": true,
+"name": "c4h",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 23 ) ],
+"loop": true,
+"name": "c3",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 10 ) ],
 "loop": true,
-"name": "hover",
+"name": "c1h",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 18 ) ],
+"loop": true,
+"name": "c5",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ) ],
+"loop": true,
+"name": "c1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 24 ) ],
+"loop": true,
+"name": "c4",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 19 ) ],
+"loop": true,
+"name": "c3h",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 20 ) ],
+"loop": true,
+"name": "c2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 21 ) ],
+"loop": true,
+"name": "c2h",
 "speed": 5.0
 } ]
 
-[sub_resource type="RectangleShape2D" id=8]
-extents = Vector2( 291.947, 80.5018 )
+[sub_resource type="RectangleShape2D" id=12]
+extents = Vector2( 276.309, 76.8612 )
 
 [sub_resource type="Animation" id=9]
 resource_name = "Nova Animação"
@@ -156,6 +205,11 @@ tracks/1/keys = {
 [node name="MainMenu" type="Node"]
 script = ExtResource( 3 )
 
+[node name="Ref" type="Sprite" parent="."]
+visible = false
+position = Vector2( 961, 542 )
+texture = ExtResource( 25 )
+
 [node name="Background" type="Sprite" parent="."]
 position = Vector2( 960, 540 )
 texture = ExtResource( 5 )
@@ -201,15 +255,14 @@ shape = SubResource( 6 )
 [node name="Calendar" type="Area2D" parent="Itens"]
 
 [node name="Sprite" type="AnimatedSprite" parent="Itens/Calendar"]
-position = Vector2( 1563, 201 )
-frames = SubResource( 7 )
-animation = "idle"
+position = Vector2( 1563, 204 )
+frames = SubResource( 11 )
+animation = "c1"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Itens/Calendar"]
-position = Vector2( 1469.3, 195.569 )
+position = Vector2( 1458.77, 200.369 )
 rotation = 0.331613
-scale = Vector2( 1.006, 1 )
-shape = SubResource( 8 )
+shape = SubResource( 12 )
 
 [node name="Fadein" type="AnimationPlayer" parent="."]
 autoplay = "Nova Animação"

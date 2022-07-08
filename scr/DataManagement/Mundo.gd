@@ -6,11 +6,19 @@ var listaSuspeitos = []
 var objCuca
 var objSaci
 var objIara
+var objBoto
 var tabletInfos
 var dia
 var interrogatorios
+var suspAtual #suspeito mostrado na ficha atualmente
 
 func _ready():
+	DataManagement.loadData()
 	dia = DataManagement.dataDictionary["Mundo"]["dia"]
-	listaSuspeitos = DataManagement.dataDictionary["Mundo"]["suspeitos"] 
+	listaSuspeitos = DataManagement.dataDictionary["Mundo"]["suspeitos"]
+	interrogatorios = DataManagement.dataDictionary["Mundo"]["interrogatorio"]
+
+
+
+
 	
