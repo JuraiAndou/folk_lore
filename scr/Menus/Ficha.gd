@@ -3,7 +3,6 @@ extends Node
 var suspeitosIndice = 0 # a ideia é q por mais dos sinais de botões esse indice aumente e troque a pagina
 var nomeSus = Mundo.listaSuspeitos[suspeitosIndice] #acessa a lista de suspeito no mundo
 
-
 var listInfoTrue = []
 var listaInfoFalse = []
 
@@ -62,100 +61,108 @@ func setInfos():
 
 #desenha os textos
 func setText():
-	if listInfoTrue.empty() == true:
-		$Textos/primeiro.set_text("")
-		$Textos/segundo.set_text("")
-		$Textos/ter.set_text("")
-		$Textos/qua.set_text("")
-		$Textos/qui.set_text("")
-		$Textos/sex.set_text("")
-		$Textos/set.set_text("")
-		$Textos/oit.set_text("")
-		$Textos/nov.set_text("")
-		$Textos/dez.set_text("")
-		$Textos/onc.set_text("")
-		$Textos/doz.set_text("")
-	else:
-		for i in range (len(listInfoTrue)):
-			match i:
-				0:
-					$Textos/primeiro.set_text(listInfoTrue[i])
+	$Textos/primeiro.set_text("")
+	$Textos/segundo.set_text("")
+	$Textos/ter.set_text("")
+	$Textos/qua.set_text("")
+	$Textos/qui.set_text("")
+	$Textos/sex.set_text("")
+	$Textos/set.set_text("")
+	$Textos/oit.set_text("")
+	$Textos/nov.set_text("")
+	$Textos/dez.set_text("")
+	$Textos/onc.set_text("")
+	$Textos/doz.set_text("")
+	
+	for i in range (len(listInfoTrue)):
+		match i:
+			0:
+				$Textos/primeiro.set_text(listInfoTrue[i])
 				
-				1:
-					$Textos/segundo.set_text(listInfoTrue[i])
+			1:
+				$Textos/segundo.set_text(listInfoTrue[i])
 				
-				2:
-					$Textos/ter.set_text(listInfoTrue[i])
+			2:
+				$Textos/ter.set_text(listInfoTrue[i])
 				
-				3:
-					$Textos/qua.set_text(listInfoTrue[i])
+			3:
+				$Textos/qua.set_text(listInfoTrue[i])
 					
-				4:
-					$Textos/qui.set_text(listInfoTrue[i])
+			4:
+				$Textos/qui.set_text(listInfoTrue[i])
 				
-				5:
-					$Textos/sex.set_text(listInfoTrue[i])
+			5:
+				$Textos/sex.set_text(listInfoTrue[i])
 				
-				6:
-					$Textos/set.set_text(listInfoTrue[i])
+			6:
+				$Textos/set.set_text(listInfoTrue[i])
 				
-				7:
-					$Textos/oit.set_text(listInfoTrue[i])
+			7:
+				$Textos/oit.set_text(listInfoTrue[i])
 				
-				8:
-					$Textos/nov.set_text(listInfoTrue[i])
+			8:
+				$Textos/nov.set_text(listInfoTrue[i])
 					
-				9:
-					$Textos/dez.set_text(listInfoTrue[i])
+			9:
+				$Textos/dez.set_text(listInfoTrue[i])
 				
-				10:
-					$Textos/onc.set_text(listInfoTrue[i])
+			10:
+				$Textos/onc.set_text(listInfoTrue[i])
 					
-				11:
-					$Textos/doz.set_text(listInfoTrue[i])
-
+			11:
+				$Textos/doz.set_text(listInfoTrue[i])
+					
 #desenhas as linhas em informações mentirosas
 func leitorMentira():
-	if listaInfoFalse.empty() == true:
-		return
-	else:
-		for i in listaInfoFalse:
-			match listInfoTrue.find(i):
-				0:
-					$Riscos/pr.visible = true
+	$Riscos/pr.visible = false
+	$Riscos/se.visible = false
+	$Riscos/ter.visible = false
+	$Riscos/qua.visible = true
+	$Riscos/sex.visible = true
+	$Riscos/set.visible = true
+	$Riscos/oit.visible = true
+	$Riscos/nov.visible = true
+	$Riscos/dez.visible = true
+	$Riscos/onc.visible = true
+	$Riscos/doz.visible = true
+	
+	for i in listaInfoFalse:
+		match listInfoTrue.find(i):
+			0:
+				$Riscos/pr.visible = true
 				
-				1: 
-					$Riscos/se.visible = true
+			1: 
+				$Riscos/se.visible = true
 				
-				2: 
-					$Riscos/ter.visible = true
+			2: 
+				$Riscos/ter.visible = true
 					
-				3: 
-					$Riscos/qua.visible = true
+			3: 
+				$Riscos/qua.visible = true
 				
-				4:
-					$Riscos/qui.visible = true
+			4:
+				$Riscos/qui.visible = true
 				
-				5:
-					$Riscos/sex.visible = true
+			5:
+				$Riscos/sex.visible = true
 				
-				6:
-					$Riscos/set.visible = true
+			6:
+				$Riscos/set.visible = true
 				
-				7:
-					$Riscos/oit.visible = true
+			7:
+				$Riscos/oit.visible = true
 				
-				8:
-					$Riscos/nov.visible = true
+			8:
+				$Riscos/nov.visible = true
 			
-				9:
-					$Riscos/dez.visible = true
+			9:
+				$Riscos/dez.visible = true
 				
-				10:
-					$Riscos/onc.visible = true
+			10:
+				$Riscos/onc.visible = true
 		
-				11:
-					$Riscos/doz.visible = true
+			11:
+				$Riscos/doz.visible = true
 
 #desenhar as abas
 func drawLabels():
