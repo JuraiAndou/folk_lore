@@ -37,14 +37,14 @@ animations = [ {
 "name": "Cuca",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 5 ) ],
-"loop": true,
-"name": "Saci",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "Iara",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 5 ) ],
+"loop": true,
+"name": "Saci",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 12 ) ],
@@ -65,14 +65,14 @@ animations = [ {
 "name": "Cuca",
 "speed": 5.0
 }, {
-"frames": [  ],
-"loop": true,
-"name": "Saci",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 20 ) ],
 "loop": true,
 "name": "Iara",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "Saci",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 19 ) ],
@@ -96,14 +96,14 @@ animations = [ {
 "name": "Cuca",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 17 ) ],
-"loop": true,
-"name": "Saci",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 11 ) ],
 "loop": true,
 "name": "Iara",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 17 ) ],
+"loop": true,
+"name": "Saci",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 16 ) ],

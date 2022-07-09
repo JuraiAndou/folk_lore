@@ -119,6 +119,7 @@ func leitorMentira():
 	$Riscos/se.visible = false
 	$Riscos/ter.visible = false
 	$Riscos/qua.visible = false
+	$Riscos/qui.visible = false
 	$Riscos/sex.visible = false
 	$Riscos/set.visible = false
 	$Riscos/oit.visible = false
