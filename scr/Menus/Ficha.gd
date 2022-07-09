@@ -206,8 +206,9 @@ func questIsPossible():
 		elif str(Mundo.suspAtual.getName()) == "Saci":
 			$botaoInterrogar.visible = true
 			$botaoInterrogar/CollisionShape2D.disabled = false
+			
 		else:
-			$botaoInterrogar.visible == false
+			$botaoInterrogar.visible = false
 			$botaoInterrogar/CollisionShape2D.disabled = true
 
 #botão interrogar--------------------------------------------------------------

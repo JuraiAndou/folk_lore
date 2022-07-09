@@ -53,7 +53,7 @@ var dataDictionary = {
 	"Mundo":{
 			"cutscene": "true",
 			"dia": 1,
-			"suspeitos": ["Cuca", "Boto"],
+			"suspeitos": ["Cuca"],
 			"interrogatorio": 1
 		}
 }
