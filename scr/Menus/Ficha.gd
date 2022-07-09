@@ -111,20 +111,21 @@ func setText():
 					
 			11:
 				$Textos/doz.set_text(listInfoTrue[i])
-					
+				
+
 #desenhas as linhas em informações mentirosas
 func leitorMentira():
 	$Riscos/pr.visible = false
 	$Riscos/se.visible = false
 	$Riscos/ter.visible = false
-	$Riscos/qua.visible = true
-	$Riscos/sex.visible = true
-	$Riscos/set.visible = true
-	$Riscos/oit.visible = true
-	$Riscos/nov.visible = true
-	$Riscos/dez.visible = true
-	$Riscos/onc.visible = true
-	$Riscos/doz.visible = true
+	$Riscos/qua.visible = false
+	$Riscos/sex.visible = false
+	$Riscos/set.visible = false
+	$Riscos/oit.visible = false
+	$Riscos/nov.visible = false
+	$Riscos/dez.visible = false
+	$Riscos/onc.visible = false
+	$Riscos/doz.visible = false
 	
 	for i in listaInfoFalse:
 		match listInfoTrue.find(i):
