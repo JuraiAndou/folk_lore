@@ -186,10 +186,10 @@ func drawLabels():
 
 func _process(delta):
 	getSusp()
+	setInfos()
 	setText()
 	leitorMentira()
 	drawLabels()
-	setInfos()
 	questIsPossible()
 	
 func _physics_process(delta):
