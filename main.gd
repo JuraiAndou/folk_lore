@@ -11,3 +11,7 @@ func _ready():
 	#		get_tree().change_scene("res://scr/Menus/MainMenu.tscn")
 	
 	
+
+
+func _on_Label_pressed():
+	print("Dança gatinho")

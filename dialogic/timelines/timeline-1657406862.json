@@ -1,0 +1,21 @@
+{
+	"events": [
+		{
+			"character": "character-1657332179.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Naquele dia eu estava nas fazendas perto da floresta.\nFiquei sabendo que algumas crianças estavam por lá e, na moral, nada é tão engraçado quanto assustar criança."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657406862.json",
+		"name": "d2-S_14"
+	}
+}
