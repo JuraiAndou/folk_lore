@@ -8586,7 +8586,75 @@
 			"character": "character-1654882104.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Céus! Não sou de contar mentiras.\nSe quiser saber de algo mais, pergunte ao Saci, o melhor amigo do morto, ou ao Boto, que vive por aquelas águas.\nEu mesma não tenho nada a ver com isso."
+			"text": "Céus! Não sou de contar mentiras.\nSe quiser saber de algo mais, pergunte ao Saci, o melhor amigo do morto, ou ao Boto, que vive por aquelas águas."
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Saci",
+					"Cuca",
+					"novoSus"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/pencil-writing.ogg",
+			"volume": 10
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eu mesma não tenho nada a ver com isso."
 		},
 		{
 			"change_scene": "res://scr/Menus/Ficha.tscn",
