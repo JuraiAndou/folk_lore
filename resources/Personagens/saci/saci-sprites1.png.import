@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/saci-cenário.png-1a561f38b9a5760825c33bfe4073604f.stex"
+path="res://.import/saci-sprites1.png-6823a95623bc45f0e2f4ecaf90dfd930.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Personagens/saci/saci-cenário.png"
-dest_files=[ "res://.import/saci-cenário.png-1a561f38b9a5760825c33bfe4073604f.stex" ]
+source_file="res://resources/Personagens/saci/saci-sprites1.png"
+dest_files=[ "res://.import/saci-sprites1.png-6823a95623bc45f0e2f4ecaf90dfd930.stex" ]
 
 [params]
 
