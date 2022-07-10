@@ -48,24 +48,12 @@
 		"Timelines": {
 			"files": [
 				"timeline-1654882082.json",
+				"timeline-1656556387.json",
 				"timeline-1657285219.json",
-				"timeline-1656556387.json"
+				"timeline-1657334665.json"
 			],
 			"folders": {
-				"dia2-Saci": {
-					"files": [
-						"timeline-1657334665.json",
-						"timeline-1657406719.json",
-						"timeline-1657406862.json"
-					],
-					"folders": {
 
-					},
-					"metadata": {
-						"color": null,
-						"folded": false
-					}
-				}
 			},
 			"metadata": {
 				"color": null,
