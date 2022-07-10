@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cara... acho que ele vacilou. Mas não sinto raiva. Apenas sinto falta dele. "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/sad_male_sigh.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "triste",
+			"text": "É difícil pensar que nunca mais poderemos fazer isso novamente."
+		},
+		{
+			"change_timeline": "",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657426127.json",
+		"name": "d2-s20"
+	}
+}

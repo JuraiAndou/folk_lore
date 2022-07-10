@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Velho, eu realmente não lembro. Nós vivemos por mais de séculos, fica difícil lembrar das coisas, saca?"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você me disse que ele protegia a floresta. Por acaso, você o ajudava?"
+		},
+		{
+			"change_timeline": "timeline-1657425482.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657425499.json",
+		"name": "d2-s21"
+	}
+}

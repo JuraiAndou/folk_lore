@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/sad_male_sigh.wav-5390d67582da13502aa0e97d3d9f08e1.sample"
+
+[deps]
+
+source_file="res://resources/sfx/sad_male_sigh.wav"
+dest_files=[ "res://.import/sad_male_sigh.wav-5390d67582da13502aa0e97d3d9f08e1.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

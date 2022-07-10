@@ -65,6 +65,158 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Geralmente, prefiro não te ver."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "É bem verdade que sempre nos vemos em ocasiões, no mínimo, estranhas.\nMas vejo que você tem melhorado, não recebo uma ligação reclamando de seus delitos há muito tempo."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "maleAnger",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/male-anger.wav",
+			"volume": 0
+		},
+		{
+			"animation": "headshake.gd",
+			"animation_length": 0.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "raiva",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Cara, não tenho culpa se esse pessoal não tem senso de humor..."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "maleAnger",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/male_sigh.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Humpft, claro..."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mas vamos ao que interessa...\nO Curupira está morto e eu preciso de todas informações possíveis para entender o que aconteceu.\nComo você é a pessoa mais próxima dele, acho que terá informações valiosas para o caso."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "triste",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/sad_male_sigh.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "triste",
+			"text": "Tem sido dias muito difíceis. Não entendo qual o motivo de ter acontecido."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "É pra isso que estou aqui."
+		},
+		{
+			"choice": "Então, me diga, como era sua relação com o Curupira?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657422207.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Preciso saber o que você fazia no dia da morte do Curupira",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657424671.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

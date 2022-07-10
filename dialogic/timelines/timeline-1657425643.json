@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Continuar? "
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": " A gente não faz mais isso a muito tempo, cara. Eu te disse, velho, foi um tempo bom, mas não paramos porque ele morreu, paramos porque ele perdeu o interesse."
+		},
+		{
+			"choice": "Por que ele perdeu o interesse?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657425975.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Como você reagiu a isso?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657426127.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657425643.json",
+		"name": "d2-s4"
+	}
+}

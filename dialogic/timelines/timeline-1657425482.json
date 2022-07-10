@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Claro. Cara, era muito engraçado assustar quem passava por lá. Foi um tempo bom."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você vai continuar fazendo isso sozinho agora que ele está morto?"
+		},
+		{
+			"change_timeline": "",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657425482.json",
+		"name": "d2-s3"
+	}
+}

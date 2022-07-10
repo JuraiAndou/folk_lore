@@ -1,0 +1,37 @@
+{
+	"events": [
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cara, não faço ideia. Ele tava sentado e caladão.\nA gente não fala muito com ele, até porque ele não gosta muito de papo. Se você quer saber algo dele, é melhor perguntar diretamente."
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A única coisa que sei sobre o Corpo-Seco é que agora ele deve estar sozinho pelas ruas da cidade, o cara é meio esquisito. \nVai por mim, nem adianta ir atrás dele agora, ta ligado?"
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bem, obrigado pela ajuda, Saci. Vou descobrir quem fez isso com o Boto"
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Valeu, Detetive. Me fale se encontrar algo, você sabe como me encontrar."
+		},
+		{
+			"change_scene": "res://scr/Menus/Ficha.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657425838.json",
+		"name": "d2-sfim"
+	}
+}

@@ -3,15 +3,15 @@
 		{
 			"character": "character-1657422142.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Nós eramos quase irmãos, sabe?\nConversávamos muito, ás vezes o dia inteiro, e estávamos sempre juntos na floresta."
+			"portrait": "Default",
+			"text": " Ah, ele sentia uma ligação muito forte com ela, pelo menos é o que me falava.\nNão acho que estava mentindo, porque ele sempre a protegia dos humanos e até pedia minha ajuda."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Saci e Curupira eram muito próximos",
+					"Curupira é o protetor da floresta",
 					"Saci",
-					"infoTrue"
+					"infoTablet"
 				],
 				"method_name": "setInfosInterrogatorio",
 				"target_node_path": "Interrogatorio/observer"
@@ -35,7 +35,7 @@
 			"character": "character-1657290344.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "Tablet",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -70,18 +70,42 @@
 		},
 		{
 			"character": "character-1654883893.json",
-			"event_id": "dialogic_001",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
 			"portrait": "",
-			"text": "Por que sempre ficavam na floresta?"
+			"question": "..."
 		},
 		{
-			"change_timeline": "",
+			"choice": "E você o ajudava?|",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657425482.json",
 			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Como vocês se conheceram?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657425499.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657422207.json",
-		"name": "d2-s1"
+		"file": "timeline-1657425309.json",
+		"name": "d2-s2"
 	}
 }
