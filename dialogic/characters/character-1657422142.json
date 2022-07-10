@@ -1,0 +1,33 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1657422142.json",
+	"mirror_portraits": false,
+	"name": "Saci",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 170,
+	"offset_y": -193,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://resources/Personagens/saci/saci-sprites4.png"
+		},
+		{
+			"name": "espanto",
+			"path": "res://resources/Personagens/saci/saci-sprites3.png"
+		},
+		{
+			"name": "triste",
+			"path": "res://resources/Personagens/saci/saci-sprites2.png"
+		},
+		{
+			"name": "raiva",
+			"path": "res://resources/Personagens/saci/saci-sprites1.png"
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1654882462.cfg"
+}
