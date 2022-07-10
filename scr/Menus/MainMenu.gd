@@ -7,7 +7,7 @@ func _ready():
 		
 	
 func _physics_process(delta):
-	if Mundo.interrogatorios == 0:
+	if Mundo.interrogatorios <= 0:
 		Mundo.interrogatorios = 2
 		DataManagement.dataDictionary["Mundo"]["interrogatorio"] = Mundo.interrogatorios
 		DataManagement.saveData()
