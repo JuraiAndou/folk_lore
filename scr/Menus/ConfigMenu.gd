@@ -1,8 +1,20 @@
 extends Node
 
-var savePath = "user://userSave.dat"
 
-var dataDictionary = {
+
+func _on_Fullscreen_pressed():
+	OS.window_fullscreen = !OS.window_fullscreen
+	DataManagement.dataDictionary["Mundo"]["fullscreen"] = OS.window_fullscreen
+	DataManagement.saveData()
+
+
+func _on_mute_pressed():
+	AudioServer.set_bus_mute(Mundo.music_bus, not AudioServer.is_bus_mute(Mundo.music_bus))
+	DataManagement.dataDictionary["Mundo"]["Audio"] = AudioServer.is_bus_mute(Mundo.music_bus)
+	DataManagement.saveData()
+
+func _on_Button_pressed():
+	DataManagement.dataDictionary = {
 	"Cuca": {
 			"nome": "Desconhecido(a)",
 			"bio": "xxx",
@@ -59,19 +71,17 @@ var dataDictionary = {
 			"Audio": false
 		}
 	}
+	DataManagement.saveData()
+	get_tree().quit()
 
+#botão voltar------------------------------------------------------------------------------
+func _on_botao_voltar_mouse_exited():
+	$botao_voltar/AnimatedSprite.play("idle")
 
-func saveData():
-	var file = File.new()
-	var fileOpen = file.open(savePath, File.WRITE)
-	if fileOpen == OK:
-		file.store_var (dataDictionary)
-		file.close()
-		print("jogo salvo")
+func _on_botao_voltar_input_event(viewport, event, shape_idx):
+	if Input.is_mouse_button_pressed(1):
+		$botao_voltar/AnimatedSprite.play("click")
+		get_tree().change_scene("res://scr/Menus/MainMenu.tscn")
 
-func loadData():
-	var file = File.new()
-	var fileOpen = file.open(savePath, File.READ)
-	if fileOpen == OK:
-		dataDictionary = file.get_var()
-		file.close()
+func _on_botao_voltar_mouse_entered():
+	$botao_voltar/AnimatedSprite.play("hover")

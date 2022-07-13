@@ -65,4 +65,15 @@ func _on_Calendar_input_event(viewport, event, shape_idx):
 func _on_Fade_in_animation_finished(anim_name):
 	$Fadein.queue_free()
 
+#Sinais configuração
+func _on_Config_input_event(viewport, event, shape_idx):
+	if Input.is_mouse_button_pressed(1):
+		$Itens/Config/Sprite.play("click")
+		get_tree().change_scene("res://scr/Menus/ConfigMenu.tscn")
 
+func _on_Config_mouse_entered():
+	$Itens/Config/Sprite.play("hover")
+
+
+func _on_Config_mouse_exited():
+	$Itens/Config/Sprite.play("idle")
