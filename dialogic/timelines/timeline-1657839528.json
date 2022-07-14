@@ -1,0 +1,51 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Raiva",
+			"text": "Perfeitamente, a PIOR delas."
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Deboche",
+			"text": "Geralmente, é muito fácil reconhecer bruxas, principalmente quando são como a Cuca.\nTodavia quando são como aquela mulher.."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "maleAnger",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/male-anger.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Raiva",
+			"text": "[shake rate=70 level=15]Argh! [/shake]"
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Deboche",
+			"text": "Te passam a perna e você nem nota."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Está falando da Cuca?"
+		},
+		{
+			"change_timeline": "timeline-1657839741.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657839528.json",
+		"name": "d2-b16"
+	}
+}

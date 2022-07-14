@@ -1,0 +1,113 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Raiva",
+			"text": "Da Cuca? Antes fosse... "
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Deboche",
+			"text": "Meu caro, vou lhe dar um concelho: [shake rate=70 level=15]NUNCA[/shake] confie nas aparências. \nPor causa disso, acabei perdendo praticamente toda minha matéria-prima."
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Perdeu sua matéria-prima",
+					"Boto",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/pencil-writing.ogg",
+			"volume": 10
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "..."
+		},
+		{
+			"choice": "Se não é a Cuca, de quem você está falando?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657839903.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Matéria-prima?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657839741.json",
+		"name": "d2-b15"
+	}
+}
