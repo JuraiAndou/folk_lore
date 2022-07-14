@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Raiva",
+			"text": "Detetive, você já me estressou o suficiente."
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Não estou com cabeça para relembrar o que aconteceu"
+		},
+		{
+			"choice": "u realmente preciso que você me fale qual o seu problema com a Iara",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657840437.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Me diga, o que você fazia na manhã em que o corpo do Curupira foi encontrado?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657840775.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657840310.json",
+		"name": "d2-b23"
+	}
+}

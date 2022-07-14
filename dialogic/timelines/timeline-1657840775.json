@@ -3,39 +3,21 @@
 		{
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Bem..."
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
 			"portrait": "Deboche",
-			"text": "Humpft."
-		},
-		{
-			"character": "character-1657838962.json",
-			"event_id": "dialogic_001",
-			"portrait": "Raiva",
-			"text": "Daquela mulher peixe... Aquela maldita sereia...\n..."
-		},
-		{
-			"character": "character-1657838962.json",
-			"event_id": "dialogic_001",
-			"portrait": "Raiva",
-			"text": "[shake rate=70 level=15]IARA![/shake]"
+			"text": "Eu estava apenas nadando pelos meus rios."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Iara vive no rio Pajeú",
+					"Disse que estava apenas nadando pelos seus rios no dia do crime",
 					"Boto",
-					"infoTablet"
-				],
-				"method_name": "setInfosInterrogatorio",
-				"target_node_path": "Interrogatorio/observer"
-			},
-			"event_id": "dialogic_042"
-		},
-		{
-			"call_node": {
-				"arguments": [
-					"Iara",
-					"Boto",
-					"novoSus"
+					"infoTrue"
 				],
 				"method_name": "setInfosInterrogatorio",
 				"target_node_path": "Interrogatorio/observer"
@@ -59,7 +41,7 @@
 			"character": "character-1657290344.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Tablet",
+			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -93,19 +75,13 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1654883893.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Preciso que você mantenha a calma e me explique melhor."
-		},
-		{
-			"change_timeline": "timeline-1657840183.json",
+			"change_timeline": "",
 			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657839903.json",
-		"name": "d2-b18"
+		"file": "timeline-1657840775.json",
+		"name": "d2-b25"
 	}
 }

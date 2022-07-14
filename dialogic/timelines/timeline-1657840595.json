@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Raiva",
+			"text": "Eu cansei disso, detetive. Vejo que não vou poder contribuir com o seu caso.\nSendo assim, vou retornar para minhas águas. Boa sorte com isso! "
+		},
+		{
+			"change_scene": "res://scr/Menus/Ficha.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657840595.json",
+		"name": "d2-bFinal1"
+	}
+}

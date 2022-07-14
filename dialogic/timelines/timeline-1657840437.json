@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Raiva",
+			"text": "Prefiro não falar sobre isso..."
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Raiva",
+			"question": "Caso continue insistido, terei que me retirar."
+		},
+		{
+			"choice": "Isso pode ser muito importante para o caso. Me fale o que aconteceu entre você e a Iara?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657840595.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Então me diga, o que você fazia na manhã em que o corpo foi encontrado?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657840775.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657840437.json",
+		"name": "d2-b24"
+	}
+}
