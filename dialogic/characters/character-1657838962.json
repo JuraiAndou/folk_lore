@@ -1,0 +1,33 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1657838962.json",
+	"mirror_portraits": false,
+	"name": "Boto",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 170,
+	"offset_y": -190,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://resources/Personagens/boto/Boto-sprites2.png"
+		},
+		{
+			"name": "Deboche",
+			"path": "res://resources/Personagens/boto/Boto-sprites3.png"
+		},
+		{
+			"name": "Raiva",
+			"path": "res://resources/Personagens/boto/Boto-sprites4.png"
+		},
+		{
+			"name": "Sorriso",
+			"path": "res://resources/Personagens/boto/Boto-sprites1.png"
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1654882462.cfg"
+}
