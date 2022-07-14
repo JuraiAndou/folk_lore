@@ -70,9 +70,16 @@ func _on_Config_mouse_exited():
 	$Itens/Config/Sprite.play("idle")
 
 #Botão de finalizar dia
-func _on_FimDoDia_pressed():
-	Mundo.interrogatorios = 2
-	DataManagement.dataDictionary["Mundo"]["interrogatorio"] = Mundo.interrogatorios
-	DataManagement.saveData()
-		
-	get_tree().change_scene("res://scr/Anoitecer/Anoitecer.tscn")
+func _on_EndDay_input_event(viewport, event, shape_idx):
+	if Input.is_mouse_button_pressed(1):
+		Mundo.interrogatorios = 2
+		DataManagement.dataDictionary["Mundo"]["interrogatorio"] = Mundo.interrogatorios
+		DataManagement.saveData()
+			
+		get_tree().change_scene("res://scr/Anoitecer/Anoitecer.tscn")
+
+func _on_EndDay_mouse_entered():
+	$Itens/EndDay/Sprite.play("hover")
+
+func _on_EndDay_mouse_exited():
+	$Itens/EndDay/Sprite.play("idle")

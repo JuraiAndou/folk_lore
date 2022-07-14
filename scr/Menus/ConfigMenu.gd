@@ -11,7 +11,7 @@ func _on_botao_voltar_mouse_exited():
 	$botao_voltar/AnimatedSprite.play("idle")
 
 func _on_botao_voltar_input_event(viewport, event, shape_idx):
-	if Input.is_mouse_button_pressed(1):
+	if Input.is_action_just_released("click"):
 		$botao_voltar/AnimatedSprite.play("click")
 		get_tree().change_scene("res://scr/Menus/MainMenu.tscn")
 
@@ -20,7 +20,7 @@ func _on_botao_voltar_mouse_entered():
 
 #botão de apagar save____________________________________________________
 func _on_ApagarSave_input_event(viewport, event, shape_idx):
-	if Input.is_mouse_button_pressed(1):
+	if Input.is_action_just_released("click"):
 		DataManagement.dataDictionary = {
 		"Cuca": {
 				"nome": "Desconhecido(a)",
@@ -89,7 +89,7 @@ func _on_ApagarSave_mouse_exited():
 
 #botão de sair do jogo___________________________________________________
 func _on_sair_input_event(viewport, event, shape_idx):
-	if Input.is_mouse_button_pressed(1):
+	if Input.is_action_just_released("click"):
 		get_tree().quit()
 
 func _on_sair_mouse_entered():
@@ -100,7 +100,7 @@ func _on_sair_mouse_exited():
 
 #botão fullscreen-----------------------------
 func _on_FullScreen_input_event(viewport, event, shape_idx):
-	if Input.is_mouse_button_pressed(1):
+	if Input.is_action_just_released("click"):
 		OS.window_fullscreen = !OS.window_fullscreen
 		$fundo/itens/FullScreen/Sprite.play(str(OS.window_fullscreen))
 		
@@ -115,7 +115,7 @@ func _on_FullScreen_mouse_exited():
 
 #botão de mute----------------------------------------
 func _on_mute_input_event(viewport, event, shape_idx):
-	if Input.is_mouse_button_pressed(1):
+	if Input.is_action_just_released("click"):
 		AudioServer.set_bus_mute(Mundo.music_bus, not AudioServer.is_bus_mute(Mundo.music_bus))
 		$fundo/itens/mute/Sprite.play(str(AudioServer.is_bus_mute(Mundo.music_bus)))
 		

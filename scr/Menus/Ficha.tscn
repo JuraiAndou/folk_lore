@@ -34,24 +34,24 @@ animations = [ {
 "name": "idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 12 ) ],
-"loop": true,
-"name": "Boto",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 5 ) ],
-"loop": true,
-"name": "Cuca",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "Iara",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 12 ) ],
+"loop": true,
+"name": "Boto",
+"speed": 5.0
+}, {
 "frames": [ SubResource( 5 ) ],
 "loop": true,
 "name": "Saci",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "Cuca",
 "speed": 5.0
 } ]
 
@@ -62,24 +62,24 @@ animations = [ {
 "name": "Idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 19 ) ],
-"loop": true,
-"name": "Boto",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 10 ) ],
-"loop": true,
-"name": "Cuca",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 20 ) ],
 "loop": true,
 "name": "Iara",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 19 ) ],
+"loop": true,
+"name": "Boto",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 21 ) ],
 "loop": true,
 "name": "Saci",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "Cuca",
 "speed": 5.0
 } ]
 
@@ -93,24 +93,24 @@ animations = [ {
 "name": "Idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 16 ) ],
-"loop": true,
-"name": "Boto",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 18 ) ],
-"loop": true,
-"name": "Cuca",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 11 ) ],
 "loop": true,
 "name": "Iara",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 16 ) ],
+"loop": true,
+"name": "Boto",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 17 ) ],
 "loop": true,
 "name": "Saci",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 18 ) ],
+"loop": true,
+"name": "Cuca",
 "speed": 5.0
 } ]
 
@@ -301,9 +301,9 @@ anchor_top = 8.46
 anchor_right = -1.355
 anchor_bottom = 8.46
 margin_left = 2873.93
-margin_top = -8601.72
+margin_top = -8600.72
 margin_right = 3457.93
-margin_bottom = -8166.72
+margin_bottom = -8135.72
 rect_rotation = -1.5
 rect_pivot_offset = Vector2( -185.549, -53.9811 )
 custom_colors/font_color = Color( 0.0392157, 0.027451, 0.027451, 1 )
@@ -626,9 +626,9 @@ anims/RESET = SubResource( 11 )
 
 [node name="Fade" type="ColorRect" parent="Fadein"]
 margin_left = 7.0
-margin_top = -16.0
+margin_top = -17.0
 margin_right = 1921.0
-margin_bottom = 1087.0
+margin_bottom = 1086.0
 color = Color( 0.188235, 0.0588235, 0.0588235, 0 )
 __meta__ = {
 "_edit_use_anchors_": true
