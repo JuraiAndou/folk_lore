@@ -1,0 +1,55 @@
+{
+	"events": [
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sempre. Mas, cara, até isso o Curupira tava furando.\nTodas as noites nós íamos até o bar para beber e conversar, daí um dia cheguei primeiro e fiquei esperando o cara por duas horas."
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "raiva",
+			"text": "Duas horas!"
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "triste",
+			"question": "Velho, ele não avisou nada, só me deixou no vácuo, tá ligado? Na boa, Fiquei bem chateado..."
+		},
+		{
+			"choice": "Aconteceu algo no bar no dia que ele morreu?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657831350.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Você o perguntou porque ele não foi naquele dia?|",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657831360.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657830881.json",
+		"name": "d2-s10"
+	}
+}

@@ -3,13 +3,19 @@
 		{
 			"character": "character-1657422142.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Eu não sei, simplesmente parou de ir até a floresta."
+			"portrait": "raiva",
+			"text": "Nunca!"
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "triste",
+			"text": " Ele nunca me falou nada sobre isso."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Curupira se distanciou do Saci e parou de ir a floresta",
+					"Curupira escondia algo",
 					"Saci",
 					"infoTablet"
 				],
@@ -71,47 +77,23 @@
 		{
 			"character": "character-1657422142.json",
 			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Como falei, eu que precisei perguntar, mas o cara nunca me respondeu. "
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Em um dia ele estava lá e no outro não."
-		},
-		{
-			"character": "character-1657422142.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": "Ele se afastou de mim do nada."
-		},
-		{
-			"choice": "Você o perguntou sobre motivo disso ter acontecido?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1657828606.json",
-			"event_id": "dialogic_020"
-		},
-		{
-			"choice": "Como você reagiu a isso?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
+			"text": "E como você ficou com tudo isso?|20]]"
 		},
 		{
 			"change_timeline": "timeline-1657426127.json",
 			"event_id": "dialogic_020"
-		},
-		{
-			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657425975.json",
-		"name": "d2-s5"
+		"file": "timeline-1657828706.json",
+		"name": "d2-s22"
 	}
 }

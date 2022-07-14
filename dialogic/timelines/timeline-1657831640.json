@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "triste",
+			"text": "Cara, eu não acreditei no que eu vi. Senti um arrepio do pé a cabeça...\nMeu melhor amigo morto na minha frente..."
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Se eu estivesse com ele nesse dia, nada disso teria acontecido."
+		},
+		{
+			"choice": "Quem estava lá naquele dia?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657831630.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Todos reagiram da mesma forma?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657831891.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657831640.json",
+		"name": "d2-s26"
+	}
+}

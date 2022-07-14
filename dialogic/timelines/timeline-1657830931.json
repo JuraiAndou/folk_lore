@@ -3,15 +3,21 @@
 		{
 			"character": "character-1657422142.json",
 			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Ah, eu também abri as porteiras dos cercados, sumi com a chaves dos tratores... "
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Eu não sei, simplesmente parou de ir até a floresta."
+			"text": "..."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Curupira se distanciou do Saci e parou de ir a floresta",
+					"Sumiu com a chaves dos tratores no dia do crime",
 					"Saci",
-					"infoTablet"
+					"infoTrue"
 				],
 				"method_name": "setInfosInterrogatorio",
 				"target_node_path": "Interrogatorio/observer"
@@ -35,7 +41,7 @@
 			"character": "character-1657290344.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Tablet",
+			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -72,46 +78,22 @@
 			"character": "character-1657422142.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Em um dia ele estava lá e no outro não."
+			"text": "Essas coisas de sempre, ta ligado? Depois fui pro Mico Leão, como de costume."
 		},
 		{
-			"character": "character-1657422142.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
 			"portrait": "",
-			"question": "Ele se afastou de mim do nada."
+			"text": "Vocês sempre vão para o Mico Dourado?"
 		},
 		{
-			"choice": "Você o perguntou sobre motivo disso ter acontecido?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1657828606.json",
+			"change_timeline": "timeline-1657830881.json",
 			"event_id": "dialogic_020"
-		},
-		{
-			"choice": "Como você reagiu a isso?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1657426127.json",
-			"event_id": "dialogic_020"
-		},
-		{
-			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657425975.json",
-		"name": "d2-s5"
+		"file": "timeline-1657830931.json",
+		"name": "d2-s24"
 	}
 }

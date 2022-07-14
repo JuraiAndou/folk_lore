@@ -4,12 +4,12 @@
 			"character": "character-1657422142.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Eu não sei, simplesmente parou de ir até a floresta."
+			"text": "Eu, o Boto, o Corpo-Seco e, claro, a Cuca."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Curupira se distanciou do Saci e parou de ir a floresta",
+					"Saci, Boto e Corpo-Seco estavam no bar quando a Cuca chegou",
 					"Saci",
 					"infoTablet"
 				],
@@ -69,49 +69,19 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1657422142.json",
+			"character": "character-1654883893.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Em um dia ele estava lá e no outro não."
+			"text": "O que o Corpo-Seco fazia lá?"
 		},
 		{
-			"character": "character-1657422142.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": "Ele se afastou de mim do nada."
-		},
-		{
-			"choice": "Você o perguntou sobre motivo disso ter acontecido?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1657828606.json",
+			"change_timeline": "timeline-1657425838.json",
 			"event_id": "dialogic_020"
-		},
-		{
-			"choice": "Como você reagiu a isso?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1657426127.json",
-			"event_id": "dialogic_020"
-		},
-		{
-			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657425975.json",
-		"name": "d2-s5"
+		"file": "timeline-1657831630.json",
+		"name": "d2-s12"
 	}
 }

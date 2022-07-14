@@ -21,6 +21,12 @@
 			"text": "É difícil pensar que nunca mais poderemos fazer isso novamente."
 		},
 		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eu sei que é difícil falar sobre isso, mas preciso interrogar todos que podem saber de algo.\nAgora me diga, o que você fazia no dia da morte do Curupira?"
+		},
+		{
 			"change_timeline": "",
 			"event_id": "dialogic_020"
 		}

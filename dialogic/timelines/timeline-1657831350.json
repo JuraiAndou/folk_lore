@@ -1,0 +1,41 @@
+{
+	"events": [
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "triste",
+			"text": "Não, tudo na boa. Eu achava que ele iria furar de novo...\nDaí a Cuca chegou com o corpo. "
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Todo mundo ficou surpreso, cê tinha que ver."
+		},
+		{
+			"choice": "Quem estava lá?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Desculpe perguntar, mas como você reagiu?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657831350.json",
+		"name": "d2-s11"
+	}
+}

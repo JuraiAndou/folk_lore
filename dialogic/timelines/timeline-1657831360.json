@@ -3,23 +3,23 @@
 		{
 			"character": "character-1657422142.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": " Claro. Cara, era muito engraçado assustar quem passava por lá. Foi um tempo bom."
+			"portrait": "Default",
+			"text": "Claro que perguntei, mas tu acha que ele me respondeu? Não disse foi nada"
 		},
 		{
 			"character": "character-1654883893.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você vai continuar fazendo isso sozinho agora que ele está morto?"
+			"text": "Aconteceu algo no bar no dia que ele morreu?"
 		},
 		{
-			"change_timeline": "timeline-1657425643.json",
+			"change_timeline": "timeline-1657831350.json",
 			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657425482.json",
-		"name": "d2-s3"
+		"file": "timeline-1657831360.json",
+		"name": "d2-s25"
 	}
 }

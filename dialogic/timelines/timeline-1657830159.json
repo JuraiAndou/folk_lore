@@ -1,0 +1,43 @@
+{
+	"events": [
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Fiquei o dia todo lá e depois fui para o Mico Dourado, como a gente sempre vai."
+		},
+		{
+			"choice": "Vocês sempre vão para o Mico Dourado?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657830881.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Então você passou o dia inteiro só assutando crianças?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657830931.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657830159.json",
+		"name": "d2-s9"
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Cara, até cheguei a perguntar, mas ele sempre mudava de assunto."
+		},
+		{
+			"character": "character-1657422142.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Então, depois de um tempo, deixei de lado, ta ligado?"
+		},
+		{
+			"choice": "E como você ficou com tudo isso?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657426127.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Ele nunca falou nada para você?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657828706.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657828606.json",
+		"name": "d2-s6"
+	}
+}
