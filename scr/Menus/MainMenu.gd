@@ -1,18 +1,9 @@
 extends Node
 
-
 func _ready():	
+	$Mundo.playSong("Menu")
 	$Itens/Celular/Sprite.play("c"+ str(Mundo.interrogatorios))
 	$Itens/Calendar/Sprite.play("c"+ str(Mundo.dia))
-		
-	
-func _physics_process(delta):
-	if Mundo.interrogatorios <= 0:
-		Mundo.interrogatorios = 2
-		DataManagement.dataDictionary["Mundo"]["interrogatorio"] = Mundo.interrogatorios
-		DataManagement.saveData()
-		
-		get_tree().change_scene("res://scr/Anoitecer/Anoitecer.tscn")
 		
 #sinais da pasta
 func _on_Pasta_mouse_entered():
@@ -77,3 +68,11 @@ func _on_Config_mouse_entered():
 
 func _on_Config_mouse_exited():
 	$Itens/Config/Sprite.play("idle")
+
+#Botão de finalizar dia
+func _on_FimDoDia_pressed():
+	Mundo.interrogatorios = 2
+	DataManagement.dataDictionary["Mundo"]["interrogatorio"] = Mundo.interrogatorios
+	DataManagement.saveData()
+		
+	get_tree().change_scene("res://scr/Anoitecer/Anoitecer.tscn")

@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://resources/Logo (intro).png" type="Texture" id=1]
 [ext_resource path="res://scr/Menus/IntroMenu.gd" type="Script" id=2]
 [ext_resource path="res://resources/fontes/Courier Prime Bold.tres" type="DynamicFont" id=3]
+[ext_resource path="res://scr/DataManagement/Mundo.tscn" type="PackedScene" id=4]
 
 [sub_resource type="Animation" id=3]
 resource_name = "Nova Animação"
@@ -91,6 +92,8 @@ tracks/1/keys = {
 
 [node name="IntroMenu" type="Node"]
 script = ExtResource( 2 )
+
+[node name="Mundo" parent="." instance=ExtResource( 4 )]
 
 [node name="Logo(intro)" type="Sprite" parent="."]
 position = Vector2( -571.299, -371.547 )

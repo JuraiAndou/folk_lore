@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://resources/fontes/Courier Prime Bold Cutscene.tres" type="DynamicFont" id=1]
 [ext_resource path="res://resources/fontes/Courier Prime Bold.tres" type="DynamicFont" id=2]
 [ext_resource path="res://scr/Anoitecer/Anoitecer.gd" type="Script" id=3]
+[ext_resource path="res://scr/DataManagement/Mundo.tscn" type="PackedScene" id=4]
 
 [sub_resource type="Animation" id=1]
 resource_name = "Nova Animação"
@@ -311,53 +312,48 @@ anims/RESET = SubResource( 2 )
 [node name="Label" type="Label" parent="AnimationPlayer"]
 margin_left = 391.0
 margin_top = 170.0
-margin_right = 5077.0
+margin_right = 1668.0
 margin_bottom = 261.0
 custom_colors/font_color = Color( 0.952941, 0.803922, 0.129412, 1 )
 custom_fonts/font = ExtResource( 1 )
-text = "Mais uma vez a noite cai na cidade......
-"
+autowrap = true
 
 [node name="Label2" type="Label" parent="AnimationPlayer"]
 margin_left = 391.0
 margin_top = 272.0
-margin_right = 1483.0
+margin_right = 1763.0
 margin_bottom = 410.0
 custom_colors/font_color = Color( 0.952941, 0.803922, 0.129412, 1 )
 custom_fonts/font = ExtResource( 1 )
-text = ".... um dia dificil para todos, uma perda,
-uma morte, um inocente?
-"
+autowrap = true
+clip_text = true
 
 [node name="Label3" type="Label" parent="AnimationPlayer"]
 margin_left = 391.0
 margin_top = 412.0
-margin_right = 1509.0
+margin_right = 1669.0
 margin_bottom = 550.0
 custom_colors/font_color = Color( 0.952941, 0.803922, 0.129412, 1 )
 custom_fonts/font = ExtResource( 1 )
-text = "Não se sabe muito do que ocorreu, e aparen-
-temente as pessoas que sabem se recusam a 
-ajudar....."
+autowrap = true
 
 [node name="Label4" type="Label" parent="AnimationPlayer"]
 margin_left = 391.0
 margin_top = 607.0
-margin_right = 1509.0
+margin_right = 1789.0
 margin_bottom = 745.0
 custom_colors/font_color = Color( 0.952941, 0.803922, 0.129412, 1 )
 custom_fonts/font = ExtResource( 1 )
-text = ".....argg..... o que fazer?"
+autowrap = true
 
 [node name="Label5" type="Label" parent="AnimationPlayer"]
 margin_left = 391.0
 margin_top = 707.0
-margin_right = 1561.0
+margin_right = 1705.0
 margin_bottom = 845.0
 custom_colors/font_color = Color( 0.952941, 0.803922, 0.129412, 1 )
 custom_fonts/font = ExtResource( 1 )
-text = "Na verdade não há muito o que pensar, tenho 
-apenas que continuar...."
+autowrap = true
 
 [node name="ComandAnimation" type="AnimationPlayer" parent="."]
 autoplay = "Nova Animação"
@@ -373,3 +369,5 @@ custom_colors/font_color = Color( 0.878431, 0.698039, 0, 1 )
 custom_fonts/font = ExtResource( 2 )
 text = "Pressione enter para continuar"
 align = 1
+
+[node name="Mundo" parent="." instance=ExtResource( 4 )]

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/celular e tablet.wav-b6b9e3347be1900afe79ee6d01a0dcb2.sample"
+
+[deps]
+
+source_file="res://resources/MainMenu/celular e tablet.wav"
+dest_files=[ "res://.import/celular e tablet.wav-b6b9e3347be1900afe79ee6d01a0dcb2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://resources/Tablet/TABLET placeholder.png" type="Texture" id=1]
 [ext_resource path="res://scr/Menus/Tablet.gd" type="Script" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://resources/MainMenu/hover-return.png" type="Texture" id=6]
 [ext_resource path="res://resources/MainMenu/neutral-return.png" type="Texture" id=7]
 [ext_resource path="res://resources/MainMenu/click-return.png" type="Texture" id=8]
+[ext_resource path="res://scr/DataManagement/Mundo.tscn" type="PackedScene" id=9]
 
 [sub_resource type="SpriteFrames" id=3]
 animations = [ {
@@ -74,6 +75,8 @@ tracks/1/keys = {
 
 [node name="Tablet" type="Node"]
 script = ExtResource( 2 )
+
+[node name="Mundo" parent="." instance=ExtResource( 9 )]
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 961, 540 )

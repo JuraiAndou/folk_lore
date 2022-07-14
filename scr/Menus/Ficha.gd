@@ -7,6 +7,8 @@ var listInfoTrue = []
 var listaInfoFalse = []
 
 func _ready():
+	$Mundo.playSong("openFicha")
+	$Mundo.playSong("Menu")
 	getSusp()
 
 func getSusp():
@@ -199,7 +201,7 @@ func _physics_process(delta):
 	
 #Essa função existe para o botão de interrogar so aparecer quando for possivel entrevistar o suspeito
 func questIsPossible():
-	if Mundo.dia == 1:
+	if Mundo.dia == 1 and Mundo.interrogatorios > 0:
 		if str(Mundo.suspAtual.getName()) == "Cuca":
 			$botaoInterrogar.visible = true
 			$botaoInterrogar/CollisionShape2D.disabled = false
@@ -207,7 +209,7 @@ func questIsPossible():
 			$botaoInterrogar.visible = false
 			$botaoInterrogar/CollisionShape2D.disabled = true
 			
-	elif Mundo.dia == 2:
+	elif Mundo.dia == 2 and Mundo.interrogatorios > 0:
 		if str(Mundo.suspAtual.getName()) == "Boto":
 			$botaoInterrogar.visible = true
 			$botaoInterrogar/CollisionShape2D.disabled = false

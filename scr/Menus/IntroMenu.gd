@@ -3,6 +3,7 @@ var Personagem = load("Personagem.gd")
 var cutScene
 
 func _ready():
+	$Mundo.playSong("Menu")
 	var file = File.new()
 	if file.file_exists("user://userSave.dat"):
 		DataManagement.loadData()

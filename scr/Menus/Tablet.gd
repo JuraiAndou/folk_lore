@@ -2,7 +2,8 @@ extends Node
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	print(Mundo.tabletInfos)
+	$Mundo.playSong("openDisp")
+	$Mundo.playSong("Menu")
 
 func showPostIts():
 	match len(Mundo.tabletInfos):
@@ -12,22 +13,47 @@ func showPostIts():
 			$Sprite/Postits/post1/Sprite.visible = true
 		
 		2:
+			$Sprite/Postits/post1/Sprite.visible = true
 			$Sprite/Postits/post2/Sprite.visible = true
 			$Sprite/Postits/post2/Line.visible = true
 			
 		3:
+			$Sprite/Postits/post1/Sprite.visible = true
+			$Sprite/Postits/post2/Sprite.visible = true
+			$Sprite/Postits/post2/Line.visible = true
 			$Sprite/Postits/post3/Sprite.visible = true
 			$Sprite/Postits/post3/Line.visible = true
 		
 		4:
+			$Sprite/Postits/post1/Sprite.visible = true
+			$Sprite/Postits/post2/Sprite.visible = true
+			$Sprite/Postits/post2/Line.visible = true
+			$Sprite/Postits/post3/Sprite.visible = true
+			$Sprite/Postits/post3/Line.visible = true
 			$Sprite/Postits/post4/Sprite.visible = true
 			$Sprite/Postits/post4/Line.visible = true
 		
 		5:
+			$Sprite/Postits/post1/Sprite.visible = true
+			$Sprite/Postits/post2/Sprite.visible = true
+			$Sprite/Postits/post2/Line.visible = true
+			$Sprite/Postits/post3/Sprite.visible = true
+			$Sprite/Postits/post3/Line.visible = true
+			$Sprite/Postits/post4/Sprite.visible = true
+			$Sprite/Postits/post4/Line.visible = true
 			$Sprite/Postits/post5/Sprite.visible = true
 			$Sprite/Postits/post5/Line.visible = true
 		
 		6:
+			$Sprite/Postits/post1/Sprite.visible = true
+			$Sprite/Postits/post2/Sprite.visible = true
+			$Sprite/Postits/post2/Line.visible = true
+			$Sprite/Postits/post3/Sprite.visible = true
+			$Sprite/Postits/post3/Line.visible = true
+			$Sprite/Postits/post4/Sprite.visible = true
+			$Sprite/Postits/post4/Line.visible = true
+			$Sprite/Postits/post5/Sprite.visible = true
+			$Sprite/Postits/post5/Line.visible = true
 			$Sprite/Postits/post6/Sprite.visible = true
 			$Sprite/Postits/post6/Line.visible = true
 		

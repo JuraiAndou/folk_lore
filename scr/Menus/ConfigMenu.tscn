@@ -1,20 +1,112 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=33 format=2]
 
 [ext_resource path="res://scr/Menus/ConfigMenu.gd" type="Script" id=1]
-[ext_resource path="res://resources/Cutscene/videoplayback.mp3" type="AudioStream" id=2]
+[ext_resource path="res://scr/DataManagement/Mundo.tscn" type="PackedScene" id=2]
 [ext_resource path="res://resources/MainMenu/hover-return.png" type="Texture" id=3]
 [ext_resource path="res://resources/MainMenu/neutral-return.png" type="Texture" id=4]
 [ext_resource path="res://resources/MainMenu/click-return.png" type="Texture" id=5]
+[ext_resource path="res://addons/dialogic/Nodes/DialogicCustomEvents.gd" type="Script" id=6]
+[ext_resource path="res://resources/Configurações/configuração/fullscreen-nope.png" type="Texture" id=7]
+[ext_resource path="res://resources/Configurações/configuração/hover-sair.png" type="Texture" id=8]
+[ext_resource path="res://resources/Configurações/configuração/hover-som-off.png" type="Texture" id=9]
+[ext_resource path="res://resources/Configurações/configuração/fullscreen(hover).png" type="Texture" id=10]
+[ext_resource path="res://resources/Configurações/configuração/botão-sair1.png" type="Texture" id=11]
+[ext_resource path="res://resources/Configurações/configuração/botão-save.png" type="Texture" id=12]
+[ext_resource path="res://resources/Configurações/configuração/fullscreen-nope(hover).png" type="Texture" id=13]
+[ext_resource path="res://resources/Configurações/configuração/som-on.png" type="Texture" id=14]
+[ext_resource path="res://resources/Configurações/configuração/hover-som-on.png" type="Texture" id=15]
+[ext_resource path="res://resources/Configurações/configuração/fullscreen.png" type="Texture" id=16]
+[ext_resource path="res://resources/Configurações/configuração/som-off.png" type="Texture" id=17]
+[ext_resource path="res://resources/Celular/CELULAR_CLOSE_1.png" type="Texture" id=18]
+[ext_resource path="res://resources/Configurações/configuração/conf-tela.png" type="Texture" id=19]
+[ext_resource path="res://resources/Configurações/configuração/hover-save.png" type="Texture" id=20]
 
-[sub_resource type="Theme" id=1]
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 17 ) ],
+"loop": true,
+"name": "True",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ) ],
+"loop": true,
+"name": "TrueHover",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 14 ) ],
+"loop": true,
+"name": "False",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 15 ) ],
+"loop": true,
+"name": "FalseHover",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 75, 80.5 )
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ ExtResource( 7 ) ],
+"loop": true,
+"name": "True",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ) ],
+"loop": true,
+"name": "TrueHover",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 16 ) ],
+"loop": true,
+"name": "False",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "FalseHover",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 75, 80.75 )
+
+[sub_resource type="SpriteFrames" id=8]
+animations = [ {
+"frames": [ ExtResource( 12 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 20 ) ],
+"loop": true,
+"name": "hover",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 205.5, 51.5 )
+
+[sub_resource type="SpriteFrames" id=10]
+animations = [ {
+"frames": [ ExtResource( 11 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ) ],
+"loop": true,
+"name": "hover",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=11]
+extents = Vector2( 207.5, 57 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 5 ) ],
-"loop": true,
-"name": "click",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "idle",
@@ -24,48 +116,122 @@ animations = [ {
 "loop": true,
 "name": "hover",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "click",
+"speed": 5.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=3]
 extents = Vector2( 34, 34 )
 
+[sub_resource type="Animation" id=12]
+resource_name = "Nova Animação"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Fadein/Fade:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=13]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Fadein/Fade:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Fadein/Fade:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0.188235, 0.0588235, 0.0588235, 0 ) ]
+}
+
 [node name="Control" type="Node"]
 script = ExtResource( 1 )
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 2 )
-autoplay = true
+[node name="Mundo" parent="." instance=ExtResource( 2 )]
 
-[node name="fundo_menu" type="ColorRect" parent="."]
-margin_left = 567.0
-margin_top = 134.0
-margin_right = 1347.0
-margin_bottom = 990.0
-theme = SubResource( 1 )
-color = Color( 0.769531, 0.616046, 0.147293, 1 )
+[node name="fundo" type="Sprite" parent="."]
+position = Vector2( 960, 542 )
+texture = ExtResource( 18 )
 
-[node name="mute" type="CheckBox" parent="fundo_menu"]
-margin_left = 135.0
-margin_top = 176.0
-margin_right = 159.0
-margin_bottom = 204.0
-rect_scale = Vector2( 10.1624, 10.1624 )
-flat = true
+[node name="fundo_menu" type="Sprite" parent="fundo"]
+position = Vector2( 32, -63 )
+scale = Vector2( 1.13385, 1.13385 )
+texture = ExtResource( 19 )
 
-[node name="Fullscreen" type="CheckBox" parent="fundo_menu"]
-margin_left = 375.0
-margin_top = 176.0
-margin_right = 399.0
-margin_bottom = 204.0
-rect_scale = Vector2( 10.1624, 10.1624 )
-flat = true
+[node name="itens" type="Node" parent="fundo"]
+script = ExtResource( 6 )
 
-[node name="Button" type="Button" parent="fundo_menu"]
-margin_left = 209.0
-margin_top = 573.0
-margin_right = 554.0
-margin_bottom = 682.0
-text = "apagar save"
+[node name="mute" type="Area2D" parent="fundo/itens"]
+position = Vector2( 7, -13 )
+
+[node name="Sprite" type="AnimatedSprite" parent="fundo/itens/mute"]
+position = Vector2( 855, 392 )
+frames = SubResource( 4 )
+animation = "TrueHover"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="fundo/itens/mute"]
+position = Vector2( 855, 389.5 )
+shape = SubResource( 5 )
+
+[node name="FullScreen" type="Area2D" parent="fundo/itens"]
+position = Vector2( 277, -13 )
+
+[node name="Sprite" type="AnimatedSprite" parent="fundo/itens/FullScreen"]
+position = Vector2( 855, 392 )
+frames = SubResource( 6 )
+animation = "TrueHover"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="fundo/itens/FullScreen"]
+position = Vector2( 859, 393.25 )
+shape = SubResource( 7 )
+
+[node name="ApagarSave" type="Area2D" parent="fundo/itens"]
+position = Vector2( 146, 198 )
+
+[node name="Sprite" type="AnimatedSprite" parent="fundo/itens/ApagarSave"]
+position = Vector2( 853, 392 )
+frames = SubResource( 8 )
+animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="fundo/itens/ApagarSave"]
+position = Vector2( 850.5, 392.5 )
+shape = SubResource( 9 )
+
+[node name="sair" type="Area2D" parent="fundo/itens"]
+position = Vector2( 146, 381 )
+
+[node name="Sprite" type="AnimatedSprite" parent="fundo/itens/sair"]
+position = Vector2( 853, 392 )
+frames = SubResource( 10 )
+animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="fundo/itens/sair"]
+position = Vector2( 856.5, 395 )
+shape = SubResource( 11 )
 
 [node name="botao_voltar" type="Area2D" parent="."]
 position = Vector2( 19, -12 )
@@ -79,9 +245,34 @@ animation = "idle"
 position = Vector2( 96, 991 )
 shape = SubResource( 3 )
 
-[connection signal="pressed" from="fundo_menu/mute" to="." method="_on_mute_pressed"]
-[connection signal="pressed" from="fundo_menu/Fullscreen" to="." method="_on_Fullscreen_pressed"]
-[connection signal="pressed" from="fundo_menu/Button" to="." method="_on_Button_pressed"]
+[node name="Fadein" type="AnimationPlayer" parent="."]
+autoplay = "Nova Animação"
+"anims/Nova Animação" = SubResource( 12 )
+anims/RESET = SubResource( 13 )
+
+[node name="Fade" type="ColorRect" parent="Fadein"]
+margin_left = 7.0
+margin_top = -16.0
+margin_right = 1921.0
+margin_bottom = 1087.0
+color = Color( 0.188235, 0.0588235, 0.0588235, 0 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[connection signal="input_event" from="fundo/itens/mute" to="." method="_on_mute_input_event"]
+[connection signal="mouse_entered" from="fundo/itens/mute" to="." method="_on_mute_mouse_entered"]
+[connection signal="mouse_exited" from="fundo/itens/mute" to="." method="_on_mute_mouse_exited"]
+[connection signal="input_event" from="fundo/itens/FullScreen" to="." method="_on_FullScreen_input_event"]
+[connection signal="mouse_entered" from="fundo/itens/FullScreen" to="." method="_on_FullScreen_mouse_entered"]
+[connection signal="mouse_exited" from="fundo/itens/FullScreen" to="." method="_on_FullScreen_mouse_exited"]
+[connection signal="input_event" from="fundo/itens/ApagarSave" to="." method="_on_ApagarSave_input_event"]
+[connection signal="mouse_entered" from="fundo/itens/ApagarSave" to="." method="_on_ApagarSave_mouse_entered"]
+[connection signal="mouse_exited" from="fundo/itens/ApagarSave" to="." method="_on_ApagarSave_mouse_exited"]
+[connection signal="input_event" from="fundo/itens/sair" to="." method="_on_sair_input_event"]
+[connection signal="mouse_entered" from="fundo/itens/sair" to="." method="_on_sair_mouse_entered"]
+[connection signal="mouse_exited" from="fundo/itens/sair" to="." method="_on_sair_mouse_exited"]
 [connection signal="input_event" from="botao_voltar" to="." method="_on_botao_voltar_input_event"]
 [connection signal="mouse_entered" from="botao_voltar" to="." method="_on_botao_voltar_mouse_entered"]
 [connection signal="mouse_exited" from="botao_voltar" to="." method="_on_botao_voltar_mouse_exited"]
+[connection signal="animation_finished" from="Fadein" to="." method="_on_Fadein_animation_finished"]

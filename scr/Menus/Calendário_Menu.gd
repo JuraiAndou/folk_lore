@@ -1,6 +1,9 @@
 extends Node
 
 func _ready():
+	$Mundo.playSong("openCalender")
+	$Mundo.playSong("Menu")
+	$texto.set_text("Ainda tenho "+ str(6 - Mundo.dia) + " dia(s) para resolver o caso !!")
 	$Sprite.play("Dia " + str(Mundo.dia))
 
 func _physics_process(delta):

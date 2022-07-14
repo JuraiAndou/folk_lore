@@ -1,6 +1,9 @@
 extends Node
 
 func _ready():
+	$Mundo.playSong("openDisp")
+	$Mundo.playSong("Menu")
+	$texto.set_text("Ainda posso fazer "+ str(Mundo.interrogatorios) + " interrogatório(s) hoje!")
 	$Sprite.play("Celular " + str(Mundo.interrogatorios))
 
 func _physics_process(delta):
