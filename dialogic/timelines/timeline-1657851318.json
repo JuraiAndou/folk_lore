@@ -3,15 +3,15 @@
 		{
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
-			"portrait": "Default",
-			"text": "Confesso que não sei muita coisa. Na verdade, vi eles dois juntos há algum tempo... uma semana, talvez?"
+			"portrait": "Raiva",
+			"text": "Um acordo, simples assim, feito com a pior bruxa que já conheci em toda minha vida."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Curupira e Iara fora vistos juntos uns dias antes do assassinato",
+					"Fez um acordo com alguém",
 					"Boto",
-					"infoTablet"
+					"infoTrue"
 				],
 				"method_name": "setInfosInterrogatorio",
 				"target_node_path": "Interrogatorio/observer"
@@ -35,7 +35,7 @@
 			"character": "character-1657290344.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Tablet",
+			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -69,43 +69,25 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Raiva",
+			"text": "Aquela miserável saiu no lucro."
+		},
+		{
 			"character": "character-1654883893.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
+			"event_id": "dialogic_001",
 			"portrait": "",
-			"question": "..."
+			"text": "Que tipo de acordo você fez?"
 		},
 		{
-			"choice": "Então eles eram amigos?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1657847276.json",
+			"change_timeline": "timeline-1657849661.json",
 			"event_id": "dialogic_020"
-		},
-		{
-			"choice": "Preciso saber o que você fazia no dia da morte do Curupira.",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1657847199.json",
-			"event_id": "dialogic_020"
-		},
-		{
-			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657846940.json",
-		"name": "d2-b35"
+		"file": "timeline-1657851318.json",
+		"name": "d2-19"
 	}
 }

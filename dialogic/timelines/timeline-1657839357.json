@@ -85,6 +85,10 @@
 			"value": ""
 		},
 		{
+			"change_timeline": "timeline-1657849027.json",
+			"event_id": "dialogic_020"
+		},
+		{
 			"choice": "Que tipo de acordo você fez?",
 			"condition": "",
 			"definition": "",
@@ -92,7 +96,7 @@
 			"value": ""
 		},
 		{
-			"change_timeline": "",
+			"change_timeline": "timeline-1657844786.json",
 			"event_id": "dialogic_020"
 		},
 		{

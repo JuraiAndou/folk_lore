@@ -111,6 +111,10 @@
 			"value": ""
 		},
 		{
+			"change_timeline": "timeline-1657849868.json",
+			"event_id": "dialogic_020"
+		},
+		{
 			"choice": "Com quem você fez esse acordo?",
 			"condition": "",
 			"definition": "",

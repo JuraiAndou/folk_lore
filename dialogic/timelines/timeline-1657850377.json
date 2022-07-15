@@ -3,15 +3,21 @@
 		{
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
-			"portrait": "Default",
-			"text": "Confesso que não sei muita coisa. Na verdade, vi eles dois juntos há algum tempo... uma semana, talvez?"
+			"portrait": "Raiva",
+			"text": "Com a maldita daquela sereia..."
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "IARA!"
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Curupira e Iara fora vistos juntos uns dias antes do assassinato",
+					"Iara",
 					"Boto",
-					"infoTablet"
+					"novoSus"
 				],
 				"method_name": "setInfosInterrogatorio",
 				"target_node_path": "Interrogatorio/observer"
@@ -35,7 +41,7 @@
 			"character": "character-1657290344.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Tablet",
+			"portrait": "PopUp_Suspeito",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -78,25 +84,25 @@
 			"question": "..."
 		},
 		{
-			"choice": "Então eles eram amigos?",
+			"choice": "Então seu acordo com a Iara fez ela ficar com um rio bem frequentado?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657847276.json",
+			"change_timeline": "timeline-1657849868.json",
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": "Preciso saber o que você fazia no dia da morte do Curupira.",
+			"choice": "Você acha que ela pode estar envolvida com o caso?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657847199.json",
+			"change_timeline": "timeline-1657846496.json",
 			"event_id": "dialogic_020"
 		},
 		{
@@ -105,7 +111,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657846940.json",
-		"name": "d2-b35"
+		"file": "timeline-1657850377.json",
+		"name": "d2-b12"
 	}
 }

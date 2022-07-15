@@ -4,7 +4,7 @@
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
 			"portrait": "Raiva",
-			"text": "Certamente! Aquela bruxa não me passou a perna, ou melhor, a cauda por uma razão qualquer."
+			"text": "Soubesse que esse acordo era furada... Eu pensava que estava ganhando com aquilo."
 		},
 		{
 			"character": "character-1657838962.json",
@@ -13,28 +13,28 @@
 
 			],
 			"portrait": "",
-			"question": "Ela devia estar planejando algo há muito tempo."
+			"question": "Humpft. Fui ludibriado... tão facilmente quanto se engana uma criança."
 		},
 		{
-			"choice": "Qual era a relação dela com o Curupira?",
+			"choice": "Que tipo de acordo você fez?|",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657846940.json",
+			"change_timeline": "timeline-1657849661.json",
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": " Eu preciso saber o que você fazia no dia da morte do Curupira.",
+			"choice": "Com que você fez esse acordo?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657846704.json",
+			"change_timeline": "timeline-1657850594.json",
 			"event_id": "dialogic_020"
 		},
 		{
@@ -43,7 +43,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657846496.json",
-		"name": "d2-b33"
+		"file": "timeline-1657850640.json",
+		"name": "d2-b8"
 	}
 }

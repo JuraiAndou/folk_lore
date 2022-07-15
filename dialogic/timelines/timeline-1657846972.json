@@ -81,7 +81,7 @@
 			"text": "Ainda estava escuro, mas dava pra ver que ela andava diferente, como se tivesse dificuldade."
 		},
 		{
-			"character": "",
+			"character": "character-1657838962.json",
 			"event_id": "dialogic_010",
 			"options": [
 
@@ -106,6 +106,10 @@
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657847914.json",
+			"event_id": "dialogic_020"
 		},
 		{
 			"event_id": "dialogic_013"

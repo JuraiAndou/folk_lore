@@ -3,8 +3,8 @@
 		{
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
-			"portrait": "Raiva",
-			"text": "Certamente! Aquela bruxa não me passou a perna, ou melhor, a cauda por uma razão qualquer."
+			"portrait": "Deboche",
+			"text": "Ora, meu caro, não é segredo o que eu faço.\nMas pra isso preciso de matéria-prima e não há nada melhor do que um rio bem frequentado, como o rio Pajeú. "
 		},
 		{
 			"character": "character-1657838962.json",
@@ -12,29 +12,29 @@
 			"options": [
 
 			],
-			"portrait": "",
-			"question": "Ela devia estar planejando algo há muito tempo."
+			"portrait": "Raiva",
+			"question": "Entretanto, depois do acordo fiquei com quase nada, se ao menos eu soubesse antes..."
 		},
 		{
-			"choice": "Qual era a relação dela com o Curupira?",
+			"choice": "Que tipo de acordo você fez?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657846940.json",
+			"change_timeline": "timeline-1657851318.json",
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": " Eu preciso saber o que você fazia no dia da morte do Curupira.",
+			"choice": "\"Soubesse antes\" o que?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657846704.json",
+			"change_timeline": "timeline-1657850640.json",
 			"event_id": "dialogic_020"
 		},
 		{
@@ -43,7 +43,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657846496.json",
-		"name": "d2-b33"
+		"file": "timeline-1657851308.json",
+		"name": "d2-17"
 	}
 }

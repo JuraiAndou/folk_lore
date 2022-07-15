@@ -4,12 +4,12 @@
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Confesso que não sei muita coisa. Na verdade, vi eles dois juntos há algum tempo... uma semana, talvez?"
+			"text": "Em certa época do ano, os humanos costumam frequentar bastante."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Curupira e Iara fora vistos juntos uns dias antes do assassinato",
+					"O rio Pajeú é bem frequentado em uma certa época",
 					"Boto",
 					"infoTablet"
 				],
@@ -69,34 +69,34 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1654883893.json",
+			"character": "character-1657838962.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
-			"portrait": "",
-			"question": "..."
+			"portrait": "Raiva",
+			"question": "Ao contrário dos outros... argh! Que vivem vazios."
 		},
 		{
-			"choice": "Então eles eram amigos?",
+			"choice": "E por que as pessoas frequentam aquele rio?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657847276.json",
+			"change_timeline": "timeline-1657849887.json",
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": "Preciso saber o que você fazia no dia da morte do Curupira.",
+			"choice": "Então por que você foi atrás de trocar o rio Pajeú?|",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657847199.json",
+			"change_timeline": "timeline-1657849946.json",
 			"event_id": "dialogic_020"
 		},
 		{
@@ -105,7 +105,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657846940.json",
-		"name": "d2-b35"
+		"file": "timeline-1657849868.json",
+		"name": "d2-b11"
 	}
 }
