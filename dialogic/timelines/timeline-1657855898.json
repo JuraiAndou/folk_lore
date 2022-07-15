@@ -1,0 +1,37 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Inimigos?\nNão, nós não temos inimigos.\nNinguém é inimigo de ninguém, no máximo não nos damos bem com alguém, mas não temos inimigos.\nO Curupira dizia que era amigo de todos, até da Cuca e do Corpo-Seco, eu nem me atrevo chegar perto dos dois."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entendo. Bem, Iara, por enquanto é isso.\nPreciso de um tempo para pensar e, caso precise, chamarei você novamente aqui."
+		},
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Obrigada."
+		},
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "Eu realmente não entendo porque isso aconteceu.\nPor favor, se descobrir algo, me avise. "
+		},
+		{
+			"change_scene": "res://scr/Menus/Ficha.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657855898.json",
+		"name": "d3-i9"
+	}
+}

@@ -1,6 +1,39 @@
 {
 	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "Default",
+			"question": "Na verdade, não. Antes de viver no rio Pajeú, eu morava em outros rios. "
+		},
+		{
+			"choice": "Outros rios?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657855286.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Por que decidiu ir pro rio Pajeú?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657855320.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",

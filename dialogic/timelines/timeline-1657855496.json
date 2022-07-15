@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "O Curupira não tinha casa fixa. Na verdade, a floresta era o seu lar.\nEle sabe praticamente de tudo que acontece nela.\nO rio Pajeú é o mais próximo da floresta onde ele estava, por isso queria tanto mudar para ele."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por que você queria ficar mais perto do Curupira"
+		},
+		{
+			"change_timeline": "timeline-1657855593.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657855496.json",
+		"name": "d3-i17"
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Eu fiz uma troca com o Boto. \nNa época eu tinha 3 rios que me pertenciam, mas todos eles são distantes do Pajéu.\nEntão, perguntei ao Boto se ele não tia interesse..."
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Trocou seus rios pelo rio Pajeú",
+					"Iara",
+					"infoTrue"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://resources/sfx/pencil-writing.ogg",
+			"volume": 10
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1657290344.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Não tinha interesse em ficar com nenhum deles, por isso ofereci os 3 em troca de 1.\nO Boto gostou tanto que aceitou na hora.\nFico feliz que ele esteja aproveitando, nunca mais o vi..."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você sabe dizer se o Curupira tinha algum inimigo?"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657855766.json",
+		"name": "d3-i8"
+	}
+}
