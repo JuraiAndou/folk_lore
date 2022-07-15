@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "O que normalmente faço."
+		},
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Sentei na beira do rio e cantei um pouco. É relaxante fazer isso."
+		},
+		{
+			"choice": "Não notou nada de diferente naquele dia?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657854880.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Você canta todos os dias?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657854153.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657854000.json",
+		"name": "d3-i3"
+	}
+}

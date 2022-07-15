@@ -4,12 +4,12 @@
 			"character": "character-1657852099.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Sim, é onde eu passo a maior parte do tempo."
+			"text": "Sim. Acho que não conseguiria viver sem isso"
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Vive no rio Pajeú",
+					"Iara canta todos os dias",
 					"Iara",
 					"infoTrue"
 				],
@@ -75,28 +75,28 @@
 
 			],
 			"portrait": "",
-			"question": "Embora eu também fique fora do rio."
+			"question": "Me faz bem."
 		},
 		{
-			"choice": "O que você fazia no dia da Morte do Curupira?",
+			"choice": "Você percebeu algo estranho no dia da morte do Curupira?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657853474.json",
+			"change_timeline": "timeline-1657854880.json",
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": "É ruim ficar fora da água?",
+			"choice": "Mas você sabe o que sua voz provoca nos outros, não sabe?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657852907.json",
+			"change_timeline": "timeline-1657854166.json",
 			"event_id": "dialogic_020"
 		},
 		{
@@ -105,7 +105,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657852710.json",
-		"name": "d3-i1"
+		"file": "timeline-1657854153.json",
+		"name": "d3-i13"
 	}
 }

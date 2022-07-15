@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Na verdade, não. Não sinto dor, sabe?"
+		},
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas depois de muito tempo fora do rio, sinto sua falta, como se eu tivesse uma ligação com ele."
+		},
+		{
+			"choice": "Como você faz para... ter pernas?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657853446.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Como assim \"uma ligação com o rio\"?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657853427.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657852907.json",
+		"name": "d3-i10"
+	}
+}

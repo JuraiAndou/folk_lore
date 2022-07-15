@@ -4,12 +4,18 @@
 			"character": "character-1657852099.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Sim, é onde eu passo a maior parte do tempo."
+			"text": "Eu..."
+		},
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "Eu queria ficar mais próxima do Curupira."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Vive no rio Pajeú",
+					"Iara queria viver mais perto do Curupira",
 					"Iara",
 					"infoTrue"
 				],
@@ -75,28 +81,28 @@
 
 			],
 			"portrait": "",
-			"question": "Embora eu também fique fora do rio."
+			"question": "Foi por isso que me mudei."
 		},
 		{
-			"choice": "O que você fazia no dia da Morte do Curupira?",
+			"choice": "O rio Pajéu é perto de onde ele vivia?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657853474.json",
+			"change_timeline": "timeline-1657855496.json",
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": "É ruim ficar fora da água?",
+			"choice": "Por que você queria ficar mais perto dele?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657852907.json",
+			"change_timeline": "timeline-1657855593.json",
 			"event_id": "dialogic_020"
 		},
 		{
@@ -105,7 +111,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657852710.json",
-		"name": "d3-i1"
+		"file": "timeline-1657855320.json",
+		"name": "d3-i6"
 	}
 }

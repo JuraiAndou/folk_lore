@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Isso vem se tornando cada vez mais comum, mas não passo todos os dias fazendo isso."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O que você fez no restante do dia?"
+		},
+		{
+			"change_timeline": "timeline-1657854000.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657853925.json",
+		"name": "d3-i12"
+	}
+}

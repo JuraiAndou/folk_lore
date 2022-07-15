@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "Eu sei...\nÉ por isso que sempre tento ir para um lugar vazio."
+		},
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mas as vezes acontecem alguns acidentes"
+		},
+		{
+			"choice": "Você percebeu algo estranho no dia da morte do Curupira?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657854880.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Que tipos de acidente?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657854191.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657854166.json",
+		"name": "d3-i14"
+	}
+}

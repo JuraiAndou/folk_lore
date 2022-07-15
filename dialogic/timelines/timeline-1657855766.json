@@ -4,12 +4,12 @@
 			"character": "character-1657852099.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Sim, é onde eu passo a maior parte do tempo."
+			"text": "Eu fiz uma troca com o Boto. \nNa época eu tinha 3 rios que me pertenciam, mas todos eles são distantes do Pajéu.\nEntão, perguntei ao Boto se ele não tia interesse..."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Vive no rio Pajeú",
+					"Trocou seus rios pelo rio Pajeú",
 					"Iara",
 					"infoTrue"
 				],
@@ -70,42 +70,20 @@
 		},
 		{
 			"character": "character-1657852099.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Não tinha interesse em ficar com nenhum deles, por isso ofereci os 3 em troca de 1.\nO Boto gostou tanto que aceitou na hora.\nFico feliz que ele esteja aproveitando, nunca mais o vi..."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
 			"portrait": "",
-			"question": "Embora eu também fique fora do rio."
-		},
-		{
-			"choice": "O que você fazia no dia da Morte do Curupira?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1657853474.json",
-			"event_id": "dialogic_020"
-		},
-		{
-			"choice": "É ruim ficar fora da água?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1657852907.json",
-			"event_id": "dialogic_020"
-		},
-		{
-			"event_id": "dialogic_013"
+			"text": "Você sabe dizer se o Curupira tinha algum inimigo?"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657852710.json",
-		"name": "d3-i1"
+		"file": "timeline-1657855766.json",
+		"name": "d3-i8"
 	}
 }

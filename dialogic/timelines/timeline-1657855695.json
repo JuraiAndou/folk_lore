@@ -3,13 +3,13 @@
 		{
 			"character": "character-1657852099.json",
 			"event_id": "dialogic_001",
-			"portrait": "Default",
-			"text": "Sim, é onde eu passo a maior parte do tempo."
+			"portrait": "",
+			"text": "Ele era meu melhor amigo... e o meu único."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Vive no rio Pajeú",
+					"Curupira era o melhor amigo de Iara",
 					"Iara",
 					"infoTrue"
 				],
@@ -69,43 +69,19 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1657852099.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
 			"portrait": "",
-			"question": "Embora eu também fique fora do rio."
+			"text": "O que você fez para conseguir morar no rio Pajeú?"
 		},
 		{
-			"choice": "O que você fazia no dia da Morte do Curupira?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1657853474.json",
+			"change_timeline": "timeline-1657855766.json",
 			"event_id": "dialogic_020"
-		},
-		{
-			"choice": "É ruim ficar fora da água?",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1657852907.json",
-			"event_id": "dialogic_020"
-		},
-		{
-			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657852710.json",
-		"name": "d3-i1"
+		"file": "timeline-1657855695.json",
+		"name": "d3-i18"
 	}
 }

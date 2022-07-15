@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Porque nós nos dávamos muito bem.\nNunca tive um amigo como o Curupira e, quando finalemente tive, ele morreu. "
+		},
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "sad",
+			"question": "Não sei o que eu fiz de errado."
+		},
+		{
+			"choice": "O que você fez para conseguir morar no rio Pajeú?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657855766.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Vocês eram só amigos?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657855695.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657855593.json",
+		"name": "d3-i7"
+	}
+}

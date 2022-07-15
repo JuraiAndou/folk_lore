@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Eu tinha posse de alguns outros rios, mas não do rio Pajeú."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por que decidiu ir pro rio Pajeú?"
+		},
+		{
+			"change_timeline": "timeline-1657855320.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657855286.json",
+		"name": "d3-i16"
+	}
+}
