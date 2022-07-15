@@ -1,7 +1,7 @@
 extends Node
 
 func _ready():	
-	if Mundo.dia == 4:
+	if Mundo.dia == 3:
 		get_tree().change_scene("res://scr/fim/fim_da_demo.tscn")
 	
 	$Mundo.playSong("Menu")

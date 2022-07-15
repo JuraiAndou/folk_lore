@@ -192,8 +192,8 @@ func drawLabels():
 				$Abas/ter/CollisionShape2D/sprite.play(str(Mundo.listaSuspeitos[2]))
 			
 			3:
-				$Abas/ter/CollisionShape2D.disabled = false
-				$Abas/ter/CollisionShape2D/sprite.play(str(Mundo.listaSuspeitos[3]))
+				$Abas/qua/CollisionShape2D.disabled = false
+				$Abas/qua/CollisionShape2D/sprite.play(str(Mundo.listaSuspeitos[3]))
 
 func _process(delta):
 	getSusp()
@@ -225,18 +225,15 @@ func questIsPossible():
 		elif str(Mundo.suspAtual.getName()) == "Saci":
 			$botaoInterrogar.visible = true
 			$botaoInterrogar/CollisionShape2D.disabled = false
+		
+		elif str(Mundo.suspAtual.getName()) == "Iara":
+			$botaoInterrogar.visible = true
+			$botaoInterrogar/CollisionShape2D.disabled = false
 			
 		else:
 			$botaoInterrogar.visible = false
 			$botaoInterrogar/CollisionShape2D.disabled = true
 		
-	elif Mundo.dia == 3 and Mundo.interrogatorios > 0:
-		if str(Mundo.suspAtual.getName()) == "Iara":
-			$botaoInterrogar.visible = true
-			$botaoInterrogar/CollisionShape2D.disabled = false
-		else:
-			$botaoInterrogar.visible = false
-			$botaoInterrogar/CollisionShape2D.disabled = true
 			
 #botão interrogar--------------------------------------------------------------
 func _on_boto_de_interrogar_mouse_entered():

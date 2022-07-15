@@ -21,12 +21,12 @@ hipass = 0.41
 wet = 0.19
 
 [resource]
-bus/0/mute = true
+bus/0/volume_db = 1.85375
 bus/1/name = "bg"
 bus/1/solo = false
-bus/1/mute = true
+bus/1/mute = false
 bus/1/bypass_fx = false
-bus/1/volume_db = -8.39965
+bus/1/volume_db = -0.130497
 bus/1/send = "Master"
 bus/2/name = "MosterGrow"
 bus/2/solo = false

@@ -79,6 +79,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Você sabe dizer se o Curupira tinha algum inimigo?"
+		},
+		{
+			"change_timeline": "timeline-1657855898.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {
