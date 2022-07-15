@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Isso foi a única coisa estranha que vi nesse dia."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bem, por enquanto era isso que tinha a lhe perguntar."
+		},
+		{
+			"change_timeline": "timeline-1657847796.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657847752.json",
+		"name": "d2-b28"
+	}
+}

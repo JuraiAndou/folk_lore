@@ -135,6 +135,16 @@
 			},
 			"type": 1,
 			"z_index": 0
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você acha que ela pode estar envolvida com o caso?"
+		},
+		{
+			"change_timeline": "",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {

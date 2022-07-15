@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": " E como eu saberia? Não segui o sujeito, apenas continuei minha trajetória."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Algo mais?"
+		},
+		{
+			"change_timeline": "timeline-1657847752.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657847970.json",
+		"name": "d2-b30"
+	}
+}

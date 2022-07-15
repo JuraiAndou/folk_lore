@@ -3,21 +3,21 @@
 		{
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
-			"portrait": "Default",
-			"text": "Bem..."
+			"portrait": "",
+			"text": "Algo de diferente?\n..."
 		},
 		{
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
-			"portrait": "Deboche",
-			"text": "Eu estava apenas nadando pelos meus rios."
+			"portrait": "",
+			"text": "Na madraguda daquele dia, enquanto transitava entre os rios, vi uma sombra no meio da mata."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Disse que estava apenas nadando pelos seus rios no dia do crime",
+					"Uma sombre foi vista no meio da mata na madrugada do crime",
 					"Boto",
-					"infoTrue"
+					"infoTablet"
 				],
 				"method_name": "setInfosInterrogatorio",
 				"target_node_path": "Interrogatorio/observer"
@@ -41,7 +41,7 @@
 			"character": "character-1657290344.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "Tablet",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -75,13 +75,45 @@
 			"z_index": 0
 		},
 		{
-			"change_timeline": "timeline-1657846972.json",
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ainda estava escuro, mas dava pra ver que ela andava diferente, como se tivesse dificuldade."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Tenho que lhe dizer, o sujeito parecia apressado."
+		},
+		{
+			"choice": "Algo mais?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657847752.json",
 			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Tem ideia de quem seja?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657840775.json",
-		"name": "d2-b25"
+		"file": "timeline-1657846972.json",
+		"name": "d2-b27"
 	}
 }

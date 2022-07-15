@@ -1,0 +1,43 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Deboche",
+			"question": "Meu caro, poderia ser qualquer um, até mesmo um humano."
+		},
+		{
+			"choice": "Para onde a sombra estava indo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657847970.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Algo mais?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657847752.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657847914.json",
+		"name": "d2-b29"
+	}
+}

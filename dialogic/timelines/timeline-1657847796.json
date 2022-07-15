@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Deboche",
+			"text": "Foi um prazer contribuir para sua investigação, caro amigo. Espero que tudo seja resolvido em breve.\nAté logo."
+		},
+		{
+			"change_scene": "res://scr/Menus/Ficha.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657847796.json",
+		"name": "d2-bFinal2"
+	}
+}

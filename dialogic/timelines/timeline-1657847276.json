@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sorriso",
+			"text": "Amigos? Humpft."
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Raiva",
+			"question": "Pareciam bem mais do que meros amigos."
+		},
+		{
+			"choice": "O que eles estavam fazendo quando você os viu?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657847387.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Preciso saber o que você fazia no dia da morte do Curupira.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657847199.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657847276.json",
+		"name": "d2-b36"
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Raiva",
+			"text": "Certamente! Aquela bruxa não me passou a perna, ou melhor, a cauda por uma razão qualquer."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Ela devia estar planejando algo há muito tempo."
+		},
+		{
+			"choice": "Qual era a relação dela com o Curupira?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": " Eu preciso saber o que você fazia no dia da morte do Curupira.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657846496.json",
+		"name": "d2-b33"
+	}
+}

@@ -4,20 +4,14 @@
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Bem..."
-		},
-		{
-			"character": "character-1657838962.json",
-			"event_id": "dialogic_001",
-			"portrait": "Deboche",
-			"text": "Eu estava apenas nadando pelos meus rios."
+			"text": "Confesso que não sei muita coisa. Na verdade, vi eles dois juntos há algum tempo... uma semana, talvez?"
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Disse que estava apenas nadando pelos seus rios no dia do crime",
+					"Curupira e Iara fora vistos juntos uns dias antes do assassinato",
 					"Boto",
-					"infoTrue"
+					"infoTablet"
 				],
 				"method_name": "setInfosInterrogatorio",
 				"target_node_path": "Interrogatorio/observer"
@@ -41,7 +35,7 @@
 			"character": "character-1657290344.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "Tablet",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -75,13 +69,39 @@
 			"z_index": 0
 		},
 		{
-			"change_timeline": "timeline-1657846972.json",
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "..."
+		},
+		{
+			"choice": "Então eles eram amigos?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Preciso saber o que você fazia no dia da morte do Curupira.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657847199.json",
 			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657840775.json",
-		"name": "d2-b25"
+		"file": "timeline-1657846940.json",
+		"name": "d2-b35"
 	}
 }

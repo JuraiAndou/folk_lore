@@ -1,0 +1,37 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Estavam abraçados, mas não era um abraço qualquer..."
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Deboche",
+			"text": "Meu caro, eu conheço muito bem sobre essas coisas, você sabe.\nEu sei diferenciar um abraço qualquer de um que tem um algo a mais. E alí havia algo a mais."
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Se quer saber de algo a mais, devia perguntar pro Saci.\nOs dois vivam juntos e talvez ele saiba de algo...\no rapaz está totalmente sem chão depois do que aconteceu."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Compreendo.\nMas antes, eu preciso saber o que você fazia no dia da morte do Curupira"
+		},
+		{
+			"change_timeline": "timeline-1657847199.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657847387.json",
+		"name": "d2-b37"
+	}
+}
