@@ -2,8 +2,8 @@ extends Node
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var dialog = Dialogic.start("dia3-Iara")#Dialogic.start("dia" + str(Mundo.dia) +"-"+ str(Mundo.suspAtual.getName()))
-	#print("dia" + str(Mundo.dia) + str(Mundo.suspAtual.getName()))
+	var dialog = Dialogic.start("dia" + str(Mundo.dia) +"-"+ str(Mundo.suspAtual.getName()))
+	print("dia" + str(Mundo.dia) + str(Mundo.suspAtual.getName()))
 	add_child(dialog)
 
 #func _physics_process(delta):
