@@ -27,7 +27,7 @@
 			"text": "Eu sei que é difícil falar sobre isso, mas preciso interrogar todos que podem saber de algo.\nAgora me diga, o que você fazia no dia da morte do Curupira?"
 		},
 		{
-			"change_timeline": "",
+			"change_timeline": "timeline-1657829129.json",
 			"event_id": "dialogic_020"
 		}
 	],
