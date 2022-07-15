@@ -16,7 +16,7 @@
 			"question": "Não estou com cabeça para relembrar o que aconteceu"
 		},
 		{
-			"choice": "u realmente preciso que você me fale qual o seu problema com a Iara",
+			"choice": "Eu realmente preciso que você me fale qual o seu problema com a Iara",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
