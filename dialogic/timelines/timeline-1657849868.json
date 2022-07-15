@@ -3,15 +3,15 @@
 		{
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
-			"portrait": "Raiva",
-			"text": "Um acordo, simples assim, feito com a pior bruxa que já conheci em toda minha vida."
+			"portrait": "Default",
+			"text": "Em certa época do ano, os humanos costumam frequentar bastante."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Fez um acordo com alguém",
+					"O rio Pajeú é bem frequentado em uma certa época",
 					"Boto",
-					"infoTrue"
+					"infoTablet"
 				],
 				"method_name": "setInfosInterrogatorio",
 				"target_node_path": "Interrogatorio/observer"
@@ -35,7 +35,7 @@
 			"character": "character-1657290344.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "Tablet",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -74,29 +74,29 @@
 			"options": [
 
 			],
-			"portrait": "",
-			"question": "Aquela miserável saiu no lucro."
+			"portrait": "Raiva",
+			"question": "Ao contrário dos outros... argh! Que vivem vazios."
 		},
 		{
-			"choice": "Você está falando da Cuca?",
+			"choice": "E por que as pessoas frequentam aquele rio?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657849027.json",
+			"change_timeline": "timeline-1657849887.json",
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": "Que tipo de acordo você fez?",
+			"choice": "Então por que você foi atrás de trocar o rio Pajeú?|",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657844786.json",
+			"change_timeline": "timeline-1657849946.json",
 			"event_id": "dialogic_020"
 		},
 		{
@@ -105,7 +105,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657839357.json",
-		"name": "d2-b1"
+		"file": "timeline-1657849868.json",
+		"name": "d2-b11"
 	}
 }

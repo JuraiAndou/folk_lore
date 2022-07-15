@@ -4,12 +4,18 @@
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
 			"portrait": "Raiva",
-			"text": "Um acordo, simples assim, feito com a pior bruxa que já conheci em toda minha vida."
+			"text": "Da Cuca? Antes fosse... "
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Deboche",
+			"text": "Meu caro, vou lhe dar um concelho: [shake rate=70 level=15]NUNCA[/shake] confie nas aparências. \nPor causa disso, acabei perdendo praticamente toda minha matéria-prima."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Fez um acordo com alguém",
+					"Perdeu sua matéria-prima",
 					"Boto",
 					"infoTrue"
 				],
@@ -69,34 +75,34 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1657838962.json",
+			"character": "character-1654883893.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "Aquela miserável saiu no lucro."
+			"question": "..."
 		},
 		{
-			"choice": "Você está falando da Cuca?",
+			"choice": "Se não é a Cuca, de quem você está falando?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657849027.json",
+			"change_timeline": "timeline-1657839903.json",
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": "Que tipo de acordo você fez?",
+			"choice": "Matéria-prima?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657844786.json",
+			"change_timeline": "timeline-1657849276.json",
 			"event_id": "dialogic_020"
 		},
 		{
@@ -105,7 +111,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657839357.json",
-		"name": "d2-b1"
+		"file": "timeline-1657849027.json",
+		"name": "d2-b3"
 	}
 }
