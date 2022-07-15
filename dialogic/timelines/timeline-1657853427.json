@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Eu não sei bem, apenas sinto uma vontade enorme de voltar para ele.\nMas não é algo que me faça muito mal, está mais pra uma sensação de saudade."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O que você fazia no dia da Morte do Curupira?"
+		},
+		{
+			"change_timeline": "timeline-1657853474.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657853427.json",
+		"name": "d3-i19"
+	}
+}

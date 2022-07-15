@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "..."
+		},
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Elas apenas surgem quando eu quero. Simples assim."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O que você fazia no dia da Morte do Curupira?"
+		},
+		{
+			"change_timeline": "timeline-1657853474.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657853446.json",
+		"name": "d3-i11"
+	}
+}

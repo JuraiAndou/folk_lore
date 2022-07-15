@@ -115,7 +115,7 @@
 			"text": "Por acaso, você vive no rio Pajeú?"
 		},
 		{
-			"change_timeline": "",
+			"change_timeline": "timeline-1657852710.json",
 			"event_id": "dialogic_020"
 		}
 	],
