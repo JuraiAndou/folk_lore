@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1657852099.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Alguns humanos escutam meu canto e acabam enfeitiçados, mas juro que não faço isso por querer."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você percebeu algo estranho no dia da morte do Curupira?"
+		},
+		{
+			"change_timeline": "timeline-1657854880.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657854191.json",
+		"name": "d3-i15"
+	}
+}
