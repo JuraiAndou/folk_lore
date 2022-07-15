@@ -74,7 +74,7 @@ func _on_ApagarSave_input_event(viewport, event, shape_idx):
 				"dia": 1,
 				"suspeitos": ["Cuca"],
 				"interrogatorio": 1,
-				"fullscreen": false,
+				"fullscreen": true,
 				"Audio": false
 			}
 		}

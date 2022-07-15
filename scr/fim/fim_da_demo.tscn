@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://resources/fontes/Courier Prime Bold.tres" type="DynamicFont" id=1]
 [ext_resource path="res://resources/Configurações/configuração/hover-sair.png" type="Texture" id=2]
 [ext_resource path="res://resources/Configurações/configuração/botão-save.png" type="Texture" id=3]
 [ext_resource path="res://resources/Configurações/configuração/hover-save.png" type="Texture" id=4]
 [ext_resource path="res://resources/Configurações/configuração/botão-sair1.png" type="Texture" id=5]
+[ext_resource path="res://scr/fim/fim_da_demo.gd" type="Script" id=6]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -39,10 +40,13 @@ animations = [ {
 extents = Vector2( 205.5, 51.5 )
 
 [node name="Node" type="Node"]
+script = ExtResource( 6 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_right = 1927.0
 margin_bottom = 1101.0
+mouse_filter = 2
+input_pass_on_modal_close_click = false
 color = Color( 0.0588235, 0.0588235, 0.0588235, 1 )
 
 [node name="sair" type="Area2D" parent="ColorRect"]
@@ -64,7 +68,7 @@ margin_right = 1641.0
 margin_bottom = 467.0
 custom_colors/font_color = Color( 0.839216, 0.690196, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
-text = "A demo chegou a fim, caso queria jogar de novo e descobrir outras informações delete seu save, e tente novamente."
+text = "A demo chegou ao fim, caso queria jogar de novo e descobrir outras informações delete seu save, e tente novamente."
 align = 1
 autowrap = true
 
@@ -79,3 +83,10 @@ animation = "idle"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ColorRect/ApagarSave"]
 position = Vector2( 850.5, 392.5 )
 shape = SubResource( 4 )
+
+[connection signal="input_event" from="ColorRect/sair" to="." method="_on_sair_input_event"]
+[connection signal="mouse_entered" from="ColorRect/sair" to="." method="_on_sair_mouse_entered"]
+[connection signal="mouse_exited" from="ColorRect/sair" to="." method="_on_sair_mouse_exited"]
+[connection signal="input_event" from="ColorRect/ApagarSave" to="." method="_on_ApagarSave_input_event"]
+[connection signal="mouse_entered" from="ColorRect/ApagarSave" to="." method="_on_ApagarSave_mouse_entered"]
+[connection signal="mouse_exited" from="ColorRect/ApagarSave" to="." method="_on_ApagarSave_mouse_exited"]

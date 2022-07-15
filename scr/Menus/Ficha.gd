@@ -229,11 +229,18 @@ func questIsPossible():
 		else:
 			$botaoInterrogar.visible = false
 			$botaoInterrogar/CollisionShape2D.disabled = true
-
+		
+	elif Mundo.dia == 3 and Mundo.interrogatorios > 0:
+		if str(Mundo.suspAtual.getName()) == "Iara":
+			$botaoInterrogar.visible = true
+			$botaoInterrogar/CollisionShape2D.disabled = false
+		else:
+			$botaoInterrogar.visible = false
+			$botaoInterrogar/CollisionShape2D.disabled = true
+			
 #botão interrogar--------------------------------------------------------------
 func _on_boto_de_interrogar_mouse_entered():
 	$botaoInterrogar/AnimatedSprite.play("hover")
-
 
 func _on_botoInterrogar_mouse_exited():
 	$botaoInterrogar/AnimatedSprite.play("idle")
@@ -252,25 +259,33 @@ func _on_botaoInterrogar_input_event(viewport, event, shape_idx):
 ##Inputs dentro das abas------------------------------------------------------------------------------
 #aba 1
 func _on_pr_input_event(viewport, event, shape_idx):
-	if Input.is_mouse_button_pressed(1):
+	if Input.is_action_just_released("click"):
 		suspeitosIndice = 0
 		nomeSus = Mundo.listaSuspeitos[suspeitosIndice] 
 
 #aba2
 func _on_seg_input_event(viewport, event, shape_idx):
-	if Input.is_mouse_button_pressed(1):
+	if Input.is_action_just_released("click"):
 		suspeitosIndice = 1
 		nomeSus = Mundo.listaSuspeitos[suspeitosIndice] 
 
 #aba3
 func _on_ter_input_event(viewport, event, shape_idx):
-	if Input.is_mouse_button_pressed(1):
+	if Input.is_action_just_released("click"):
 		suspeitosIndice = 2
 		nomeSus = Mundo.listaSuspeitos[suspeitosIndice] 
+
+#aba4
+func _on_qua_input_event(viewport, event, shape_idx):
+	if Input.is_action_just_released("click"):
+		suspeitosIndice = 3
+		nomeSus = Mundo.listaSuspeitos[suspeitosIndice] 
+	
 
 func _on_Fadein_animation_finished(anim_name):
 	$Fadein.queue_free()
 	
+
 
 #botão voltar------------------------------------------------------------------------------
 func _on_botao_voltar_mouse_exited():
@@ -283,3 +298,6 @@ func _on_botao_voltar_input_event(viewport, event, shape_idx):
 
 func _on_botao_voltar_mouse_entered():
 	$botao_voltar/AnimatedSprite.play("hover")
+
+
+
