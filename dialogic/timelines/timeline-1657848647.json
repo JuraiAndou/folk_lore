@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Eu não fui atrás de nada, meu caro, a Iara que veio...\nAlém do que, sua proposta me pareceu inegável.\nTrês por um, quem diria..."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você acha que a Iara pode estar envolvida com o caso?"
+		},
+		{
+			"change_timeline": "timeline-1657846496.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657848647.json",
+		"name": "d2-b14"
+	}
+}
