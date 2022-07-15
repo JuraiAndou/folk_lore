@@ -69,7 +69,7 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1654883893.json",
 			"event_id": "dialogic_010",
 			"options": [
 
@@ -83,6 +83,10 @@
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657847276.json",
+			"event_id": "dialogic_020"
 		},
 		{
 			"choice": "Preciso saber o que você fazia no dia da morte do Curupira.",

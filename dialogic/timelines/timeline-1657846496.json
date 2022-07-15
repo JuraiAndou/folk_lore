@@ -7,7 +7,7 @@
 			"text": "Certamente! Aquela bruxa não me passou a perna, ou melhor, a cauda por uma razão qualquer."
 		},
 		{
-			"character": "",
+			"character": "character-1657838962.json",
 			"event_id": "dialogic_010",
 			"options": [
 
@@ -23,6 +23,10 @@
 			"value": ""
 		},
 		{
+			"change_timeline": "timeline-1657846940.json",
+			"event_id": "dialogic_020"
+		},
+		{
 			"choice": " Eu preciso saber o que você fazia no dia da morte do Curupira.",
 			"condition": "",
 			"definition": "",
@@ -30,7 +34,7 @@
 			"value": ""
 		},
 		{
-			"change_timeline": "",
+			"change_timeline": "timeline-1657846704.json",
 			"event_id": "dialogic_020"
 		},
 		{
