@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Deboche",
+			"text": "Ora, meu caro, não é segredo o que eu faço.\nMas pra isso preciso de matéria-prima e não há nada melhor do que um rio bem frequentado, como o rio Pajeú. "
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Raiva",
+			"question": "Entretanto, depois do acordo fiquei com quase nada, se ao menos eu soubesse antes..."
+		},
+		{
+			"choice": "Que tipo de acordo você fez?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657851318.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "\"Soubesse antes\" o que?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657850640.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657851308.json",
+		"name": "d2-17"
+	}
+}
