@@ -18,6 +18,10 @@
 		{
 			"name": "Tablet",
 			"path": "res://resources/pop_ups/PopUp_Tablet.png"
+		},
+		{
+			"name": "PopUp_Suspeito",
+			"path": "res://resources/pop_ups/PopUp_Suspeito.png"
 		}
 	],
 	"scale": 100,
