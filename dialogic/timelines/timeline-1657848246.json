@@ -4,40 +4,14 @@
 			"character": "character-1657838962.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Uma troca... 1 rio por 3 outros. Explêndido, não? "
-		},
-		{
-			"audio": "play",
-			"audio_bus": "maleAnger",
-			"event_id": "dialogic_030",
-			"event_name": "AudioEvent",
-			"file": "res://resources/sfx/male-anger.wav",
-			"volume": 0
-		},
-		{
-			"character": "character-1657838962.json",
-			"event_id": "dialogic_001",
-			"portrait": "Raiva",
-			"text": "[shake rate=70 level=15]NÃO![/shake]"
-		},
-		{
-			"character": "character-1657838962.json",
-			"event_id": "dialogic_001",
-			"portrait": "Default",
-			"text": "Na verdade, tal acordo foi a maior atrocidade que fiz em toda minha vida. Troquei o Pajeú por 3 rios que ninguém frequenta, que lástima!."
-		},
-		{
-			"character": "character-1657838962.json",
-			"event_id": "dialogic_001",
-			"portrait": "Default",
-			"text": "Na verdade, tal acordo foi a maior atrocidade que fiz em toda minha vida. Troquei o Pajeú por 3 rios que ninguém frequenta, que lástima!."
+			"text": "Em certa época do ano, os humanos costumam frequentar bastante."
 		},
 		{
 			"call_node": {
 				"arguments": [
-					"Trocou o rio Pajeú por 3 outros rios",
+					"O rio Pajeú é bem frequentado em uma certa época",
 					"Boto",
-					"infoTrue"
+					"infoTablet"
 				],
 				"method_name": "setInfosInterrogatorio",
 				"target_node_path": "Interrogatorio/observer"
@@ -61,7 +35,7 @@
 			"character": "character-1657290344.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "Tablet",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -101,10 +75,10 @@
 
 			],
 			"portrait": "",
-			"question": "Pensei que 3 seriam bem melhor do que 1.."
+			"question": "Ao contrário dos outros... argh! Que vivem vazios."
 		},
 		{
-			"choice": "Então o rio Pajeú é bem frequentado?",
+			"choice": "E por que as pessoas frequentam aquele rio?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -115,14 +89,14 @@
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": "Com quem você fez esse acordo?",
+			"choice": "Então por que você foi atrás de trocar o rio Pajeú?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657845118.json",
+			"change_timeline": "timeline-1657848647.json",
 			"event_id": "dialogic_020"
 		},
 		{
@@ -131,7 +105,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657844786.json",
-		"name": "d2-b31"
+		"file": "timeline-1657848246.json",
+		"name": "d2-b11"
 	}
 }

@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sorriso",
+			"text": "Ora, por causa das comemorações, meu caro.\nNunca frequentou as festas que acontecem por aquela região?\nUau! Tu não sabes o que está perdendo..."
+		},
+		{
+			"character": "character-1654883893.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Então por que você foi atrás de trocar o rio Pajeú?"
+		},
+		{
+			"change_timeline": "",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1657848567.json",
+		"name": "d2-b13"
+	}
+}
