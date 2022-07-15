@@ -13,29 +13,11 @@
 			"text": "Daquela mulher peixe... Aquela maldita sereia...\n..."
 		},
 		{
-			"character": "character-1657838962.json",
-			"event_id": "dialogic_001",
-			"portrait": "Raiva",
-			"text": "[shake rate=70 level=15]IARA![/shake]"
-		},
-		{
 			"call_node": {
 				"arguments": [
 					"Iara vive no rio Pajeú",
 					"Boto",
 					"infoTablet"
-				],
-				"method_name": "setInfosInterrogatorio",
-				"target_node_path": "Interrogatorio/observer"
-			},
-			"event_id": "dialogic_042"
-		},
-		{
-			"call_node": {
-				"arguments": [
-					"Iara",
-					"Boto",
-					"novoSus"
 				],
 				"method_name": "setInfosInterrogatorio",
 				"target_node_path": "Interrogatorio/observer"
@@ -91,6 +73,24 @@
 			},
 			"type": 1,
 			"z_index": 0
+		},
+		{
+			"character": "character-1657838962.json",
+			"event_id": "dialogic_001",
+			"portrait": "Raiva",
+			"text": "[shake rate=70 level=15]IARA![/shake]"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Iara",
+					"Boto",
+					"novoSus"
+				],
+				"method_name": "setInfosInterrogatorio",
+				"target_node_path": "Interrogatorio/observer"
+			},
+			"event_id": "dialogic_042"
 		},
 		{
 			"audio": "play",

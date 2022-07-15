@@ -94,14 +94,14 @@
 			"question": "Pode até ser, mas receio lhe informar que eu não frequento mais tal rio."
 		},
 		{
-			"choice": "Qual motivo lhe fez parar de frequentar o rio Pajeú?|",
+			"choice": "Qual motivo lhe fez parar de frequentar o rio Pajeú?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1657839741.json",
+			"change_timeline": "timeline-1657839357.json",
 			"event_id": "dialogic_020"
 		},
 		{
