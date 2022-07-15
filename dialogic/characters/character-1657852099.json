@@ -1,0 +1,29 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1657852099.json",
+	"mirror_portraits": false,
+	"name": "Iara",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 170,
+	"offset_y": -190,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://resources/Personagens/iara/Iara1.png"
+		},
+		{
+			"name": "sad",
+			"path": "res://resources/Personagens/iara/Iara2.png"
+		},
+		{
+			"name": "scared",
+			"path": "res://resources/Personagens/iara/Iara3.png"
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1654882462.cfg"
+}

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Iara-color.png-06d68c486707d7cdb8e4feea9f5bb28e.stex"
+path="res://.import/Iara2.png-d634a80e832655b5613cd6819ce78a99.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/Personagens/iara/Iara-color.png"
-dest_files=[ "res://.import/Iara-color.png-06d68c486707d7cdb8e4feea9f5bb28e.stex" ]
+source_file="res://resources/Personagens/iara/Iara2.png"
+dest_files=[ "res://.import/Iara2.png-d634a80e832655b5613cd6819ce78a99.stex" ]
 
 [params]
 
