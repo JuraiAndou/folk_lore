@@ -55,7 +55,7 @@ var dataDictionary = {
 			"dia": 1,
 			"suspeitos": ["Cuca"],
 			"interrogatorio": 1,
-			"fullscreen": false,
+			"fullscreen": true,
 			"Audio": false
 		}
 	}

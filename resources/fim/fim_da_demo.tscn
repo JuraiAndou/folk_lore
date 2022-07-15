@@ -1,0 +1,81 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://resources/fontes/Courier Prime Bold.tres" type="DynamicFont" id=1]
+[ext_resource path="res://resources/Configurações/configuração/hover-sair.png" type="Texture" id=2]
+[ext_resource path="res://resources/Configurações/configuração/botão-save.png" type="Texture" id=3]
+[ext_resource path="res://resources/Configurações/configuração/hover-save.png" type="Texture" id=4]
+[ext_resource path="res://resources/Configurações/configuração/botão-sair1.png" type="Texture" id=5]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "hover",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 207.5, 57 )
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "hover",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 205.5, 51.5 )
+
+[node name="Node" type="Node"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1927.0
+margin_bottom = 1101.0
+color = Color( 0.0588235, 0.0588235, 0.0588235, 1 )
+
+[node name="sair" type="Area2D" parent="ColorRect"]
+position = Vector2( 142, 372 )
+
+[node name="Sprite" type="AnimatedSprite" parent="ColorRect/sair"]
+position = Vector2( 853, 392 )
+frames = SubResource( 1 )
+animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ColorRect/sair"]
+position = Vector2( 856.5, 395 )
+shape = SubResource( 2 )
+
+[node name="Label" type="Label" parent="ColorRect"]
+margin_left = 315.0
+margin_top = 296.0
+margin_right = 1641.0
+margin_bottom = 467.0
+custom_colors/font_color = Color( 0.839216, 0.690196, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "A demo chegou a fim, caso queria jogar de novo e descobrir outras informações delete seu save, e tente novamente."
+align = 1
+autowrap = true
+
+[node name="ApagarSave" type="Area2D" parent="ColorRect"]
+position = Vector2( 146, 198 )
+
+[node name="Sprite" type="AnimatedSprite" parent="ColorRect/ApagarSave"]
+position = Vector2( 853, 392 )
+frames = SubResource( 3 )
+animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ColorRect/ApagarSave"]
+position = Vector2( 850.5, 392.5 )
+shape = SubResource( 4 )
