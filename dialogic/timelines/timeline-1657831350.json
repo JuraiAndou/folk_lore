@@ -23,11 +23,19 @@
 			"value": ""
 		},
 		{
+			"change_timeline": "timeline-1657831630.json",
+			"event_id": "dialogic_020"
+		},
+		{
 			"choice": "Desculpe perguntar, mas como você reagiu?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657831640.json",
+			"event_id": "dialogic_020"
 		},
 		{
 			"event_id": "dialogic_013"

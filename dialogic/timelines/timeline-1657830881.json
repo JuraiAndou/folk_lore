@@ -33,7 +33,7 @@
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": "Você o perguntou porque ele não foi naquele dia?|",
+			"choice": "Você o perguntou porque ele não foi naquele dia?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
