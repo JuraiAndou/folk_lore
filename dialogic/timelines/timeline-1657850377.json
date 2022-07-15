@@ -15,68 +15,6 @@
 		{
 			"call_node": {
 				"arguments": [
-					"Iara passou a viver no rio Pajéu após o acordo com o Boto",
-					"Boto",
-					"infoTablet"
-				],
-				"method_name": "setInfosInterrogatorio",
-				"target_node_path": "Interrogatorio/observer"
-			},
-			"event_id": "dialogic_042"
-		},
-		{
-			"audio": "play",
-			"audio_bus": "Master",
-			"event_id": "dialogic_030",
-			"event_name": "AudioEvent",
-			"file": "res://resources/sfx/pencil-writing.ogg",
-			"volume": 10
-		},
-		{
-			"animation": "1-fade_in.gd",
-			"animation_length": 1,
-			"animation_wait": true,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1657290344.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Tablet",
-			"portrait_definition": "",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": true
-			},
-			"type": 0,
-			"z_index": 0
-		},
-		{
-			"animation": "4-fade_out.gd",
-			"animation_length": 1,
-			"animation_wait": true,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1657290344.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": true
-			},
-			"type": 1,
-			"z_index": 0
-		},
-		{
-			"call_node": {
-				"arguments": [
 					"Iara",
 					"Boto",
 					"novoSus"
@@ -138,18 +76,42 @@
 		},
 		{
 			"character": "character-1654883893.json",
-			"event_id": "dialogic_001",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
 			"portrait": "",
-			"text": "Você acha que ela pode estar envolvida com o caso?"
+			"question": "..."
+		},
+		{
+			"choice": "Então seu acordo com a Iara fez ela ficar com um rio bem frequentado?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1657849868.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Você acha que ela pode estar envolvida com o caso?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
 		},
 		{
 			"change_timeline": "timeline-1657846496.json",
 			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657845118.json",
-		"name": "d2-b32"
+		"file": "timeline-1657850377.json",
+		"name": "d2-b12"
 	}
 }

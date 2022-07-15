@@ -140,16 +140,16 @@
 			"character": "character-1654883893.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você acha que ela pode estar envolvida com o caso?"
+			"text": "Que tipo de acordo você fez com ela?"
 		},
 		{
-			"change_timeline": "timeline-1657846496.json",
+			"change_timeline": "timeline-1657850605.json",
 			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
-		"file": "timeline-1657845118.json",
-		"name": "d2-b32"
+		"file": "timeline-1657850594.json",
+		"name": "d2-b10"
 	}
 }
